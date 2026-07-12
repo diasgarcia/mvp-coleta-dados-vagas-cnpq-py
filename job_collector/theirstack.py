@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from datetime import UTC, datetime
+import re
+from datetime import UTC, date, datetime
 from typing import Any
 
 from job_collector.sanitize import sanitize, sanitize_text
@@ -100,6 +101,7 @@ def map_job(raw: object) -> dict[str, Any]:
     """Map observed common fields and retain the complete sanitized item."""
     job = raw if isinstance(raw, dict) else {}
     external_id = job.get("id")
+    publication = parse_exact_publication_date(job.get("date_posted"))
     return {
         "source": "theirstack",
         "external_id": (
@@ -113,8 +115,31 @@ def map_job(raw: object) -> dict[str, Any]:
         "description": _text(job.get("description")),
         "published_at": _date(job.get("date_posted")),
         "published_at_text": None,
+        **publication,
         "source_url": _text(job.get("source_url")) or _text(job.get("url")),
         "raw_payload": sanitize(raw),
+    }
+
+
+def parse_exact_publication_date(value: object) -> dict[str, date | str | None]:
+    """Read the provider's literal calendar day without timezone conversion."""
+    if value is None or (isinstance(value, str) and not value.strip()):
+        return {"published_date": None, "publication_date_source": "missing"}
+    if not isinstance(value, str):
+        return {"published_date": None, "publication_date_source": "unrecognized"}
+
+    text = value.strip()
+    if not re.match(r"^\d{4}-\d{2}-\d{2}(?:$|T)", text):
+        return {"published_date": None, "publication_date_source": "unrecognized"}
+    try:
+        published_date = date.fromisoformat(text[:10])
+        if "T" in text:
+            datetime.fromisoformat(text.replace("Z", "+00:00"))
+    except ValueError:
+        return {"published_date": None, "publication_date_source": "unrecognized"}
+    return {
+        "published_date": published_date,
+        "publication_date_source": "theirstack_exact",
     }
 
 

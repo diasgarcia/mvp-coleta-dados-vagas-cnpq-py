@@ -26,6 +26,10 @@ def build_parser() -> argparse.ArgumentParser:
     )
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("migrate", help="Aplica a migration no PostgreSQL Python.")
+    commands.add_parser(
+        "backfill-publication-dates",
+        help="Preenche datas de publicação dos registros existentes.",
+    )
     commands.add_parser("export-results", help="Exporta resultados existentes sem chamar APIs.")
 
     theirstack = commands.add_parser("theirstack", help="Coleta a TheirStack.")
@@ -119,6 +123,17 @@ def _run_export(config: Config) -> int:
     return 1 if missing else 0
 
 
+def _run_backfill(config: Config) -> int:
+    with psycopg.connect(config.database_url, row_factory=dict_row) as connection:
+        summary = db.backfill_publication_dates(connection)
+    print("Backfill de datas de publicação:")
+    print(f"- TheirStack atualizados: {summary['theirstack_updated']}")
+    print(f"- SerpApi atualizados: {summary['serpapi_updated']}")
+    print(f"- Sem informação: {summary['missing']}")
+    print(f"- Textos não reconhecidos: {summary['unrecognized']}")
+    return 0
+
+
 def _print_error(error: Exception, source: str | None = None) -> None:
     prefix = f"{source}: " if source else ""
     message = sanitize_text(str(error)) or "Falha ao executar o comando."
@@ -132,6 +147,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             db.run_migrations(load_config().database_url)
             print("Migration aplicada no banco Python.")
             return 0
+        if args.command == "backfill-publication-dates":
+            return _run_backfill(load_config())
         if args.command == "export-results":
             return _run_export(load_config())
         required = ("theirstack", "serpapi") if args.command == "all" else (args.command,)

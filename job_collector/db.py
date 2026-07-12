@@ -11,20 +11,21 @@ from typing import Any
 import psycopg
 from psycopg.types.json import Jsonb
 
+from job_collector import serpapi, theirstack
 from job_collector.sanitize import sanitize, sanitize_text
 
-MIGRATION = Path(__file__).resolve().parent.parent / "migrations" / "001_initial.sql"
+MIGRATIONS_DIRECTORY = Path(__file__).resolve().parent.parent / "migrations"
 SOURCES = ("theirstack", "serpapi")
 
 
 def run_migrations(database_url: str) -> None:
-    """Apply the existing idempotent schema without changing its contract."""
+    """Apply every SQL migration in filename order."""
     try:
-        sql = MIGRATION.read_text(encoding="utf-8")
         with psycopg.connect(database_url) as connection:
-            connection.execute(sql)
+            for path in sorted(MIGRATIONS_DIRECTORY.glob("*.sql")):
+                connection.execute(path.read_text(encoding="utf-8"))
     except (OSError, psycopg.Error):
-        raise RuntimeError("Falha ao executar a migration no PostgreSQL.") from None
+        raise RuntimeError("Falha ao executar as migrations no PostgreSQL.") from None
 
 
 def _committed_row(
@@ -99,8 +100,8 @@ INSERT_JOB_SQL = """
     INSERT INTO raw_jobs (
         collection_run_id, raw_api_response_id, source, external_id, title,
         company, location, description, published_at, published_at_text,
-        source_url, raw_payload
-    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        published_date, publication_date_source, source_url, raw_payload, collected_at
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     ON CONFLICT (collection_run_id, source, external_id)
         WHERE external_id IS NOT NULL DO NOTHING
 """
@@ -120,6 +121,7 @@ def save_page(
     page: int,
     returned: int,
     http_status: int,
+    collected_at: datetime,
     next_cursor: str | None = None,
     next_offset: int | None = None,
     known_secrets: Sequence[str | None] = (),
@@ -141,8 +143,11 @@ def save_page(
                     _optional_text(job.get("description"), known_secrets),
                     job.get("published_at"),
                     _optional_text(job.get("published_at_text"), known_secrets),
+                    job.get("published_date"),
+                    job.get("publication_date_source"),
                     _optional_text(job.get("source_url"), known_secrets),
                     Jsonb(sanitize(job["raw_payload"], known_secrets)),
+                    collected_at,
                 ),
             )
             persisted += cursor.rowcount
@@ -233,9 +238,69 @@ RESPONSES_SQL = """
 JOBS_SQL = """
     SELECT id, collection_run_id, raw_api_response_id, external_id, source, title,
         company, location, description, published_at, published_at_text,
-        source_url, collected_at
+        published_date, publication_date_source, source_url, collected_at
     FROM raw_jobs WHERE collection_run_id=%s ORDER BY collected_at, id
 """
+
+BACKFILL_SQL = """
+    SELECT id, source, raw_payload, published_at_text, collected_at
+    FROM raw_jobs
+    WHERE publication_date_source IS NULL
+    ORDER BY collected_at, id
+"""
+
+
+def backfill_publication_dates(connection: Any) -> dict[str, int]:
+    """Classify historical publication dates using each row's collection time."""
+    summary = {
+        "theirstack_updated": 0,
+        "serpapi_updated": 0,
+        "missing": 0,
+        "unrecognized": 0,
+    }
+    try:
+        rows = connection.execute(BACKFILL_SQL).fetchall()
+        for row in rows:
+            record = dict(row)
+            source = record["source"]
+            if source == "theirstack":
+                raw_payload = record["raw_payload"]
+                date_posted = (
+                    raw_payload.get("date_posted") if isinstance(raw_payload, Mapping) else None
+                )
+                publication = theirstack.parse_exact_publication_date(date_posted)
+            else:
+                publication = serpapi.parse_relative_publication_date(
+                    record["published_at_text"], record["collected_at"]
+                )
+
+            cursor = connection.execute(
+                """
+                UPDATE raw_jobs SET
+                    published_date = COALESCE(published_date, %s),
+                    publication_date_source = %s
+                WHERE id = %s AND publication_date_source IS NULL
+                """,
+                (
+                    publication["published_date"],
+                    publication["publication_date_source"],
+                    record["id"],
+                ),
+            )
+            if not cursor.rowcount:
+                continue
+            date_source = publication["publication_date_source"]
+            if date_source == "theirstack_exact":
+                summary["theirstack_updated"] += 1
+            elif date_source == "serpapi_estimated":
+                summary["serpapi_updated"] += 1
+            else:
+                summary[date_source] += 1
+        connection.commit()
+        return summary
+    except (KeyError, TypeError, psycopg.Error):
+        connection.rollback()
+        raise RuntimeError("Falha ao preencher datas de publicação no PostgreSQL.") from None
 
 
 def _write_json(path: Path, payload: Mapping[str, Any], secrets: Sequence[str | None]) -> None:

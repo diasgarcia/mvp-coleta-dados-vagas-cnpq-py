@@ -3,7 +3,9 @@ from __future__ import annotations
 import json
 import time
 from collections.abc import Callable, Sequence
+from datetime import datetime
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import httpx
 
@@ -12,6 +14,7 @@ from job_collector.config import Config
 from job_collector.sanitize import sanitize_text
 
 RETRYABLE = {500, 502, 503, 504}
+COLLECTION_TIMEZONE = ZoneInfo("America/Sao_Paulo")
 
 
 class HttpError(RuntimeError):
@@ -193,6 +196,7 @@ def collect_theirstack(
                 retries,
                 save_raw,
             )
+            collected_at = datetime.now(COLLECTION_TIMEZONE)
             response_id = save_raw(last_status, payload)
             raw_jobs = _extract(theirstack.extract_jobs, last_status, payload)
             next_offset = theirstack.next_offset(payload, offset, limit)
@@ -206,6 +210,7 @@ def collect_theirstack(
                 returned=len(raw_jobs),
                 http_status=last_status,
                 next_offset=next_offset,
+                collected_at=collected_at,
                 known_secrets=secrets,
             )
             pages += 1
@@ -269,6 +274,7 @@ def collect_serpapi(
                 retries,
                 save_raw,
             )
+            collected_at = datetime.now(COLLECTION_TIMEZONE)
             response_id = save_raw(last_status, payload)
             raw_jobs = _extract(serpapi.extract_jobs, last_status, payload)
             next_token = serpapi.next_page_token(payload)
@@ -277,11 +283,12 @@ def collect_serpapi(
                 run_id,
                 response_id,
                 "serpapi",
-                [serpapi.map_job(job) for job in raw_jobs],
+                [serpapi.map_job(job, collected_at) for job in raw_jobs],
                 page=page,
                 returned=len(raw_jobs),
                 http_status=last_status,
                 next_cursor=next_token,
+                collected_at=collected_at,
                 known_secrets=secrets,
             )
             pages += 1

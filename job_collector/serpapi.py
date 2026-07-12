@@ -2,7 +2,12 @@
 
 from __future__ import annotations
 
+import re
+import unicodedata
+from calendar import monthrange
+from datetime import date, datetime, timedelta
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from job_collector.sanitize import sanitize, sanitize_text
 
@@ -10,6 +15,7 @@ SERPAPI_URL = "https://serpapi.com/search.json"
 CANONICAL_LOCATION = "Sao Paulo,State of Sao Paulo,Brazil"
 _SAO_PAULO_ALIAS = "São Paulo, SP, Brazil"
 _EMPTY_MESSAGE = "google hasn't returned any results for this query."
+PUBLICATION_TIMEZONE = ZoneInfo("America/Sao_Paulo")
 
 
 def normalize_location(location: str) -> str:
@@ -88,10 +94,60 @@ def extract_jobs(http_status: int, payload: object) -> list[object]:
     raise ValueError("A SerpApi retornou uma resposta desconhecida.")
 
 
-def map_job(raw: object) -> dict[str, Any]:
+def parse_relative_publication_date(
+    text: object, collected_at: date | datetime
+) -> dict[str, date | str | None]:
+    """Estimate a publication day from provider text and the collection day."""
+    reference = _reference_date(collected_at)
+    if text is None or (isinstance(text, str) and not text.strip()):
+        return {"published_date": None, "publication_date_source": "missing"}
+    if not isinstance(text, str):
+        return {"published_date": None, "publication_date_source": "unrecognized"}
+
+    normalized = _normalize_relative_text(text)
+    if normalized in {"hoje", "today"}:
+        published_date = reference
+    elif normalized in {"ontem", "yesterday"}:
+        published_date = reference - timedelta(days=1)
+    else:
+        portuguese = re.fullmatch(
+            r"ha (\d+) (minuto|minutos|hora|horas|dia|dias|semana|semanas|mes|meses)",
+            normalized,
+        )
+        english = re.fullmatch(
+            r"(\d+) (minute|minutes|hour|hours|day|days|week|weeks|month|months) ago",
+            normalized,
+        )
+        match = portuguese or english
+        if not match:
+            return {"published_date": None, "publication_date_source": "unrecognized"}
+
+        unit = match.group(2)
+        try:
+            amount = int(match.group(1))
+            if unit.startswith(("minut", "hour", "hora")):
+                published_date = reference
+            elif unit.startswith(("dia", "day")):
+                published_date = reference - timedelta(days=amount)
+            elif unit.startswith(("semana", "week")):
+                published_date = reference - timedelta(days=amount * 7)
+            else:
+                published_date = _subtract_calendar_months(reference, amount)
+        except (OverflowError, ValueError):
+            return {"published_date": None, "publication_date_source": "unrecognized"}
+
+    return {
+        "published_date": published_date,
+        "publication_date_source": "serpapi_estimated",
+    }
+
+
+def map_job(raw: object, collected_at: date | datetime) -> dict[str, Any]:
     """Map observed common fields and retain the complete sanitized item."""
     job = raw if isinstance(raw, dict) else {}
     external_id = job.get("job_id")
+    published_at_text = _published_at_text(job)
+    publication = parse_relative_publication_date(published_at_text, collected_at)
     return {
         "source": "serpapi",
         "external_id": (
@@ -104,7 +160,8 @@ def map_job(raw: object) -> dict[str, Any]:
         "location": _text(job.get("location")),
         "description": _text(job.get("description")),
         "published_at": None,
-        "published_at_text": _published_at_text(job),
+        "published_at_text": published_at_text,
+        **publication,
         "source_url": _source_url(job),
         "raw_payload": sanitize(raw),
     }
@@ -122,9 +179,9 @@ def next_page_token(payload: object) -> str | None:
 def _published_at_text(job: dict[str, Any]) -> str | None:
     detected = job.get("detected_extensions")
     if isinstance(detected, dict):
-        posted_at = _text(detected.get("posted_at"))
-        if posted_at:
-            return posted_at
+        posted_at = detected.get("posted_at")
+        if isinstance(posted_at, str) and posted_at.strip():
+            return sanitize_text(posted_at)
 
     extensions = job.get("extensions")
     if not isinstance(extensions, list):
@@ -138,6 +195,33 @@ def _published_at_text(job: dict[str, Any]) -> str | None:
         ):
             return text
     return None
+
+
+def _reference_date(collected_at: date | datetime) -> date:
+    if isinstance(collected_at, datetime):
+        if collected_at.tzinfo is not None:
+            collected_at = collected_at.astimezone(PUBLICATION_TIMEZONE)
+        return collected_at.date()
+    if isinstance(collected_at, date):
+        return collected_at
+    raise TypeError("collected_at deve ser date ou datetime.")
+
+
+def _normalize_relative_text(text: str) -> str:
+    without_accents = "".join(
+        character
+        for character in unicodedata.normalize("NFKD", text)
+        if not unicodedata.combining(character)
+    )
+    return " ".join(without_accents.casefold().split())
+
+
+def _subtract_calendar_months(value: date, months: int) -> date:
+    month_index = value.year * 12 + value.month - 1 - months
+    year, zero_based_month = divmod(month_index, 12)
+    month = zero_based_month + 1
+    day = min(value.day, monthrange(year, month)[1])
+    return date(year, month, day)
 
 
 def _source_url(job: dict[str, Any]) -> str | None:
