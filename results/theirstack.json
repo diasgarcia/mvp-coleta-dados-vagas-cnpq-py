@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-07-12T22:52:55Z",
+  "exported_at": "2026-07-12T23:25:41Z",
   "repository": "python",
   "source": "theirstack",
   "run": {
-    "id": "c62cd0f3-80cc-46fe-8e79-e6ccefc4d5f1",
+    "id": "8f729c17-9fcb-4ce6-a6c4-1a4d90edeae7",
     "source": "theirstack",
     "query_params": {
       "limit": 2,
@@ -50,8 +50,8 @@
       ]
     },
     "requested_limit": 2,
-    "started_at": "2026-07-12 22:49:04.234809+00:00",
-    "finished_at": "2026-07-12 22:49:06.182563+00:00",
+    "started_at": "2026-07-12 23:25:10.211641+00:00",
+    "finished_at": "2026-07-12 23:25:12.231645+00:00",
     "status": "success",
     "returned_count": 2,
     "persisted_count": 2,
@@ -64,8 +64,8 @@
   },
   "responses": [
     {
-      "id": "ea1a532b-2851-437b-83a9-808e9618efd4",
-      "collection_run_id": "c62cd0f3-80cc-46fe-8e79-e6ccefc4d5f1",
+      "id": "6a7f90dd-cbbf-4b0e-adc7-d3cce83ab62c",
+      "collection_run_id": "8f729c17-9fcb-4ce6-a6c4-1a4d90edeae7",
       "source": "theirstack",
       "page_number": 1,
       "http_status": 200,
@@ -2292,29 +2292,14 @@
       },
       "pagination_token": null,
       "pagination_offset": 0,
-      "collected_at": "2026-07-12 22:49:06.034296+00:00"
+      "collected_at": "2026-07-12 23:25:12.079667+00:00"
     }
   ],
   "jobs": [
     {
-      "id": "82348ab8-3625-4352-9619-da48b98c3d06",
-      "collection_run_id": "c62cd0f3-80cc-46fe-8e79-e6ccefc4d5f1",
-      "raw_api_response_id": "ea1a532b-2851-437b-83a9-808e9618efd4",
-      "external_id": "761138224",
-      "source": "theirstack",
-      "title": "Data Engineer",
-      "company": "BRP",
-      "location": "Greater Campinas",
-      "description": "Be a part of a fast-paced culture and community in a startup-like environment inside one of the most successful organizations in Québec. We are focused on building a highly talented and ambitious team from the ground up that will revolutionize the way we work around Data & Analytics at BRP. We are a team that has the potential to unlock tremendous value for the organization and you have the unique opportunity to be part of it from the beginning.\n  \n  \nWe are seeking a motivated Data & Analytics Engineer to work with a diverse and highly competent team to help build an innovative and effective data platform to support business transformation. You will take part in stimulating projects that will generate value for the business and consolidate BRP's reputation as a leader in analytics.\n  \n  \n**You'll Have The Opportunity To**\n\n- Design, implement, test and support robust ELT data pipelines to support Business analytics domains, ensuring efficient integration with CI/CD processes.\n- Develop automated testing and deployment workflows while maintaining strong version control practices using Azure Repos\n- Work closely with business teams to understand data needs and deliver high-quality solutions\n- Design, implement, test and support high performing transformations to bring clean data in the hands of data analysts and data scientists\n- Collaborate closely with Agile squads to drive iterative development, ensure efficient workflows, and foster a culture of continuous improvement and innovation\n- Design, implement and optimize data models with a medallion architecture using Star Schema and Snowflake techniques to enhance query performance and support analytical workloads\n- Collaborate with analysts and data scientists to deliver clean, usable data for reporting and advanced analytics\n- Help establish best practices and contribute to a positive, inclusive, learning-focused team culture\n- Document technical processes clearly to ensure easy future maintenance\n- Build data integrations from multiple sources\n- Implement data quality controls\n- Create technical documentation to ensure future maintainability of the code\n- Continuously develop your knowledge in the field, and share that knowledge with your peers\n- Contribute to the ongoing improvement of the data engineering practice\n- Go beyond the code to understand the business behind the data and related processes\n- Actively participate in the team discussions\n\n**YOU’LL THRIVE IN THIS ROLE IF YOU HAVE THE FOLLOWING SKILLS AND QUALITIES:**\n\n- Solid and demonstrated experience on following technologies:\n\n- Snowflake\n- DBT\n- Talend or equivalent ETL tool\n\n- Knowledge of the following technologies is a plus:\n\n- Azure\n- Microsoft SQL Server\n- Power BI\n\n- Fluent in various programming languages such as:\n\n- SQL\n- Python\n- Javascript / Node.js\n- Java\n\n- Fluent in writing, executing and optimizing complex SQL queries\n- Experience with data profiling and other means of validating data quality\n- Used to Devops practices\n- Experience in working within an agile team to build big data / analytics solutions\n- Strong interpersonal skills, motivated and loves to work on multiple challenging projects\n- Open-minded and able to adapt to new ways of working\n- Well organized and able to self-prioritize, sometimes with conflictual deadlines\n- Strong communication skills, both speaking and writing in English\n- Continuously seeks improvements and eager to put hands on new technologies\n\nSTAND OUT WITH...\n  \n  \n\n- Experience with SAP, Power BI, AI/ML knowledge\n- The selected candidate will be based in Campinas office\n\n**ACKNOWLEDGING THE POWER OF DIVERSITY**\nBRP is dedicated to nurturing a culture that invites, connects, and propels the ambitions of people of all backgrounds, profiles, beliefs and experiences. Ultimately, the diversity and uniqueness of our people fuel our ingenuity and set the course for the path ahead!\n  \n  \nFor this reason, we value diversity and we strive to always push each other forward to build an inclusive workplace where every employee feels like they belong, where they can grow and find meaning.\n  \n  \n**WELCOME TO BRP**\nWe’re a world leader in recreational vehicles and boats, creating innovative ways to move on snow, water, asphalt, dirt and even in the air. Headquartered in the Canadian town of Valcourt, Quebec, our company is rooted in a spirit of ingenuity and intense customer focus. Today, we operate manufacturing facilities in Canada, the United States, Mexico, Finland, Australia and Austria, with a workforce made up of close to 16,500 spirited people, all driven by the deeply held belief that at work, as with life itself, it’s not about the destination; It’s about the journey.\n  \n  \nThis position is based in Campinas, Brazil and is eligible to the BRP Employee Referral Program.\n  \n  \nResumes in English will be preferred.\n  \n  \nYou will have the opportunity to work in hybrid mode, 2 to 3 days in the office.",
-      "published_at": "2026-07-12 00:00:00+00:00",
-      "published_at_text": null,
-      "source_url": "https://br.linkedin.com/jobs/view/data-engineer-at-brp-4417976449",
-      "collected_at": "2026-07-12 22:49:06.065276+00:00"
-    },
-    {
-      "id": "be9de8a5-2729-49a3-a7e0-af9f422c7e39",
-      "collection_run_id": "c62cd0f3-80cc-46fe-8e79-e6ccefc4d5f1",
-      "raw_api_response_id": "ea1a532b-2851-437b-83a9-808e9618efd4",
+      "id": "42cc74f7-d23d-4a30-a70f-b87639fa4e38",
+      "collection_run_id": "8f729c17-9fcb-4ce6-a6c4-1a4d90edeae7",
+      "raw_api_response_id": "6a7f90dd-cbbf-4b0e-adc7-d3cce83ab62c",
       "external_id": "760930685",
       "source": "theirstack",
       "title": "Specialist Backend Software Engineer - Campinas/SP",
@@ -2323,8 +2308,27 @@
       "description": "**Sobre nós**\nSomos orgulhosamente brasileiros e populares, digitais sempre e presenciais quando o cliente quiser. Inovamos para dar acesso a serviços financeiros e oferecemos uma experiência que encoraja as pessoas a vencerem o hoje. Nossa razão de existir é clara:\n**lutar por uma experiência bancária que acolhe e encoraja todos os brasileiros.**\nE fazemos isso com disponibilidade, acolhimento e agilidade.\n  \n  \n**Nossa cultura, O Jeito Agi**\n**Viver pelo cliente**\nNosso principal ativo são os clientes. A empresa só existe se conseguir resolver suas dores, entregando produtos e experiências melhores que alternativas disponíveis no mercado.\n  \n  \n**Agir como empreendedor**\nQuantas empresas você conhece que cobram espírito de dono do time? Muitas, né? Mas quantas delas possibilitam que as pessoas sejam de fato donas? E não se trata de dar essa oportunidade para poucos, mas de tornar isso possível para todos. No Agibank é assim, então aqui você age como dono porque já é dono ou porque sonha em ser o próximo.\n  \n  \n**Crescer na jornada**\nNossa cultura é forte. Então, só faz sentido empreender aqui caso você se identifique muito com ela. Se você é uma pessoa fanática por resultado, tem pavor de zona de conforto, vive em eterna busca por conhecimento, prefere as coisas ditas direto ao ponto e quer estar rodeada de pessoas que também são assim, você vai curtir muito sua jornada aqui.\n  \n  \n**Nosso time de Tecnologia**\nMuito mais do que código e sistemas — é o meio essencial que torna possível o nosso modelo único, que combina o melhor do digital com a presença física e humana. Aqui, tecnologia não é um fim em si mesma, mas a ponte entre inovação e a experiência real do cliente. Atuam lado a lado com as áreas de negócio para garantir soluções robustas, escaláveis e centradas nas pessoas, sem abrir mão de um olhar técnico e científico aprofundado em frentes como desenvolvimento de software, infraestrutura, cibersegurança e arquitetura. É nessa interseção entre propósito, técnica e impacto que constroem o presente e futuro.\n  \n  \n**Seus desafios para crescer na jornada**\n\n- Liderança técnica de times de desenvolvimento;\n- Arquitetura de soluções e integrações sistêmicas;\n- Metodologias ágeis (Scrum/Kanban);\n- Desenvolvimento com microsserviços, APIs e cloud;\n- Atuação em ambientes colaborativos e multifuncionais.\n\n**O que você precisa para se tornar um Agilizado?**\n**Requisitos**\n\n- Sólida experiência em desenvolvimento de software;\n- Proficiência em linguagens de programação como Java 17+;\n- Experiência na criação de componentes de software para plataformas de desenvolvimento;\n- Conhecimento avançado em framework Spring Boot;\n- Conhecimento de Docker/Kubernetes, Jenkins/Gitlab CI, Cloud AWS;\n- Experiência com banco de dados relacionais e não relacionais (MongoDB/redis);\n- Conhecimento avançado em mensageria (Kafka e RabbitMQ);\n- Conhecimento em padrões de projeto e micro serviços;\n- Conhecimento de práticas ágeis e metodologias de desenvolvimento.\n\n**Benefícios e facilidades**\n\n- Saúde e bem-estar: plano de saúde, plano odontológico, teleatendimento psicológico e médico gratuito, Totalpass, Vale-refeição e alimentação e Seguro de vida/auxílio-funeral.\n- Maternidade e paternidade: auxílio-creche, licença-maternidade de 6 meses, licença-paternidade de 20 dias, VA/VR no período da licença.\n- Previdência privada\n- Programa de Participação nos Resultados (PPR) seguindo as regras estabelecidas anualmente.\n- Vale-transporte\n- Fretado de ida e volta para Campinas e região (com raio de até 50 km de distância). São lugares reserváveis mediante a disponibilidade de assentos e rota. Para quem vai de carro, temos estacionamento gratuito.\n- Folga de presente no mês do seu aniversário.\n- Dinheiro de volta no Cartão de Crédito : 1% de cashback sobre o valor total da fatura do cartão revertido em crédito na fatura seguinte.\n- Conta remunerada : CDB de aplicação automática e rendimento de 100% do CDI.\n- Isenção de Tarifas de Comunicação Digital.\n- Credito do Trabalhador : taxa e prazo diferenciados. Disponível para contratação a partir de 6 meses de casa.\n- Antecipação Saque aniversário do FGTS.\n- Dr. Pet: possibilidade fazer plano de saúde para pets com até 20% de desconto.\n\nEmpresa contratante:\n**Hypeflame**\n**Programa Tô de dono**\nO Tô de Dono é mais do que um programa de incentivo a longo prazo – ele é o reconhecimento de quem vive diariamente a nossa cultura. A cada ano, o Programa tem novos participantes, colaboradores que se tornam donos do negócio e ganham com a valorização do Agibank sempre que a empresa cresce. Então, quem faz parte dessa história é quem mergulha de cabeça nos desafios para entregar grandes resultados. É assim que construímos, verdadeiramente, uma cultura de donos.\n**Aqui, a fórmula é simples: você cresce. O Agibank cresce com você.**\n**Saiba mais sobre nosso dia a dia no LinkedIn e Youtube.**\n**Confira nossas avaliações no Glassdoor.**",
       "published_at": "2026-07-12 00:00:00+00:00",
       "published_at_text": null,
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
       "source_url": "https://br.linkedin.com/jobs/view/specialist-backend-software-engineer-campinas-sp-at-agibank-4354687832",
-      "collected_at": "2026-07-12 22:49:06.065276+00:00"
+      "collected_at": "2026-07-12 23:25:12.058741+00:00"
+    },
+    {
+      "id": "bf8bb371-2ab0-4ce6-8b3b-6364c85da322",
+      "collection_run_id": "8f729c17-9fcb-4ce6-a6c4-1a4d90edeae7",
+      "raw_api_response_id": "6a7f90dd-cbbf-4b0e-adc7-d3cce83ab62c",
+      "external_id": "761138224",
+      "source": "theirstack",
+      "title": "Data Engineer",
+      "company": "BRP",
+      "location": "Greater Campinas",
+      "description": "Be a part of a fast-paced culture and community in a startup-like environment inside one of the most successful organizations in Québec. We are focused on building a highly talented and ambitious team from the ground up that will revolutionize the way we work around Data & Analytics at BRP. We are a team that has the potential to unlock tremendous value for the organization and you have the unique opportunity to be part of it from the beginning.\n  \n  \nWe are seeking a motivated Data & Analytics Engineer to work with a diverse and highly competent team to help build an innovative and effective data platform to support business transformation. You will take part in stimulating projects that will generate value for the business and consolidate BRP's reputation as a leader in analytics.\n  \n  \n**You'll Have The Opportunity To**\n\n- Design, implement, test and support robust ELT data pipelines to support Business analytics domains, ensuring efficient integration with CI/CD processes.\n- Develop automated testing and deployment workflows while maintaining strong version control practices using Azure Repos\n- Work closely with business teams to understand data needs and deliver high-quality solutions\n- Design, implement, test and support high performing transformations to bring clean data in the hands of data analysts and data scientists\n- Collaborate closely with Agile squads to drive iterative development, ensure efficient workflows, and foster a culture of continuous improvement and innovation\n- Design, implement and optimize data models with a medallion architecture using Star Schema and Snowflake techniques to enhance query performance and support analytical workloads\n- Collaborate with analysts and data scientists to deliver clean, usable data for reporting and advanced analytics\n- Help establish best practices and contribute to a positive, inclusive, learning-focused team culture\n- Document technical processes clearly to ensure easy future maintenance\n- Build data integrations from multiple sources\n- Implement data quality controls\n- Create technical documentation to ensure future maintainability of the code\n- Continuously develop your knowledge in the field, and share that knowledge with your peers\n- Contribute to the ongoing improvement of the data engineering practice\n- Go beyond the code to understand the business behind the data and related processes\n- Actively participate in the team discussions\n\n**YOU’LL THRIVE IN THIS ROLE IF YOU HAVE THE FOLLOWING SKILLS AND QUALITIES:**\n\n- Solid and demonstrated experience on following technologies:\n\n- Snowflake\n- DBT\n- Talend or equivalent ETL tool\n\n- Knowledge of the following technologies is a plus:\n\n- Azure\n- Microsoft SQL Server\n- Power BI\n\n- Fluent in various programming languages such as:\n\n- SQL\n- Python\n- Javascript / Node.js\n- Java\n\n- Fluent in writing, executing and optimizing complex SQL queries\n- Experience with data profiling and other means of validating data quality\n- Used to Devops practices\n- Experience in working within an agile team to build big data / analytics solutions\n- Strong interpersonal skills, motivated and loves to work on multiple challenging projects\n- Open-minded and able to adapt to new ways of working\n- Well organized and able to self-prioritize, sometimes with conflictual deadlines\n- Strong communication skills, both speaking and writing in English\n- Continuously seeks improvements and eager to put hands on new technologies\n\nSTAND OUT WITH...\n  \n  \n\n- Experience with SAP, Power BI, AI/ML knowledge\n- The selected candidate will be based in Campinas office\n\n**ACKNOWLEDGING THE POWER OF DIVERSITY**\nBRP is dedicated to nurturing a culture that invites, connects, and propels the ambitions of people of all backgrounds, profiles, beliefs and experiences. Ultimately, the diversity and uniqueness of our people fuel our ingenuity and set the course for the path ahead!\n  \n  \nFor this reason, we value diversity and we strive to always push each other forward to build an inclusive workplace where every employee feels like they belong, where they can grow and find meaning.\n  \n  \n**WELCOME TO BRP**\nWe’re a world leader in recreational vehicles and boats, creating innovative ways to move on snow, water, asphalt, dirt and even in the air. Headquartered in the Canadian town of Valcourt, Quebec, our company is rooted in a spirit of ingenuity and intense customer focus. Today, we operate manufacturing facilities in Canada, the United States, Mexico, Finland, Australia and Austria, with a workforce made up of close to 16,500 spirited people, all driven by the deeply held belief that at work, as with life itself, it’s not about the destination; It’s about the journey.\n  \n  \nThis position is based in Campinas, Brazil and is eligible to the BRP Employee Referral Program.\n  \n  \nResumes in English will be preferred.\n  \n  \nYou will have the opportunity to work in hybrid mode, 2 to 3 days in the office.",
+      "published_at": "2026-07-12 00:00:00+00:00",
+      "published_at_text": null,
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "source_url": "https://br.linkedin.com/jobs/view/data-engineer-at-brp-4417976449",
+      "collected_at": "2026-07-12 23:25:12.058741+00:00"
     }
   ]
 }
