@@ -37,12 +37,13 @@ não reutiliza nem remove o container, o volume ou o banco TypeScript. Não exec
 O fluxo por resposta HTTP é direto:
 
 1. cria uma linha `running` em `collection_runs`;
-2. consulta o fornecedor com `httpx.Client` síncrono;
-3. sanitiza segredos eventualmente ecoados;
-4. grava e confirma `raw_api_responses` antes de classificar o conteúdo;
-5. classifica e mapeia as vagas reconhecidas;
-6. grava `raw_jobs` e o progresso em uma segunda transação;
-7. conclui a execução como `success`, `partial` ou `failed`.
+2. reutiliza uma conexão PostgreSQL e um `httpx.Client` durante a coleta;
+3. consulta o fornecedor;
+4. sanitiza segredos eventualmente ecoados;
+5. grava `raw_api_responses` e executa `commit` imediatamente;
+6. somente depois classifica e mapeia as vagas;
+7. grava `raw_jobs` e o progresso em outra transação;
+8. conclui a execução como `success`, `partial` ou `failed`.
 
 Os campos desconhecidos e tokens opacos de paginação são preservados. Chaves de API,
 headers de autorização, cookies e credenciais em URLs são redigidos.
@@ -53,8 +54,8 @@ headers de autorização, cookies e credenciais em URLs são redigidos.
 .
 ├── job_collector/
 │   ├── collector.py
+│   ├── config.py
 │   ├── db.py
-│   ├── export_results.py
 │   ├── main.py
 │   ├── sanitize.py
 │   ├── theirstack.py
@@ -124,15 +125,15 @@ A migration única representa diretamente o schema atual e é idempotente. Ela c
 ## Como coletar
 
 Os defaults são deliberadamente pequenos: cinco vagas e uma página na TheirStack; uma
-página na SerpApi.
+página na SerpApi. Query, localização e limites padrão ficam centralizados no `.env`;
+a CLI expõe somente os limites operacionais úteis para uma execução controlada.
 
 ```powershell
 python -m job_collector.main theirstack
 python -m job_collector.main theirstack --limit 5 --max-pages 1
-python -m job_collector.main theirstack --preview
 
 python -m job_collector.main serpapi
-python -m job_collector.main serpapi --query "software engineer" --max-pages 1
+python -m job_collector.main serpapi --max-pages 1
 
 python -m job_collector.main all
 ```
@@ -140,10 +141,8 @@ python -m job_collector.main all
 Para um smoke real deliberado, use uma única tentativa por fonte:
 
 ```powershell
-python -m job_collector.main theirstack --location-id 3448433 --limit 5 `
-  --max-age-days 30 --max-pages 1 --max-retries 0 --no-preview
-python -m job_collector.main serpapi --query "software engineer" `
-  --location "Sao Paulo,State of Sao Paulo,Brazil" --max-pages 1 --max-retries 0
+python -m job_collector.main theirstack --limit 2 --max-pages 1 --max-retries 0
+python -m job_collector.main serpapi --max-pages 1 --max-retries 0
 ```
 
 Use `python -m job_collector.main --help` e a ajuda de cada subcomando para consultar as
@@ -190,6 +189,7 @@ Os testes são unitários, usam fixtures/mocks locais e não acessam APIs nem Po
 pytest
 ruff check .
 ruff format --check .
+python -m compileall job_collector
 ```
 
 ## Como inspecionar o banco
