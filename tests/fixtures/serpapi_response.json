@@ -1,0 +1,53 @@
+{
+  "search_metadata": {
+    "id": "fixture-search-id",
+    "status": "Success"
+  },
+  "search_parameters": {
+    "engine": "google_jobs",
+    "q": "software engineer"
+  },
+  "jobs_results": [
+    {
+      "job_id": "serp-fixture-1",
+      "title": "Engenheira de Software",
+      "job_title": "Fallback não utilizado",
+      "company_name": "Companhia Exemplo",
+      "location": "São Paulo, SP",
+      "description": "Construção de aplicações internas.",
+      "detected_extensions": {
+        "posted_at": "há 18 dias"
+      },
+      "extensions": ["há 18 dias", "Período integral"],
+      "source_link": "https://careers.example.test/jobs/serp-fixture-1",
+      "apply_options": [
+        {
+          "title": "Candidatar-se",
+          "link": "https://apply.example.test/serp-fixture-1"
+        }
+      ],
+      "share_link": "https://share.example.test/serp-fixture-1",
+      "unknown_provider_field": {
+        "kept": true,
+        "access_token": "fixture-only-token"
+      }
+    },
+    {
+      "job_id": "serp-fixture-2",
+      "job_title": "QA Engineer",
+      "company_name": "Laboratório Exemplo",
+      "location": "Campinas, SP",
+      "description": "Testes automatizados.",
+      "extensions": ["há 5 dias", "Remoto"],
+      "apply_options": [
+        {
+          "link": "https://apply.example.test/serp-fixture-2"
+        }
+      ],
+      "share_link": "https://share.example.test/serp-fixture-2"
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "opaque-fixture-token=="
+  }
+}

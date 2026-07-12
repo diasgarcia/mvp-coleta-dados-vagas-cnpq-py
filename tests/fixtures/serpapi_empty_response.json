@@ -1,0 +1,10 @@
+{
+  "search_metadata": {
+    "id": "fixture-empty-search",
+    "status": "Success"
+  },
+  "search_information": {
+    "jobs_results_state": "Fully empty"
+  },
+  "error": "Google hasn't returned any results for this query."
+}
