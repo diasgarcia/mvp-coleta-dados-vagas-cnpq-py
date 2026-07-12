@@ -1,0 +1,32 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+*.log
+
+# Arquivos locais de editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Configurações e chaves locais nunca devem ser publicadas
+.pypirc
+*.pem
+*.key
+
+# Capturas reais permanecem locais; somente fixtures reduzidas são versionáveis.
+request-*.json
+response-*.json
+locations-*.json
