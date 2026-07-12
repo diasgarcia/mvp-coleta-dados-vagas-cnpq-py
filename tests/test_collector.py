@@ -7,13 +7,19 @@ from typing import Any
 import httpx
 import pytest
 
-from job_collector import collector, db, theirstack
+from job_collector import collector, db, serpapi, theirstack
 from job_collector.collector import collect_serpapi, collect_theirstack, request_json
 from job_collector.config import Config
 
 
 def fake_database(monkeypatch: pytest.MonkeyPatch, *, fail_page: bool = False) -> dict[str, Any]:
-    state: dict[str, Any] = {"events": [], "raw": [], "jobs": [], "runs": []}
+    state: dict[str, Any] = {
+        "events": [],
+        "raw": [],
+        "jobs": [],
+        "runs": [],
+        "page_kwargs": [],
+    }
 
     def create(_connection: object, source: str, params: object, limit: int | None) -> str:
         state["events"].append("create")
@@ -31,6 +37,7 @@ def fake_database(monkeypatch: pytest.MonkeyPatch, *, fail_page: bool = False) -
             raise RuntimeError("page failure")
         jobs = list(args[4])
         state["jobs"].extend(jobs)
+        state["page_kwargs"].append(kwargs)
         return len(jobs)
 
     monkeypatch.setattr(db, "create_run", create)
@@ -112,6 +119,32 @@ def test_serpapi_empty_response_is_a_success_and_key_is_not_audited(
     assert result["returned_count"] == result["persisted_count"] == 0
     assert state["events"] == ["create", "raw", "page", "finish"]
     assert "api_key" not in state["raw"][0][0][5]
+
+
+def test_serpapi_collection_reuses_one_collection_time_for_mapping_and_insert(
+    monkeypatch: pytest.MonkeyPatch,
+    config: Config,
+    fixture_json: Callable[[str], Any],
+) -> None:
+    state = fake_database(monkeypatch)
+    references: list[object] = []
+    original_map_job = serpapi.map_job
+
+    def map_job(raw: object, collected_at: object) -> dict[str, Any]:
+        references.append(collected_at)
+        return original_map_job(raw, collected_at)
+
+    monkeypatch.setattr(serpapi, "map_job", map_job)
+    transport = httpx.MockTransport(
+        lambda _request: httpx.Response(200, json=fixture_json("serpapi_response.json"))
+    )
+
+    with httpx.Client(transport=transport) as client:
+        collect_serpapi(config, object(), client, max_pages=1, max_retries=0)
+
+    persisted_reference = state["page_kwargs"][0]["collected_at"]
+    assert references
+    assert all(reference is persisted_reference for reference in references)
 
 
 def test_terminal_http_error_is_saved_before_the_run_fails(
