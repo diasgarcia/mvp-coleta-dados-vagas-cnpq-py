@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": 9001,
+      "job_title": "Software Engineer",
+      "company": "Empresa Exemplo",
+      "location": "São Paulo, SP",
+      "short_location": "São Paulo",
+      "long_location": "São Paulo, São Paulo, Brasil",
+      "state_code": "RJ",
+      "locations": [
+        {
+          "id": 3448433,
+          "name": "São Paulo",
+          "administrative_level": "ADM1"
+        }
+      ],
+      "description": "Desenvolvimento de serviços internos.",
+      "date_posted": "2026-07-10T12:30:00Z",
+      "source_url": "https://jobs.example.test/jobs/9001",
+      "technology_slugs": ["python", "postgresql"],
+      "company_object": {
+        "name": "Empresa Exemplo",
+        "technology_slugs": ["salesforce"]
+      },
+      "unknown_provider_field": {
+        "kept": true,
+        "api_key": "fixture-only-secret"
+      }
+    },
+    {
+      "id": "job-minimal-2",
+      "job_title": "QA Engineer"
+    }
+  ],
+  "metadata": {
+    "total_results": 42,
+    "total_companies": 18,
+    "unknown_metadata": "preserved"
+  }
+}
