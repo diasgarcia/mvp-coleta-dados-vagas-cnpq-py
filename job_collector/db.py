@@ -1,6 +1,10 @@
+"""PostgreSQL persistence with explicit raw-first commits."""
+
 from __future__ import annotations
 
+import json
 from collections.abc import Mapping, Sequence
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -9,303 +13,282 @@ from psycopg.types.json import Jsonb
 
 from job_collector.sanitize import sanitize, sanitize_text
 
-
-class DatabaseError(RuntimeError):
-    """Database failure with a message safe to show in the CLI."""
-
-
-def _migration_path() -> Path:
-    return Path(__file__).resolve().parent.parent / "migrations" / "001_initial.sql"
-
-
-def _required_row(row: tuple[Any, ...] | None, operation: str) -> tuple[Any, ...]:
-    if row is None:
-        raise DatabaseError(f"Falha ao {operation}: registro nao encontrado ou estado invalido.")
-    return row
-
-
-def _safe_error_message(message: str) -> str:
-    text = sanitize_text(message.strip()) or "Falha durante a coleta."
-    return text[:2_000]
-
-
-def _sanitized_optional_text(value: Any) -> str | None:
-    if value is None:
-        return None
-    return sanitize_text(value if isinstance(value, str) else str(value))
+MIGRATION = Path(__file__).resolve().parent.parent / "migrations" / "001_initial.sql"
+SOURCES = ("theirstack", "serpapi")
 
 
 def run_migrations(database_url: str) -> None:
-    migration_path = _migration_path()
-    if not migration_path.is_file():
-        raise DatabaseError("Migration inicial nao encontrada.")
-
+    """Apply the existing idempotent schema without changing its contract."""
     try:
-        migration_sql = migration_path.read_text(encoding="utf-8")
+        sql = MIGRATION.read_text(encoding="utf-8")
         with psycopg.connect(database_url) as connection:
-            connection.execute(migration_sql)
+            connection.execute(sql)
     except (OSError, psycopg.Error):
-        raise DatabaseError("Falha ao executar a migration no PostgreSQL.") from None
+        raise RuntimeError("Falha ao executar a migration no PostgreSQL.") from None
 
 
-def create_collection_run(
-    database_url: str,
+def _committed_row(
+    connection: Any, sql: str, params: tuple[object, ...], error_message: str
+) -> tuple[Any, ...]:
+    try:
+        row = connection.execute(sql, params).fetchone()
+        if row is None:
+            raise RuntimeError(error_message)
+        connection.commit()
+        return row
+    except (psycopg.Error, RuntimeError):
+        connection.rollback()
+        raise RuntimeError(error_message) from None
+
+
+def create_run(
+    connection: Any,
     source: str,
     query_params: Mapping[str, Any],
     requested_limit: int | None,
 ) -> str:
-    sql = """
+    row = _committed_row(
+        connection,
+        """
         INSERT INTO collection_runs (source, query_params, requested_limit, status)
-        VALUES (%s, %s, %s, 'running')
-        RETURNING id
-    """
-    try:
-        with psycopg.connect(database_url) as connection:
-            row = connection.execute(
-                sql,
-                (source, Jsonb(sanitize(dict(query_params))), requested_limit),
-            ).fetchone()
-        return str(_required_row(row, "criar a execucao")[0])
-    except DatabaseError:
-        raise
-    except psycopg.Error:
-        raise DatabaseError("Falha ao criar a execucao no PostgreSQL.") from None
+        VALUES (%s, %s, %s, 'running') RETURNING id
+        """,
+        (source, Jsonb(sanitize(dict(query_params))), requested_limit),
+        "Falha ao criar a execução no PostgreSQL.",
+    )
+    return str(row[0])
 
 
-def save_raw_response(
-    database_url: str,
+def save_response(
+    connection: Any,
     run_id: str,
     source: str,
-    page_number: int,
-    http_status: int | None,
-    pagination_token: str | None,
-    pagination_offset: int | None,
+    page: int,
+    http_status: int,
     request_params: Mapping[str, Any],
-    response_payload: Any,
+    payload: Any,
+    *,
+    token: str | None = None,
+    offset: int | None = None,
+    known_secrets: Sequence[str | None] = (),
 ) -> str:
-    sql = """
+    row = _committed_row(
+        connection,
+        """
         INSERT INTO raw_api_responses (
-            collection_run_id,
+            collection_run_id, source, page_number, http_status,
+            pagination_token, pagination_offset, request_params, response_payload
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s) RETURNING id
+        """,
+        (
+            run_id,
             source,
-            page_number,
+            page,
             http_status,
-            pagination_token,
-            pagination_offset,
-            request_params,
-            response_payload
-        )
-        SELECT
-            collection_runs.id,
-            collection_runs.source,
-            %s,
-            %s,
-            %s,
-            %s,
-            %s,
-            %s
-        FROM collection_runs
-        WHERE collection_runs.id = %s
-          AND collection_runs.source = %s
-          AND collection_runs.status = 'running'
-        RETURNING id
-    """
-    try:
-        with psycopg.connect(database_url) as connection:
-            row = connection.execute(
-                sql,
-                (
-                    page_number,
-                    http_status,
-                    pagination_token,
-                    pagination_offset,
-                    Jsonb(sanitize(dict(request_params))),
-                    Jsonb(sanitize(response_payload)),
-                    run_id,
-                    source,
-                ),
-            ).fetchone()
-        return str(_required_row(row, "salvar a resposta bruta")[0])
-    except DatabaseError:
-        raise
-    except psycopg.Error:
-        raise DatabaseError("Falha ao salvar a resposta bruta no PostgreSQL.") from None
+            token,
+            offset,
+            Jsonb(sanitize(dict(request_params))),
+            Jsonb(sanitize(payload, known_secrets)),
+        ),
+        "Falha ao salvar a resposta bruta no PostgreSQL.",
+    )
+    return str(row[0])
 
 
-def save_jobs_and_progress(
-    database_url: str,
+INSERT_JOB_SQL = """
+    INSERT INTO raw_jobs (
+        collection_run_id, raw_api_response_id, source, external_id, title,
+        company, location, description, published_at, published_at_text,
+        source_url, raw_payload
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    ON CONFLICT (collection_run_id, source, external_id)
+        WHERE external_id IS NOT NULL DO NOTHING
+"""
+
+
+def _optional_text(value: object, secrets: Sequence[str | None]) -> str | None:
+    return None if value is None else sanitize_text(str(value), secrets)
+
+
+def save_page(
+    connection: Any,
     run_id: str,
-    raw_response_id: str,
+    response_id: str,
     source: str,
     jobs: Sequence[Mapping[str, Any]],
-    returned_count: int,
-    page_number: int,
-    http_status: int | None,
-    next_cursor: str | None,
-    next_offset: int | None,
+    *,
+    page: int,
+    returned: int,
+    http_status: int,
+    next_cursor: str | None = None,
+    next_offset: int | None = None,
+    known_secrets: Sequence[str | None] = (),
 ) -> int:
-    if returned_count < 0 or page_number < 1:
-        raise DatabaseError("Contadores de pagina invalidos.")
-    if len(jobs) > returned_count:
-        raise DatabaseError("O numero de vagas mapeadas excede o total retornado.")
-
-    validate_response_sql = """
-        SELECT id
-        FROM raw_api_responses
-        WHERE id = %s
-          AND collection_run_id = %s
-          AND source = %s
-          AND page_number = %s
-        FOR SHARE
-    """
-    insert_job_sql = """
-        INSERT INTO raw_jobs (
-            collection_run_id,
-            raw_api_response_id,
-            source,
-            external_id,
-            title,
-            company,
-            location,
-            description,
-            published_at,
-            published_at_text,
-            source_url,
-            raw_payload
-        )
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-        ON CONFLICT (collection_run_id, source, external_id)
-            WHERE external_id IS NOT NULL
-        DO NOTHING
-    """
-    update_progress_sql = """
-        UPDATE collection_runs
-        SET
-            pages_processed = pages_processed + 1,
-            returned_count = returned_count + %s,
-            persisted_count = persisted_count + %s,
-            last_page = %s,
-            last_cursor = %s,
-            last_offset = %s,
-            http_status = %s
-        WHERE id = %s
-          AND source = %s
-          AND status = 'running'
-          AND (
-              (last_page IS NULL AND %s = 1)
-              OR last_page + 1 = %s
-          )
-        RETURNING id
-    """
-
+    """Commit mapped jobs and progress together, after the raw commit."""
     try:
-        with psycopg.connect(database_url) as connection:
-            response_row = connection.execute(
-                validate_response_sql,
-                (raw_response_id, run_id, source, page_number),
-            ).fetchone()
-            _required_row(response_row, "validar a resposta bruta")
-
-            persisted_count = 0
-            for job in jobs:
-                if "raw_payload" not in job:
-                    raise DatabaseError("Uma vaga mapeada nao possui raw_payload.")
-                cursor = connection.execute(
-                    insert_job_sql,
-                    (
-                        run_id,
-                        raw_response_id,
-                        source,
-                        _sanitized_optional_text(job.get("external_id")),
-                        _sanitized_optional_text(job.get("title")),
-                        _sanitized_optional_text(job.get("company")),
-                        _sanitized_optional_text(job.get("location")),
-                        _sanitized_optional_text(job.get("description")),
-                        job.get("published_at"),
-                        _sanitized_optional_text(job.get("published_at_text")),
-                        _sanitized_optional_text(job.get("source_url")),
-                        Jsonb(sanitize(job["raw_payload"])),
-                    ),
-                )
-                persisted_count += cursor.rowcount
-
-            progress_row = connection.execute(
-                update_progress_sql,
+        persisted = 0
+        for job in jobs:
+            cursor = connection.execute(
+                INSERT_JOB_SQL,
                 (
-                    returned_count,
-                    persisted_count,
-                    page_number,
-                    next_cursor,
-                    next_offset,
-                    http_status,
                     run_id,
+                    response_id,
                     source,
-                    page_number,
-                    page_number,
+                    _optional_text(job.get("external_id"), known_secrets),
+                    _optional_text(job.get("title"), known_secrets),
+                    _optional_text(job.get("company"), known_secrets),
+                    _optional_text(job.get("location"), known_secrets),
+                    _optional_text(job.get("description"), known_secrets),
+                    job.get("published_at"),
+                    _optional_text(job.get("published_at_text"), known_secrets),
+                    _optional_text(job.get("source_url"), known_secrets),
+                    Jsonb(sanitize(job["raw_payload"], known_secrets)),
                 ),
-            ).fetchone()
-            _required_row(progress_row, "registrar o progresso da pagina")
-        return persisted_count
-    except DatabaseError:
-        raise
-    except psycopg.Error:
-        raise DatabaseError("Falha ao salvar vagas e progresso no PostgreSQL.") from None
+            )
+            persisted += cursor.rowcount
+
+        row = connection.execute(
+            """
+            UPDATE collection_runs SET
+                pages_processed = pages_processed + 1,
+                returned_count = returned_count + %s,
+                persisted_count = persisted_count + %s,
+                last_page = %s, last_cursor = %s, last_offset = %s,
+                http_status = %s
+            WHERE id = %s AND source = %s AND status = 'running'
+            RETURNING id
+            """,
+            (
+                returned,
+                persisted,
+                page,
+                next_cursor,
+                next_offset,
+                http_status,
+                run_id,
+                source,
+            ),
+        ).fetchone()
+        if row is None:
+            raise RuntimeError
+        connection.commit()
+        return persisted
+    except (KeyError, psycopg.Error, RuntimeError):
+        connection.rollback()
+        raise RuntimeError("Falha ao salvar vagas e progresso no PostgreSQL.") from None
 
 
-def finish_collection_run(
-    database_url: str,
-    run_id: str,
-    http_status: int | None,
-) -> None:
-    sql = """
-        UPDATE collection_runs
-        SET
-            status = 'success',
-            finished_at = NOW(),
-            http_status = COALESCE(%s, http_status),
-            error_message = NULL
-        WHERE id = %s
-          AND status = 'running'
-        RETURNING id
-    """
-    try:
-        with psycopg.connect(database_url) as connection:
-            row = connection.execute(sql, (http_status, run_id)).fetchone()
-        _required_row(row, "finalizar a execucao")
-    except DatabaseError:
-        raise
-    except psycopg.Error:
-        raise DatabaseError("Falha ao finalizar a execucao no PostgreSQL.") from None
+def finish_run(connection: Any, run_id: str, http_status: int | None) -> None:
+    _committed_row(
+        connection,
+        """
+        UPDATE collection_runs SET status='success', finished_at=NOW(),
+            http_status=COALESCE(%s, http_status), error_message=NULL
+        WHERE id=%s AND status='running' RETURNING id
+        """,
+        (http_status, run_id),
+        "Falha ao finalizar a execução no PostgreSQL.",
+    )
 
 
-def fail_collection_run(
-    database_url: str,
+def fail_run(
+    connection: Any,
     run_id: str,
     status: str,
     http_status: int | None,
     message: str,
+    known_secrets: Sequence[str | None] = (),
 ) -> None:
-    if status not in {"failed", "partial"}:
-        raise ValueError("O status de falha deve ser 'failed' ou 'partial'.")
+    connection.rollback()
+    _committed_row(
+        connection,
+        """
+        UPDATE collection_runs SET status=%s, finished_at=NOW(),
+            http_status=COALESCE(%s, http_status), error_message=%s
+        WHERE id=%s AND status='running' RETURNING id
+        """,
+        (
+            status,
+            http_status,
+            (sanitize_text(message, known_secrets) or "Falha durante a coleta.")[:2000],
+            run_id,
+        ),
+        "Falha ao registrar o erro no PostgreSQL.",
+    )
 
-    sql = """
-        UPDATE collection_runs
-        SET
-            status = %s,
-            finished_at = NOW(),
-            http_status = COALESCE(%s, http_status),
-            error_message = %s
-        WHERE id = %s
-          AND status = 'running'
-        RETURNING id
-    """
+
+LATEST_RUN_SQL = """
+    SELECT id, source, query_params, requested_limit, started_at, finished_at,
+        status, returned_count, persisted_count, pages_processed, http_status,
+        error_message, last_page, last_cursor, last_offset
+    FROM collection_runs WHERE source=%s AND status='success'
+    ORDER BY COALESCE(finished_at, started_at) DESC, started_at DESC, id DESC LIMIT 1
+"""
+RESPONSES_SQL = """
+    SELECT id, collection_run_id, source, page_number, http_status, request_params,
+        response_payload, pagination_token, pagination_offset, collected_at
+    FROM raw_api_responses WHERE collection_run_id=%s
+    ORDER BY page_number, collected_at, id
+"""
+JOBS_SQL = """
+    SELECT id, collection_run_id, raw_api_response_id, external_id, source, title,
+        company, location, description, published_at, published_at_text,
+        source_url, collected_at
+    FROM raw_jobs WHERE collection_run_id=%s ORDER BY collected_at, id
+"""
+
+
+def _write_json(path: Path, payload: Mapping[str, Any], secrets: Sequence[str | None]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_name(f".{path.name}.tmp")
     try:
-        with psycopg.connect(database_url) as connection:
-            row = connection.execute(
-                sql,
-                (status, http_status, _safe_error_message(message), run_id),
-            ).fetchone()
-        _required_row(row, "registrar a falha da execucao")
-    except DatabaseError:
-        raise
-    except psycopg.Error:
-        raise DatabaseError("Falha ao registrar o erro no PostgreSQL.") from None
+        with temporary.open("w", encoding="utf-8", newline="\n") as file:
+            json.dump(sanitize(payload, secrets), file, ensure_ascii=False, indent=2, default=str)
+            file.write("\n")
+        temporary.replace(path)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def export_results(
+    connection: Any,
+    output_dir: Path = Path("results"),
+    known_secrets: Sequence[str | None] = (),
+) -> tuple[list[dict[str, object]], list[str]]:
+    """Export the latest successful run from each source without calling APIs."""
+    summaries: list[dict[str, object]] = []
+    missing: list[str] = []
+    exported_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+    for source in SOURCES:
+        row = connection.execute(LATEST_RUN_SQL, (source,)).fetchone()
+        if row is None:
+            missing.append(source)
+            continue
+        run = dict(row)
+        run_id = run["id"]
+        responses = [dict(item) for item in connection.execute(RESPONSES_SQL, (run_id,)).fetchall()]
+        jobs = [dict(item) for item in connection.execute(JOBS_SQL, (run_id,)).fetchall()]
+        path = output_dir / f"{source}.json"
+        _write_json(
+            path,
+            {
+                "exported_at": exported_at,
+                "repository": "python",
+                "source": source,
+                "run": run,
+                "responses": responses,
+                "jobs": jobs,
+            },
+            known_secrets,
+        )
+        summaries.append(
+            {
+                "source": source,
+                "run_id": str(run_id),
+                "response_count": len(responses),
+                "job_count": len(jobs),
+                "path": str(path),
+            }
+        )
+    return summaries, missing
