@@ -1,7 +1,0 @@
-{
-  "search_metadata": {
-    "id": "fixture-error-search",
-    "status": "Error"
-  },
-  "error": "Invalid request in anonymous fixture."
-}

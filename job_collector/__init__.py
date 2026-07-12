@@ -1,3 +1,3 @@
 """Auditable raw-first job collection package."""
 
-__all__ = ["collector", "config", "db", "export_results", "sanitize", "serpapi", "theirstack"]
+__all__ = ["collector", "config", "db", "main", "sanitize", "serpapi", "theirstack"]
