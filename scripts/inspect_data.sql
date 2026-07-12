@@ -38,6 +38,8 @@ SELECT
     location,
     published_at,
     published_at_text,
+    published_date,
+    publication_date_source,
     source_url,
     collected_at
 FROM raw_jobs

@@ -48,6 +48,22 @@ O fluxo por resposta HTTP é direto:
 Os campos desconhecidos e tokens opacos de paginação são preservados. Chaves de API,
 headers de autorização, cookies e credenciais em URLs são redigidos.
 
+## Datas de publicação
+
+`raw_jobs.published_date` é o campo indicado para análises no nível de dia. A
+`publication_date_source` registra a qualidade dessa data:
+
+- `theirstack_exact`: dia fornecido diretamente em `date_posted`, sem conversão de fuso;
+- `serpapi_estimated`: estimativa calculada a partir do texto relativo e do
+  `collected_at` da própria vaga;
+- `missing`: a fonte não informou quando a vaga foi publicada;
+- `unrecognized`: o texto original existe, mas seu formato não foi reconhecido.
+
+Na SerpApi, `published_at_text` continua preservando valores como `há 18 dias` e a
+estimativa nunca deve ser apresentada como uma data exata do anunciante. `collected_at`
+registra quando a coleta ocorreu. `published_at` permanece por compatibilidade, mas não
+é preenchido artificialmente para a SerpApi.
+
 ## Estrutura resumida
 
 ```text
@@ -119,8 +135,19 @@ docker compose ps
 python -m job_collector.main migrate
 ```
 
-A migration única representa diretamente o schema atual e é idempotente. Ela cria
-`collection_runs`, `raw_api_responses` e `raw_jobs` no banco `job_market-py`.
+As migrations são incrementais e idempotentes: `001_initial.sql` cria as tabelas e
+`002_publication_dates.sql` adiciona `published_date` e `publication_date_source` sem
+alterar payloads ou registros históricos.
+
+Depois da migration, preencha os registros existentes usando o `collected_at` de cada
+vaga como referência:
+
+```powershell
+python -m job_collector.main backfill-publication-dates
+```
+
+O comando é idempotente e informa quantos registros TheirStack/SerpApi foram
+atualizados, quantos não possuem informação e quantos textos não foram reconhecidos.
 
 ## Como coletar
 
@@ -166,8 +193,9 @@ results/serpapi.json
 
 Cada arquivo contém o run, todas as respostas brutas sanitizadas e as vagas normalizadas
 com seus IDs de relacionamento. O `raw_payload` não é duplicado nas vagas porque o item
-integral já está em `responses`. Antes da escrita, o sanitizador é reaplicado e o texto é
-verificado contra as credenciais locais, sem imprimi-las.
+integral já está em `responses`. Os campos `published_date` e
+`publication_date_source` também são exportados. Antes da escrita, o sanitizador é
+reaplicado e o texto é verificado contra as credenciais locais, sem imprimi-las.
 
 ## Paginação, retries e respostas vazias
 
@@ -231,6 +259,7 @@ GROUP BY source;
 - deduplicação ocorre somente dentro da mesma execução quando há `external_id`;
 - localização da busca não torna a amostra estatisticamente representativa;
 - datas relativas da SerpApi, como `há 18 dias`, permanecem como texto;
+- datas derivadas desses textos são estimativas no nível de dia, não timestamps exatos;
 - não há análise estatística, dashboard ou agendamento.
 
 Uma etapa futura pode estudar os payloads preservados e definir modelagem analítica sem
