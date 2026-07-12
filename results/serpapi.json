@@ -1,0 +1,921 @@
+{
+  "exported_at": "2026-07-12T21:44:26Z",
+  "repository": "python",
+  "source": "serpapi",
+  "run": {
+    "id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+    "source": "serpapi",
+    "query_params": {
+      "gl": "br",
+      "hl": "pt",
+      "query": "software engineer",
+      "provider": "serpapi",
+      "max_pages": 1,
+      "max_retries": 0,
+      "google_domain": "google.com.br",
+      "sample_region": "sao-paulo-capital",
+      "strategy_name": "city-origin-validation",
+      "canonical_location": "Sao Paulo,State of Sao Paulo,Brazil"
+    },
+    "requested_limit": null,
+    "started_at": "2026-07-12 21:04:08.853287+00:00",
+    "finished_at": "2026-07-12 21:04:12.492002+00:00",
+    "status": "success",
+    "returned_count": 10,
+    "persisted_count": 10,
+    "pages_processed": 1,
+    "http_status": 200,
+    "error_message": null,
+    "last_page": 1,
+    "last_cursor": "eyJmYyI6IkVvc0RDc3dDUVVwcFZEUjBTMk0zUVdwdVN6UTNOelpoVVVkWFdHeGFlSEp3VjFoaWJIWlNVVUpwUzFJdFlWWmpVMDVZYXpsRWRXbzVSeTFMTURoNVJFczVlVXRXZG1ONFFrRkplbmwwUlhkb05ucDNaSFU0VVVoeWVubzFaMU5WYkVsd2NXRjVOREJIYlZSZmFWRXpaSEJNVkVOMVgzWkpWak5rY1dWeFFtaDBaM0IxVGxob1owWktiazVtYkZkTFZVaFNRVzlWY25Sd1NqUkNZamR1TFVGYVZ6aG1iMk42UlVkbmMzbDZWMlZ6UmpOUWNGQnlNVzFEZEdaeVp6QkpSSEJOWm5kbmFHdGpORVEzYTNSRmVGUlRhVVZxZGxOdmQxTjNZek0yVm5RMFdrRm1TVEJPZUdGQlZUZE1abTkyYzFGSWFUVm9VMjl4VUdrNFRqaEJYMlZLVG5obk1VSjVXa1Y0VW5KQ2JXVlNlVTluZFRWeGMyZE9VM0ZEVjJoelUxUnVVRkZvU1V0RVltOU1aVVJpYlRKV2N6ZDZRM2h1VUVGSlJqaFVTV052TFVvNGMyaEdXbDlEYUVSNlVrSjROVUlTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsTTJSMUJrVjJOaVduTkVPV0ZsWDJ4aFRWVTVUREJHYWtKeFVWRSIsImZjdiI6IjMifQ==",
+    "last_offset": null
+  },
+  "responses": [
+    {
+      "id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "source": "serpapi",
+      "page_number": 1,
+      "http_status": 200,
+      "request_params": {
+        "q": "software engineer",
+        "gl": "br",
+        "hl": "pt",
+        "engine": "google_jobs",
+        "location": "Sao Paulo,State of Sao Paulo,Brazil",
+        "google_domain": "google.com.br"
+      },
+      "response_payload": {
+        "filters": [
+          {
+            "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+remoto&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rk9HWz-Wo36oyDDqa65SAC66oL-pVWfE_uqqejDgJjt8MrJXdN16qMPtjZStbcFr9SrjnAw9jWfcDmwG0iL9838oE5DdgVwGEuufIwc3ErnhogOEdstGcN-E-9wI50Myb4k1ymm77qHyXGKDoh3I5soYWcgM&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QxKsJKAB6BAgaEAE&ictx=0",
+            "name": "Remoto",
+            "parameters": {
+              "q": "software engineer remoto",
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rk9HWz-Wo36oyDDqa65SAC66oL-pVWfE_uqqejDgJjt8MrJXdN16qMPtjZStbcFr9SrjnAw9jWfcDmwG0iL9838oE5DdgVwGEuufIwc3ErnhogOEdstGcN-E-9wI50Myb4k1ymm77qHyXGKDoh3I5soYWcgM"
+            },
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+remoto&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rk9HWz-Wo36oyDDqa65SAC66oL-pVWfE_uqqejDgJjt8MrJXdN16qMPtjZStbcFr9SrjnAw9jWfcDmwG0iL9838oE5DdgVwGEuufIwc3ErnhogOEdstGcN-E-9wI50Myb4k1ymm77qHyXGKDoh3I5soYWcgM"
+          },
+          {
+            "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+remoto&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rk9HWz-Wo36oyDDqa65SAC66oL-pVWfE_uqqejDgJjt8MrJXdN16qMPtjZStbcFr9SrjnAw9jWfcDmwG0iL9838oE5DdgVwGEuufIwc3ErnhogOEdstGcN-E-9wI50Myb4k1ymm77qHyXGKDoh3I5soYWcgM&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QxKsJKAF6BAgbEAE&ictx=0",
+            "name": "Remoto",
+            "parameters": {
+              "q": "software engineer remoto",
+              "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rk9HWz-Wo36oyDDqa65SAC66oL-pVWfE_uqqejDgJjt8MrJXdN16qMPtjZStbcFr9SrjnAw9jWfcDmwG0iL9838oE5DdgVwGEuufIwc3ErnhogOEdstGcN-E-9wI50Myb4k1ymm77qHyXGKDoh3I5soYWcgM"
+            },
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+remoto&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rk9HWz-Wo36oyDDqa65SAC66oL-pVWfE_uqqejDgJjt8MrJXdN16qMPtjZStbcFr9SrjnAw9jWfcDmwG0iL9838oE5DdgVwGEuufIwc3ErnhogOEdstGcN-E-9wI50Myb4k1ymm77qHyXGKDoh3I5soYWcgM"
+          },
+          {
+            "name": "Data de publicação",
+            "options": [
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAC",
+                "name": "Ontem",
+                "parameters": {
+                  "q": "software engineer desde ontem",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAD",
+                "name": "Nos últimos 3 dias",
+                "parameters": {
+                  "q": "software engineer nos últimos 3 dias",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAE",
+                "name": "Semana passada",
+                "parameters": {
+                  "q": "software engineer na última semana",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAF",
+                "name": "Mês passado",
+                "parameters": {
+                  "q": "software engineer no último mês",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+              }
+            ]
+          },
+          {
+            "name": "Data de publicação",
+            "options": [
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAC",
+                "name": "Ontem",
+                "parameters": {
+                  "q": "software engineer desde ontem",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAD",
+                "name": "Nos últimos 3 dias",
+                "parameters": {
+                  "q": "software engineer nos últimos 3 dias",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAE",
+                "name": "Semana passada",
+                "parameters": {
+                  "q": "software engineer na última semana",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGRAF",
+                "name": "Mês passado",
+                "parameters": {
+                  "q": "software engineer no último mês",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+              }
+            ]
+          },
+          {
+            "name": "Tipo de vaga",
+            "options": [
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+tempo+integral&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAC",
+                "name": "Tempo integral",
+                "parameters": {
+                  "q": "software engineer tempo integral",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+tempo+integral&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+meio+per%C3%ADodo&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAD",
+                "name": "Meio período",
+                "parameters": {
+                  "q": "software engineer meio período",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+meio+per%C3%ADodo&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+contrato&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAE",
+                "name": "Contrato",
+                "parameters": {
+                  "q": "software engineer contrato",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+contrato&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+est%C3%A1gio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAF",
+                "name": "Estágio",
+                "parameters": {
+                  "q": "software engineer estágio",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+est%C3%A1gio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM"
+              }
+            ]
+          },
+          {
+            "name": "Tipo de vaga",
+            "options": [
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+tempo+integral&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAC",
+                "name": "Tempo integral",
+                "parameters": {
+                  "q": "software engineer tempo integral",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+tempo+integral&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+meio+per%C3%ADodo&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAD",
+                "name": "Meio período",
+                "parameters": {
+                  "q": "software engineer meio período",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+meio+per%C3%ADodo&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+contrato&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAE",
+                "name": "Contrato",
+                "parameters": {
+                  "q": "software engineer contrato",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+contrato&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+est%C3%A1gio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIFxAF",
+                "name": "Estágio",
+                "parameters": {
+                  "q": "software engineer estágio",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+est%C3%A1gio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM"
+              }
+            ]
+          },
+          {
+            "name": "Data de publicação",
+            "options": [
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAC",
+                "name": "Ontem",
+                "parameters": {
+                  "q": "software engineer desde ontem",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAD",
+                "name": "Nos últimos 3 dias",
+                "parameters": {
+                  "q": "software engineer nos últimos 3 dias",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAE",
+                "name": "Semana passada",
+                "parameters": {
+                  "q": "software engineer na última semana",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAF",
+                "name": "Mês passado",
+                "parameters": {
+                  "q": "software engineer no último mês",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+              }
+            ]
+          },
+          {
+            "name": "Data de publicação",
+            "options": [
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAC",
+                "name": "Ontem",
+                "parameters": {
+                  "q": "software engineer desde ontem",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+desde+ontem&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtIKYUVSN3N0Dg85oAGvIJIqp5fqU4b4WmznAfz4sZBReShwHSokL141NlLoZm7CDj00zdOWMg6vgORD7Zl4tVSSgmLG-5HbhwqeE1bl6KGwBEEnBZYCcFl1Pi7EKs50RGDkZ7dI2jzQZRPASJUxpVuRGQlUTKB8l_tAISQBEhTFtcI9-Ew0S0WHwFE9FBD-ixfYIsTBZPKrjSJtOM5_Onwso08_VdxpdWVNNOqjFd6CA2IWmt0UQOKwGQxESc5BshOIE1FE91-E2XuVUy-Wp2ixhdqhrBzN09NdJ8Dea04V_WTmpAC65U5bTXBMKQe0F7gM_iLr4YKCrO-pfOBF6PbYecWS5bxAb3WPHfH-EfOfSy4pfiAMHEYelN9EF4AKs8LeUXw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAD",
+                "name": "Nos últimos 3 dias",
+                "parameters": {
+                  "q": "software engineer nos últimos 3 dias",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+nos+%C3%BAltimos+3+dias&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAlLcxTnQUMFHkS1jXZHlGqFIHyQAe9tu2oRFxhM2MyTN_6PxLLcYrVK9kXr3PqMMMPDVmO7WtrteBlBne_8GONOfnFl3bPqULxUSnr3nXVVvoDe15BCk4C9KbZa4xIjUesQ4762JeoHy0iS2BnqQwyZQbCvh326H35GlbWBpTNER2GLVgxjTU62_fn70k0uDWXmn88Ah8P3TBg1L15qa71eCAcBSKGz7Pc_GCXtSbg6EF3IT56HXUYWkToDeKkPcWjjM6EoHU3MaUUAU5HOgNIf5L5QdDru9w_BRZSDTV8grF1OqJwXLDfB08vc7-lNO21Tat37ccz4xM1cObuQmfmb70LA9HKx2RkCsTvkcSEWDGIYGNV6LbaAeYtpKTC37G6y6Uw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAE",
+                "name": "Semana passada",
+                "parameters": {
+                  "q": "software engineer na última semana",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+na+%C3%BAltima+semana&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsSSlpZni-nNC0orbf20KUEBKf-MobzKvHdks_8XWbV_gcia7CmB3_0zac9c4AcW_A9uPxqNaKWZHGDYQKIJYVsRMR75aECER9PLi9MUyV7s32-3qHHe4UG-VWEgVFHCe8q67ZAg4E3pS0pMIrLS8HERo3naULABm3pK43lw-lJr3di-jDtRNzEIlDAz-E1nadOurAoMoO8F3Awtf4p0Sar0mGrmqTqsuacQGfS5AkIRr76Sm8k_isxuEaCeIjx7yyG4KObwkmHiYRw9DGXRnQ1m-A9Siux1UYM0A2jTUiTSmqtlgaVr0dI1vfh2b12Mr2n-g9EllX0rW3gCuC2DEMUMbbMwEqBixwVUw-MiArneXucdsg1GhIQXfrCBE1prKZ7w5yw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQIGBAF",
+                "name": "Mês passado",
+                "parameters": {
+                  "q": "software engineer no último mês",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+no+%C3%BAltimo+m%C3%AAs&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDrnHW9hqFqGpDy3WHUvM2CBWtP8N5wPGEVHA8PvojCvbjNcU_S4LEAIokQ9H4BaYfF5GqqX46a_xn6RIaSXfFEJCXcIqHWQfssXE3JajeUqKNcPa1U9CLDns1YAcVC5zCqe9Nw7ldL7MCGyRnrkPhQjGmnWzUxgaUxsgADyINnbtCtbfEmQbgtyOOILTXbekTN0v8dmn3pY2Y-72wwjHM6xBXjWuOTOIBL9zDctB8bsZwu06vAWQKwGpLNlz28C1IBJmEekxj7npzhUtDJ9asVIncHOY3pn5wGCmlqwtS0f4w7VZ3_y6Vsj0AyI1_TRdZ_smNFsOvDBZZMg7vex8YSO8ZRS7bqvP3B4sKYItFQNkEfWQCPyC0cYiLifXNQEL-_8tVA"
+              }
+            ]
+          },
+          {
+            "name": "Tipo de vaga",
+            "options": [
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+tempo+integral&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQILxAC",
+                "name": "Tempo integral",
+                "parameters": {
+                  "q": "software engineer tempo integral",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+tempo+integral&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r0X2wrYfWRtqWxor0lTJj06okXO0qXHFI6PA833TR400vWdEBOclS_6GV9Xj6Tdw_p6HitCXRgNQt3DGVZrUi4Y0nfgAPS8K0__YT0zR6Sfy5omseAo1RvYMb_EYBmjOufkceyaoHiZ6fdxYoApSYuyD4PREbHYHh0KQaufEuiEWH6p7VLz8Wogonp8WaRgdO9x_ZzRQJDNZOFx1rxMPqfyYdmdU-Ls5dxUK1dlXAuqterLEDSowxsGvBPQCrPlSdsoGKjNHfKdBoyLZ70y_ON9B4PzXPAqbF60uIFzjpo8nd-kMg5gOC6uamjAFoUSMm4lKYRFWfxTKgcm6hlS_ZCVpa444"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+meio+per%C3%ADodo&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQILxAD",
+                "name": "Meio período",
+                "parameters": {
+                  "q": "software engineer meio período",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+meio+per%C3%ADodo&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rWPOoQuos13HPdhKOnKkvRSyhyV8ZJocjtH59-TdhXZF_bZqVybe6_GwmkxeGrl7BpUvXR0xoGw7-9f88BBWwkzInoQpcdvI0-2J1WgPWssQCdA2PrWALGtj_SePaBHgzLYlwSwnv9UZgrBed_YPhCwKvNXX1F4fjb77flwu-R2_QeglFTfGJWNCY-cxB-zlaGvWlJgXsjSdrRrGksA2Hu84m5-nJ5zUDPGqqLamwdZ5AKh1N0IcZgv0YutoRPqGAYi6hTeIDUPRa6TDtEL_i4k8fRrRlYoVHZ7zeJBspD-cAta26QVdjOpaDCR5zl4E0oQeRmaMNS6SCem-2zgBbyZ_kNEw"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+contrato&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQILxAE",
+                "name": "Contrato",
+                "parameters": {
+                  "q": "software engineer contrato",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+contrato&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R942Fj4M-9yZ_P_J-bX_FOcgziiQARx7GJJt9wDiVmg_Hca-Z1RMZlrbTtFKo9bnAZQmYuyDSqRY3mIwkGSmxO-WP55juUzL2k1Z5KWeGyeVXac9jWkZVrziU1wI2pX1JbEEy1VCdUqAIKPOW-kHymQe_6f1m2-3Uh5HLMpN_J7FOewGisi5e3z4xoIgNQQeArGEMs0vLSw9ew_YtVn1rAftGANab0IT9zO_Yh8Bzbk7a2n6hNQd_IMpQuWh6X996VkV85BsdT9JiYbvzWA286XxhZwOS427K_wkho_9ikk4KO2t1RU"
+              },
+              {
+                "link": "https://www.google.com.br/search?sca_esv=3411e0dcc18d8ddc&gl=br&hl=pt&q=software+engineer+est%C3%A1gio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM&udm=8&sa=X&ved=2ahUKEwjesreGhc6VAxXDmIkEHet_MA0QkbEKegQILxAF",
+                "name": "Estágio",
+                "parameters": {
+                  "q": "software engineer estágio",
+                  "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM"
+                },
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&q=software+engineer+est%C3%A1gio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5Cv44gcr0nhNKfq5PAGFyNpQlsp_NYdqVE_V0hh-R97XrVIzBTDGk4kERH24bxekrPS0apG1YAxf5AFLT5cBvve6-baI8Br7M3N6U_V7vMPYpAaxajdHtvpis8R-a9Do0_iG0rmDjWkdlBaLg7RhJZIy0CpF-ukmn6MpBfHAVXIpOTl2UatFr3u7zIg_FYAu-se4y2AEKxy3A6dIsBRsNn1oXe13ysHirneCsFbS6j2KYgGg2rjbkBupRHVXYFf83Yt-W2qMcT89MCci7baKGMRF2Icvfj_25waYR3bCFvUswBwEqEqmbCeH7k-V-JXeq629TWueVXcWT8bILH0AZXi35rM"
+              }
+            ]
+          }
+        ],
+        "jobs_results": [
+          {
+            "via": "LinkedIn",
+            "title": "Sr Software Engineering Analyst",
+            "job_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlcmluZyBBbmFseXN0IiwiY29tcGFueV9uYW1lIjoiU2luY2giLCJodGlkb2NpZCI6IlE4cTd5bGlxLXVQNmp4Uk9BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFNXaHBkRXBrWVV0dU1YQkdZWGhuYTNWV09VdHNhVWhXV1haVE5uQnBOVVp5Tmt0MUxVUlVWM0pWV0VkcE5GUXhabkkxYWpWc1dHVmtNa3N3TWpCUVlVaGFkbWgyVFdWTGJGTjZUR1V4WVdsUVgyNW1aSEo0T1dwbWJHMWtUWEpvZFhOWVkycHhVME5aWW5GNmFXY3RPVXhOU1hjM1ZURXhNWEpMU2pGTFpTMUxSVVV4YW00U0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabE5DTFZCdmNUaGlhVXBhVEZWalpuUTNabmRJUTAxZlpHVXRiVUUiLCJmY3YiOiIzIiwiZmNfaWQiOiJROHE3eWxpcS11UDZqeFJPQUFBQUFBPT0ifQ==",
+            "location": "Qualquer lugar",
+            "job_title": "Sr Software Engineering Analyst",
+            "thumbnail": "https://serpapi.com/searches/6a54014a31a601edf3b76be9/images/jX4Bmew1EqFWEN-5MDw3XHuPqw7Lt2_Psw75Mt_tah4.jpeg",
+            "extensions": [
+              "há 2 dias",
+              "Trabalho de casa",
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=Q8q7yliq-uP6jxROAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNsQrCMBAAUFz7CU7nKtKI4FIHcRDXQj6gxHimkfQu5q5YP0f8FH9MXd76qtes2tsClq_6cAXhSCESYokU4EAuPUUbyCj3MYqDCwIOuWBgAWI4MYeE812vmqUxRiTVQdRp9LXnwTDhmSdz47P86aT_FTk5xW6zXU91prBc2Ei-B0JRhMTepQbs583QujHxCmz7BdLQyNykAAAA&shmds=v1_ARwrE220bhNO2mbeSBvrh_0-E_I-d1z5RB4X4tKsY9EFRACNKg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=Q8q7yliq-uP6jxROAAAAAA%3D%3D",
+            "description": "ABOUT SINCH \n\n\nSinch is pioneering the way the world communicates. More than 150,000 businesses - including Google, Uber, Paypal, Visa, Tinder, and many others - rely on Sinch's Customer Communications Cloud to power engaging customer experiences through mobile messaging, voice, and email.\n\n\nWhether you need to verify users or craft omnichannel campaigns, Sinch makes it easy. Our AI-infused Super Network, APIs, and applications ensure you can connect with your customers reliably and securely, at every step of their journey.\n\n\nAt Sinch we \"Dream Big\", \"Win Together\", \"Keep it simple\", and \"Make it Happen\". These values are our foundation!\n\n \n\nDESCRIPTION  \n\n\nRemote or Hybrid (for candidates based in São Paulo).\n\n\nAs a Senior Backend Software Engineer, you will design, build, and maintain distributed backend services that process high-volume, low-latency messaging traffic to detect and prevent fraud across multiple communication channels, including SMS, RCS, and WhatsApp.\n\n\nYou will work on highly scalable systems that rely on event-driven architectures, distributed data processing, and cloud-native technologies. The role requires close collaboration with globally distributed engineering teams to build reliable, high-performance services while sharing technical knowledge and contributing to engineering best practices.\n\n\n \n\n\nRESPONSIBILITIES\n\n\nDesign, develop, and maintain scalable backend services and APIs.\n\n\nBuild and evolve distributed systems capable of processing high-volume, time-sensitive workloads.\n\n\nDevelop solutions using Java/Rust and work with distributed messaging platforms such as Kafka.\n\n\nDesign efficient data solutions using relational and analytical databases (e.g. MySQL, ClickHouse, BigQuery, Athena).\n\n\nEnsure reliability, observability, fault tolerance, and operational excellence across services.\n\n\nCollaborate with Product Managers, Designers, and Engineers across multiple regions.\n\n\nContribute to code reviews, technical discussions, and engineering best practices.\n\n\nContinuously improve performance, scalability, security, and maintainability of our platform.\n\n\nParticipate in knowledge sharing across our global anti-fraud organization.\n\n\n \n\n\nREQUIREMENTS\n\n\nProfessional experience in backend software development.\n\n\nBachelor's degree in a related field.\n\n\nProfessional working proficiency in English (Advanced or Fluent).\n\n\nStrong experience developing applications in Java and/or Rust.\n\n\nExperience designing and operating distributed systems.\n\n\nSolid understanding of event-driven architectures and messaging systems (Kafka or similar technologies).\n\n\nExperience working with relational and analytical databases.\n\n\nExperience building applications deployed on cloud platforms (i.e. AWS).\n\n\nExperience with containerized environments (Docker and Kubernetes).\n\n\nExperience implementing observability solutions, including logging, metrics, and monitoring.\n\n\nStrong understanding of software engineering best practices, including testing, code quality, performance, and security.\n\n\nExcellent communication and collaboration skills.\n\n\n \n\n\nNICE TO HAVE\n\n\nExperience with Rust is a plus. We don't expect everyone to know Rust from day one, but we do expect curiosity and willingness to learn. Our team will provide the support needed during your onboarding and learning journey. \n\n\nExperience in fraud detection, cybersecurity, telecommunications, or messaging platforms.\n\n\nExperience processing large-scale streaming data.\n\n\nExperience with Infrastructure as Code and CI/CD pipelines.\n\nExperience working in globally distributed engineering teams.\n\n \n\n \n\nOUR HIRING PROCESS \n\n\nWe are committed to ensuring a recruitment process that is fair, objective, consistent, and inclusive. Our approach includes structured, competency-based interviews designed to evaluate your skills, experience, and qualifications relevant to the role. At times, we may include a data-driven assessment to enhance our hiring success and identify candidates likely to excel. \n\n\nWe believe in a two-way process and encourage you to ask questions throughout the journey. If this role isn't what you're looking for, please explore the other opportunities listed on our career page: https://www.sinch.com/careers/. No matter who you are, we hope you find an exciting path forward - hopefully with us!\n\n\n \n\n\nBENEFITS \nSTAY HEALTHY: We cover 100% of medical and dental plans for Sinchers and eligible dependents through Bradesco Saúde.\n\n\nFLEXIBLE BENEFITS: With the Caju flexible benefit card, our Sinchers can choose to use benefits on food, education, and home office assistance.\n\n\nFAMILY FIRST: Our Sinchers can enjoy paid maternity leave for 180 days and paternity leave for 30 days. Plus, we provide daycare assistance for kids up to five years old.\n\n\nEVERYDAY WELLBEING: We partner with Wellhub to help Sinchers access gyms and wellness options.\n\n\nSECURE YOUR FUTURE: Our Partnership with Prudential life insurance provides coverage for all Sinchers in the events of unexpected absences, serious illness, accidents, and disabilities.\n\n\nDIVERSITY AND INCLUSION: We offer annual reimbursements for certain expenses related to disabilities and/or transgender needs. \n\n\nTAKE A BREAK: Our Sinchers can take a day off on their birthday to celebrate with their loved ones.",
+            "source_link": "https://br.linkedin.com/jobs/view/sr-software-engineering-analyst-at-sinch-4436615560",
+            "company_name": "Sinch",
+            "apply_options": [
+              {
+                "link": "https://br.linkedin.com/jobs/view/sr-software-engineering-analyst-at-sinch-4436615560?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "LinkedIn"
+              }
+            ],
+            "detected_extensions": {
+              "posted_at": "há 2 dias",
+              "schedule_type": "Tempo integral",
+              "work_from_home": true
+            }
+          },
+          {
+            "via": "LinkedIn",
+            "title": "AI Software Engineer",
+            "job_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBTbDlTUTNrdGFrdFhkMkYyZW5oWWNVeE9NbTFoVEY4eVdUSnJiRXd0WTFGNmRuZzNTek5xTVMwd1prWk1XRkpFYmtaNUxWVXhTMUpPWm5SdWJVdENjRzlNZFVkWVpVc3pXRlo0T0ZSTVJsbDVjVEk1UVhWSFowTjRUMWRSZFhKa1Z6WnNibmhJY0Zad2JVVkRZVzVmUW5aWVNERlhlV04xUXprNFRHUlFaMkpyWlhBeFRGSVNGbFJCUmxWaGREZGpSRGhQZUhCMFVWQTJYMTlDWVZFYUlrRkVjM0k1WmxGNE5pMTRVRU4zTkhvMlZqUnNTWFpZUzIxTFdDMXBRelpuYlZFIiwiZmN2IjoiMyIsImZjX2lkIjoiVzJiLURjczhYQ0o5aklnMUFBQUFBQT09In0=",
+            "location": "São Paulo, SP",
+            "job_title": "AI Software Engineer",
+            "thumbnail": "https://serpapi.com/searches/6a54014a31a601edf3b76be9/images/NKWx2tRSOIXSWAl8f25Tkm34jIhuJU5RaeJws_CzRPQ.jpeg",
+            "extensions": [
+              "há 3 dias",
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=W2b-Dcs8XCJ9jIg1AAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMMQrCQBAAQGzzBKutg-REtImVgopdIA8Im7heTi675-0Fg5-x8Cl-TG2mnOw1y9a7M9RyTQ-MBAe2joliCYH0PjpFuBDQECJZUWCBk4j1NN_2KQUtjVH1hdWEyXVFJ4MRplYmc5NW_zTa_97gMVGz2iynIrDN86Nj5I5gH_HpPDBpIvDSoS-h_rwFKhy9LKCuvhzwGsKiAAAA&shmds=v1_ARwrE20gxGzr5nA7Vp04Ap35aBtvoQcUYJlT_rEk1rrDGW2Ghw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=W2b-Dcs8XCJ9jIg1AAAAAA%3D%3D",
+            "description": "A Finance Brazil é uma boutique de inteligência financeira especializada em criação de valor, reestruturação estratégica e transações corporativas para empresas em crescimento. Atuamos diretamente com CEOs, investidores e fundos em projetos de M&A, reestruturação financeira, modelagem e estratégia corporativa.\n\nEstamos construindo uma plataforma própria de inteligência financeira baseada em IA e buscamos profissionais para atuar como AI Software Engineer, participando ativamente do desenvolvimento de produtos, sistemas e soluções tecnológicas que suportam decisões estratégicas e financeiras.\n\n\n\n\nO que buscamos\n\n• Forte capacidade de raciocínio lógico e pensamento estruturado\n\n• Perfil construtor (builder) e senso de responsabilidade\n\n• Alta disciplina e capacidade de execução\n\n• Autonomia para resolver problemas complexos\n\n• Interesse real em tecnologia, IA e construção de produtos\n\n• Capacidade de transformar regras de negócio em sistemas\n\n\n\n\nResponsabilidades\n\n• Desenvolver aplicações full stack (frontend e backend)\n\n• Estruturar bancos de dados e lógica de negócio\n\n• Integrar APIs e ferramentas de IA (Codex, Claude Code, Perplexity, etc.)\n\n• Construir fluxos inteligentes, automações e agentes de IA\n\n• Traduzir lógica financeira e estratégica em sistemas escaláveis\n\n• Evoluir continuamente a arquitetura dos produtos da empresa\n\n• Trabalhar próximo ao time de negócio para transformar demandas em soluções\n\n\n\n\nRequisitos\n\n• Experiência com desenvolvimento de software (backend e frontend)\n\n• Conhecimento sólido em lógica de programação e arquitetura de sistemas\n\n• Experiência com APIs, integrações e autenticação\n\n• Conhecimento em banco de dados (SQL ou NoSQL)\n\n• Familiaridade com ferramentas de IA (ChatGPT, Claude Code, Perplexity ou similares)\n\n• Capacidade de programar de forma estruturada, não dependente exclusivamente de IA\n\n• Perfil analítico, disciplinado e orientado a resultados\n\n\n\n\nDiferenciais\n\n• Experiência com ferramentas como Lovable, LangChain, ou agentes de IA\n\n• Experiência em construção de produtos SaaS\n\n• Conhecimento em dados, analytics ou BI\n\n• Experiência com automações e workflows inteligentes\n\n• Interesse ou experiência no setor financeiro\n\n\n\n\nO que oferecemos\n\n• Participação direta na construção de um produto real\n\n• Curva acelerada de aprendizado e crescimento\n\n• Autonomia e responsabilidade sobre entregas\n\n• Ambiente de alta performance\n\n• Contato direto com decisões estratégicas",
+            "source_link": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+            "company_name": "Finance Brazil",
+            "apply_options": [
+              {
+                "link": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "LinkedIn"
+              },
+              {
+                "link": "https://www.simplyhired.com.br/job/WbFry__lnHOannOQe00QDpPH1TTrxocc7LHlur70WyXqreY2fV87mQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "SimplyHired"
+              }
+            ],
+            "detected_extensions": {
+              "posted_at": "há 3 dias",
+              "schedule_type": "Tempo integral"
+            }
+          },
+          {
+            "via": "Catho",
+            "title": "Work From Home Python Software Engineer",
+            "job_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFN6VTBiVmhEYmtONk56QklUMk50TjBoT1VqbHljekoyYkdoR01YRnFjM05wZWkwd1pHNW9VMnBqWjFSd2JXVTFVakphVFRGcmNVZDVUSEp0TldoeWFFRkZhekpIUXpKcE5IVkthRkJUZUVOcE9HbEJXRWs1TTJOaVl5MWlhRzVZV1ZFdFZYVkVkMFo1U0dsNlVGTnZUakJPYjNWUVFYTkdVWEp5VVRocGVWUTRObHBaTjJnU0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabEZ5UmtWcVEzTm5RbU42ZWpWb1FrTmthekp4Wm1GcVJIUXRkRkUiLCJmY3YiOiIzIiwiZmNfaWQiOiJGZzI3bHdnOW5zQTcyUUxNQUFBQUFBPT0ifQ==",
+            "location": "São Paulo, SP (+35)",
+            "job_title": "Work From Home Python Software Engineer",
+            "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAbFBMVEXx8fH2YTXx9vf2Wyr0opDx8_T2Xi_2XzL2VBvx7u32ViH2WSb1hGj2XC32Uhfztqj0non0p5bzxLn0lX7y4Nzy1tD1i3H0q5vx5-T2Tgn1kHjy3Nb2Zz32a0TzzMTzyL_1dFH1gGH1eVnzsKE6LgTFAAABrklEQVRIie1V25aCMAw0qW1KoS2KoCu6ePn_f1y80nha5HEfyBPhzDBpMySLxRxz8Mh2KN_PC8QhGw_0P_sWn8-lPpxXNeIkYmGtq7K7DC4FKaGPXk5QzQwACFXjg9gnQObw-1VUduaO1Wt8E_vUld-YWNkH1nU4EAFM8YUpgV7QjQyIkDejTFnrF1KdMCSCWY0xcTVAjWdEcPXI3eKJ3kACTqRTWlJudIA03Sokgu6SkujzAKiaLSOqc1ISCxUiD0sbpqB3KclMM6AqiOX5OiH5tE0gyVOR8s_bNolQKftIonHiJU4MbBOPVCd5v2_A4zTF0DYPYMO6AzZudG6bu-BHH0Xc59w2N4GKOwfMb9QAeOaFga65VyGPnvDTNn2lH7dlq_gR1x-26ccOJ7o2Xume34Qt-AQAsU-0X7FmEGVs5gCJLM7jtqG8r4sRXWK28rKsqJG_cz71ZxyDSs1ph-xjlOQFtqFcXPG1O573QskdgFsnVB82d4dr9tpWdyIJV2bJaSM3viwul3Pl22Gr4dKIXMNyNzaKJT4jaDL6pvStnLpawwNMX8hzzPFP4w-lXhKAsjstdgAAAABJRU5ErkJggg.png",
+            "extensions": [
+              "há 5 dias",
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=Fg27lwg9nsA72QLMAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMMQrCMBQAUFx7BKe_uIg0IrjUSbFWt2JAxxLrN60m-TE_xXoeZ0_hxdTljS95D5LiSOEGm0AWtmQRymdsyIGkS3yogJA73TrEkIFHvnctKzgjoPUBNTE4goJIGxwumhg9Z0Iwm1RzVLGt05qsIIcn6sWVTvyn4ub3eqMiVrP5tE-90-PRarnb53KdH8AhRwRDtTIZyM-LoFSdoQnI8gu7deGhsAAAAA&shmds=v1_ARwrE20Uhm4JLJMl7WhQG3FhVSYBHCEHOt0s4WiVDkzGnCTAPA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=Fg27lwg9nsA72QLMAAAAAA%3D%3D",
+            "description": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\n\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\n\nWhen you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.\n\nDevelop and maintain software applications using Python to deliver high-quality solutions that meet business needs. This role focuses on writing clean and efficient code, collaborating with cross-functional teams, and contributing to the entire software development lifecycle from design to deployment.\n\nWhat You'll Do:\n\nDesign, develop, and maintain Python applications and services.\nWrite clean, maintainable code following best practices and coding standards.\nCollaborate with team members to gather requirements and implement solutions.\nDebug and troubleshoot applications to improve performance and reliability.\nParticipate in code reviews and contribute to continuous improvement initiatives.\nWork with databases, APIs, and third-party integrations to build robust systems.What We Are Looking For:\n\n3+ years of experience with Python development.\nStrong understanding of software development principles and design patterns.\nExperience with web frameworks and API development.\nKnowledge of databases and data modeling techniques.\nFamiliarity with version control systems and collaborative development workflows.\nAdvanced level of English.\n\nHow we do make your work (and your life) easier:\n\n100% remote work (from anywhere).\nExcellent compensation in USD or your local currency if preferred\nHardware and software setup for you to work from home.\nFlexible hours: create your own schedule.\nPaid parental leaves, vacations, and national holidays.\nInnovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\nSupportive environment with mentorship, promotions, skill development, and diverse growth opportunities.\n\nApply now and become part of a global team where your unique talents can truly thrive!",
+            "source_link": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+            "company_name": "BAIRESDEV",
+            "apply_options": [
+              {
+                "link": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Catho"
+              }
+            ],
+            "detected_extensions": {
+              "posted_at": "há 5 dias",
+              "schedule_type": "Tempo integral"
+            }
+          },
+          {
+            "via": "Michael Page",
+            "title": "Software Engineer (Python) - Quant Systems",
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFNVWlBNamR3YjBsb1NFOVVhWFJ3VDJWdlluWk5PRUZvVDJocWRVNXlWR00xZFZkWmFYTnljMlpXZDI1Q1ZEVkdVMGxvVVZrMFJtUndRV3RKWTNWWFdVUXpiVXRCT0RWd2VqVlRjRXQ1VnpoVmRsWmFZWEJUU214UGJtcDRNa2x0VTJseU4zVnVPRWxaYzNsTFluZzROemxCVVRoeVRuVllNSFJ3TmtnMGMyeEVNRjh5T1ZjU0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabFF0T0ZaTU1UVmFOVmRPUlZkUGJGOHpaVlI1VkhFMFVXeHhOa0UiLCJmY3YiOiIzIiwiZmNfaWQiOiJHVFdYTTdwdHhBN2FKM1FNQUFBQUFBPT0ifQ==",
+            "location": "São Paulo, SP",
+            "job_title": "Software Engineer (Python) - Quant Systems",
+            "thumbnail": "https://serpapi.com/searches/6a54014a31a601edf3b76be9/images/rKzH3-BoAr_7nXQXg3vIbY3Vc_5wXnrmmQJJnjJMbU8.png",
+            "extensions": [
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=GTWXM7ptxA7aJ3QMAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNQQrCMBBAUdz2CK5mWUUbEdzUtQiCUOkBSoxjEkkzsTPF9jwewSN4MevmL_7mZZ9ZdqrpLi_dIRyi9RGxg7waxVFcwBouvY4C9ciCLZeQkJ-9Zw03BGxTh5YYIsGRyAac751I4lIp5lBYFi3eFIZaRRGvNKgHXfmfht0EpqAFm-1uMxQp2mV-9sZpDFBpixBxIiGQ0aGE-vumafeBVlBXP18zqPy2AAAA&shmds=v1_ARwrE208JW88tmw1qm4XEcKofEUgITy7qBag_-4jtn7Q6BGLHA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=GTWXM7ptxA7aJ3QMAAAAAA%3D%3D",
+            "description": "Python, dados e sistemas críticos em ambiente quantitativo;Alto nível técnico e interação com time global \nSobre nosso cliente\n\n Gestora global de investimentos com atuação em estratégias quantitativas e uso intensivo de tecnologia para desenvolvimento de sistemas e análise de dados. Estrutura enxuta, ambiente altamente técnico e foco em performance, com proximidade entre engenharia e áreas de decisão. \n\n\nDescrição\n\n \n\nDesenvolvimento e manutenção de aplicações emPython voltadas para processamento de dados e ambientes quantitativos;Atuação em sistemas end-to-end, desde ingestão de dados até geração de outputs;Resolução de problemas técnicos em ambiente produtivo, com foco em estabilidade e performance;Trabalhar com grandes volumes de dados, garantindo qualidade, consistência e disponibilidade;Colaboração com times técnicos e quantitativos para evolução de sistemas e modelos;Suporte a sistemas críticos e análise de falhas em ambientes de produção. \nPerfil desejável\n\n \n\nGraduação completa em Engenharia de Software, Ciência da Computação, Matemática ou correlatas;Bons conhecimento em Python, com foco em código estruturado e ambiente de produção;Inglês avançado/fluente para interação com time internacional;Experiência com SQL e bancos relacionais (PostgreSQL como diferencial);Experiência com manipulação e processamento de grandes volumes de dados;Familiaridade com ambientes Linux e análise de logs;Experiência com sistemas em produção (debugging, troubleshooting, incidentes);Capacidade de analisar problemas de forma estruturada (código, dados e sistema);Conhecimento de fundamentos de computação e boas práticas de desenvolvimento;Familiaridade com Git e conceitos básicos de CI/CD;Boa base de raciocínio lógico e analítico (matemática/estatística)\n\nDiferenciais:Experiência com dados ou sistemas distribuídosInteresse por mercado financeiro / sistemas quantitativos \nO que está sendo ofertado\n\n \n\nContratação CLT + benefícios e bônus atrativo;Contato direto com time internacional;Ambiente técnico exigente, com alta exposição a problemas complexos;Modelo majoritariamente remoto, porém necessário residir em São Paulo ou região para idas pontuais ao escritório.",
+            "source_link": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+            "company_name": "Michael Page",
+            "apply_options": [
+              {
+                "link": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Michael Page"
+              },
+              {
+                "link": "https://bebee.com/br/jobs/software-engineer-python-quant-systems-michael-page-sao-paulo--bs-br-60bc8e3b-df77-4458-be3c-72512e907fe8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "BeBee"
+              },
+              {
+                "link": "https://br.jooble.org/jdp/6078559251557518040?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Jooble"
+              },
+              {
+                "link": "https://br.sercanto.com/detail/a/software-engineer-python-quant-systems_sao-paulo_479049369?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Sercanto"
+              },
+              {
+                "link": "https://br.jobted.com/job/fbf3056d74bd8dde13ab8476a7cc3963?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Jobted"
+              },
+              {
+                "link": "https://br.expertini.com/job/software-engineer-python-quant-systems-sao-paulo-michael-page-5288-754004/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Brazil Jobs Expertini"
+              },
+              {
+                "link": "https://www.recruit.net/job/software-engineer-python-quant-systems-jobs/9C834A6B1FA66A1E?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Recruit.net"
+              }
+            ],
+            "detected_extensions": {
+              "schedule_type": "Tempo integral"
+            }
+          },
+          {
+            "via": "EY Careers",
+            "title": "Software Engineer - CyberArk Security",
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFRETjNZVFJZUTI1T2J6ZDBURXd3YmxNME1pMVdObWx4UVhsSFdVRlBVVjl2ZURKeWNUSldWbU5SUjJZMGIzSkxPRTVSVjFKTmNDMHdWWGxaTkhOa1YxSllVbk4zTjFkNldsRk9TbEZOYUdoSWRIcDZZWGxPU0c1S05uZGliRTV1Ym1kV2IyUjFMVVJHT0dSa2RrWlJaakJaZEhOS1REUndhVXBTU2xCTE1WQkJaWFJJZDBzU0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabEkwTW1vek1tZElVRzQwY0RkQloxTkZMVXc0UlVZeGRub3hVRkUiLCJmY3YiOiIzIiwiZmNfaWQiOiJuNi0yenV1NlZuZDhTS2tnQUFBQUFBPT0ifQ==",
+            "location": "São Paulo - SP",
+            "job_title": "Software Engineer - CyberArk Security",
+            "thumbnail": "https://serpapi.com/searches/6a54014a31a601edf3b76be9/images/7S-Y-ti7-fvCBldWbRC6n0wWwggieklA1yyeegC28nM.jpeg",
+            "extensions": [
+              "há 18 dias",
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=n6-2zuu6Vnd8SKkgAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXOsQ6CMBCA4bjyCC7ebCI1Ji44GUNcSTo5kVLPgpZe7R0Rnsf4JL6YuPzr92efRVZqusnLJIQyuC4gJtjAaWowHdMDNNohdTIVEJGfQ8cGrgjYx4SOGALBmch5XB5akciFUsw-dyxGOptb6hUFbGhUd2r4n5rb2YreCNa7_XbMY3DrVXmBgCwInqzxBejvm6Ayg6d5Rlc_ilWBOagAAAA&shmds=v1_ARwrE20AivuHha84F_spUBCx8vQkG5_I8mbVsL2q9QFsxFUcfg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=n6-2zuu6Vnd8SKkgAAAAAA%3D%3D",
+            "description": "Sabemos que carreiras podem ser tão diferentes quanto as próprias pessoas. Por isso, na EY, você terá a liberdade, as ferramentas e as condições para se desenvolver e construir uma carreira tão única quanto você. Em Tech Financial Services (Tech FSO), estamos construindo um mundo de negócios melhor apoiando as necessidades e desafios tecnológicos dos nossos clientes do segmento financeiro (Mercado de Capitais, Bancos, Fintechs, Seguros e Gestão de Ativos). Entregamos soluções sob medida com base nas necessidades específicas de cada negócio, a partir de uma equipe multidisciplinar de especialistas com diferentes perfis, como especialistas em Dados, UX, até analistas de negócios e scrum masters.  #TechEY #TechFSO #CarreiraTech   Qual será o seu papel nesse propósito? Como CyberArk Security você irá atuar em cliente de grande porte em projeto internacional, com oportunidade de crescimento em frentes diversas para o segmento financeiro. Você poderá contar com ferramentas, conhecimentos e oportunidades para avançar e estar pronto/a para construir um mundo de negócios melhor para nossas pessoas, clientes e as comunidades que nos apoiam.  Por que você? Se você possui os requisitos abaixo, essa oportunidade pode ser sua:  Graduação em Sistemas de Informação, Ciência da Computação, Engenharia de Dados ou área relacionada; Inglês Avançado/Fluente - C2 (haverá contato com cliente internacional); Experiência como engenheiro Sênior em Segurança CyberArk; Experiência em gerenciamento de Acesso Privilegiado (PAM); Experiência em soluções CyberArk em um ambiente empresarial complexo.  Principais responsabilidades:  Liderar o design, implementação e otimização das soluções CyberArk PAM, incluindo EPV, PSM, CPM e Conjur. Atuar como especialista técnico em segurança de acesso privilegiado, orientando decisões de arquitetura e estratégia PAM em toda a empresa. Conduzir o onboarding e gerenciamento do ciclo de vida de contas privilegiadas, serviços e segredos em ambientes on-premises e na nuvem. Projetar e implementar fluxos de trabalho de acesso seguro, integrando CyberArk com ferramentas corporativas (ex.: ServiceNow, Active Directory, plataformas de nuvem). Desenvolver e manter frameworks de automação para onboarding de contas, rotação de senhas e aplicação de conformidade. Implementar e aprimorar o gerenciamento e monitoramento de sessões, incluindo isolamento e gravação de sessões privilegiadas. Liderar iniciativas de Monitoramento Contínuo de Controles (CCM) para garantir conformidade com políticas de segurança e requisitos regulatórios. Colaborar com equipes de segurança, infraestrutura e aplicações para incorporar princípios de privilégio mínimo e zero trust. Fornecer mentoria e liderança técnica para engenheiros juniores e contribuir para padrões e melhores práticas da equipe. Desenvolver e manter documentação, runbooks e procedimentos operacionais para os serviços PAM. Apoiar esforços de resposta a incidentes relacionados a acesso privilegiado e cenários de comprometimento de credenciais.  O que oferecemos: Vale Alimentação, Vale Refeição, Vale Transporte, Plano de saúde, Assistência odontológica, Universidade Corporativa e outros benefícios Educacionais, Wellhub, PLR, e muito mais. Clique aqui e conheça nosso universo de benefícios.  Quem somos: Somos uma das maiores empresas de serviços do mundo, em Auditoria, Consultoria, Impostos, Estratégia e Transações, orientados à Tecnologia. Com presença em mais de 150 países, aqui você terá a oportunidade de viver as experiências excepcionais que só a EY pode oferecer, com alcance global, cultura inclusiva e tecnologia para se tornar a sua melhor versão. Aqui, acreditamos que a força que impulsiona a inovação vem da diversidade de pessoas e ideias. Segundo o Great Place to Work 2022, somos a melhor empresa para pessoas LGBTQ+ do Brasil, e a 2a melhor empresa para Mulheres e para Pessoas Pretas. Assim, você poderá fazer parte de nossos programas e grupos que, juntos a inúmeras iniciativas internas, apoiam nossa constante busca pela equidade.   Quer se sentir desafiado/a, motivado/a e valorizado/a todos os dias? Inspirar mudanças e deixar um legado? Faça parte do nosso time e ajude-nos na construção de um mundo de negócios melhor!   Saiba mais sobre como é trabalhar na EY: Carreiras na EY LinkedIn @EY Instagram @eybrasilcarreiras       Oportunidade disponível em modelo presencial (com flexibilidade para o remoto) nos escritórios da EY em todo o Brasil. A EY acredita na igualdade de oportunidades. Independentemente de gênero, idade, raça, cor, credo, orientação sexual e deficiência, todos os candidatos qualificados serão considerados em nossos processos.",
+            "source_link": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+            "company_name": "EY",
+            "apply_options": [
+              {
+                "link": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "EY Careers"
+              }
+            ],
+            "detected_extensions": {
+              "posted_at": "há 18 dias",
+              "schedule_type": "Tempo integral"
+            }
+          },
+          {
+            "via": "BeBee",
+            "title": "Founding Team - Senior Software Engineer",
+            "job_id": "eyJqb2JfdGl0bGUiOiJGb3VuZGluZyBUZWFtIC0gU2VuaW9yIFNvZnR3YXJlIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiTmV2YWRhIENvLiIsImh0aWRvY2lkIjoiYnBZdDJJSmpORS0xN0VhZkFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3NCQ293QlFVcHBWRFIwU1c4d1dYSlBhVmRRWDFrNVkzSmZiRlppT1dwUVRGOUJNblZ4VXpSeFgxRlVTVWM0VlRkRFUzUllMVU5tZWpGRU5qSjRNMVZTUm5Sd1ZqQXpUblpvVm10dmNGWTFVVXd0ZWpSTWIySlZRbTVLTjB0WWQwMXBkWFE0VjJkUE4yaFVjbVl5VXpsVmVGcFlSMEZwUlhOTlNXVnpOVEppYTNCNllVMXZVVjkyUmw5V00ybFdVM2dTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsTTFhbEpVUkdodGJGTm9ia1pLV0hCNGFsaGFjbGd3VVRWelkxRSIsImZjdiI6IjMiLCJmY19pZCI6ImJwWXQySUpqTkUtMTdFYWZBQUFBQUE9PSJ9",
+            "location": "São Paulo, SP",
+            "job_title": "Founding Team - Senior Software Engineer",
+            "extensions": [
+              "há 3 dias",
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=bpYt2IJjNE-17EafAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMOw6CQBAA0NhyBKupLIwuxsQGS-OnMiTYkwHGZc0yszKLch8P4CG8mNq88iXvSXI6yMCNYwsXwg6WUBA76aGQa3xiT7Bn65iozyCQ3genCA0BdaEnKwoscBSxnqbbNsagWZqqemM1YnS1qaVLhamSMb1JpX9KbX9v8BipXG9Wowls57MzPbBB2IkBJo0EXmr0GRSfl0COg5cFFPkX4YdTR7IAAAA&shmds=v1_ARwrE21yrmcraw4GpgVMfewwJYryalkcW_VD3VYfHRvDGVRD0A&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=bpYt2IJjNE-17EafAAAAAA%3D%3D",
+            "description": "Product Engineer (Founding Team)\n📍 São Paulo (SP) | Full-time | PJ | Faixa salarial: 14k a 18k PJ (dependendo da senioridade)\nEstamos buscando a primeira pessoa de engenharia para se juntar a uma empresa de tecnologia em fase de construção de produto que já possui receita recorrente, clientes ativos e uma visão clara de longo prazo.\n\n\nEsta é uma oportunidade para trabalhar diretamente ao lado do fundador, participando não apenas da construção técnica, mas também das decisões estratégicas e de produto que irão definir os próximos anos da empresa. A liderança tem passagens por grandes players como Google e foi founder de outras startups. O projeto conta com uma das principais referências brasileiras em IA aplicada a negócios, como investidor e conselheiro ativo.\n\n\nO desafio\nVocê fará parte do time fundador de tecnologia e terá papel central na construção da plataforma. Mais do que executar especificações, esperamos alguém que goste de discutir produto, questionar premissas, avaliar trade-offs técnicos e participar das decisões que impactam o negócio.\nNo dia a dia, você irá:\n\n\nConstruir módulos da plataforma, desde integrações com APIs até interfaces para usuários finais.\n\n\nDesenvolver e evoluir aplicações web escaláveis.\n\n\nParticipar da definição da arquitetura e das escolhas de tecnologia.\n\n\nConstruir funcionalidades baseadas em IA Generativa.\n\n\nDesenvolver sistemas de agentes, memória contextual, RAG e inteligência conversacional aplicada a dados.\n\n\nTrabalhar com integrações, bancos de dados e infraestrutura em cloud.\n\n\nContribuir ativamente para a concepção e evolução do produto.\n\n\nAssumir progressivamente mais responsabilidades técnicas à medida que a empresa cresce.\n\n\nO que buscamos\nExperiência sólida em desenvolvimento de software.\nConhecimento em React, TypeScript e/ou Python (não são requisitos eliminatórios).\n\n\nExperiência com SQL e modelagem de dados.\n\n\nFamiliaridade com ambientes cloud (AWS, GCP ou Azure).\n\n\nInteresse genuíno por IA Generativa e aplicações práticas de LLMs.\n\n\nPerfil autônomo, curioso e confortável em ambientes de alta responsabilidade.\n\n\nCapacidade de discutir produto, negócio e tecnologia de forma integrada.\n\n\nDiferenciais\nExperiência construindo produtos SaaS.\nExperiência com arquiteturas baseadas em agentes e RAG.\n\n\nCertificações em AWS, GCP ou Azure.\n\n\nHistórico em startups ou empresas de produto digital.\n\n\nO que você encontrará\nParticipação direta nas decisões de produto e tecnologia.\nAutonomia real para influenciar arquitetura e roadmap.\n\n\nContato diário com liderança experiente e referência no setor.\n\n\nProduto com clientes pagantes e receita recorrente.\n\n\nAmbiente de construção, aprendizado acelerado e crescimento profissional.\n\n\nPossibilidade de evoluir para posições de liderança técnica conforme a empresa escala.\n\n\nModelo: Híbrido – São Paulo/SP\n\n\nFaixa salarial: A definir conforme senioridade e experiência",
+            "source_link": "https://bebee.com/br/jobs/founding-team-senior-software-engineer-nevada-co-sao-paulo-sao-paulo--t7xk-756544786",
+            "company_name": "Nevada Co.",
+            "apply_options": [
+              {
+                "link": "https://bebee.com/br/jobs/founding-team-senior-software-engineer-nevada-co-sao-paulo-sao-paulo--t7xk-756544786?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "BeBee"
+              },
+              {
+                "link": "https://br.linkedin.com/jobs/view/founding-team-senior-software-engineer-at-nevada-co-4438657746?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "LinkedIn"
+              }
+            ],
+            "detected_extensions": {
+              "posted_at": "há 3 dias",
+              "schedule_type": "Tempo integral"
+            }
+          },
+          {
+            "via": "Robert Half",
+            "title": "Senior Software Engineer",
+            "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJSb2JlcnQgSGFsZiIsImh0aWRvY2lkIjoiLTdmU2RxeWVfSU1HWVhzZ0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3NCQ293QlFVcHBWRFIwVEZBNUxVVm9hRkJ2WDNOZlVpMUNRbEV5UlZSaWVXdHNUalp3WVRCMUxVRnBNazlDTFVOMVYybFlaRTl6VkU5aExXOUNlbVpKUjNRME5sVXdPVWcyU1dWSlZVNUxiVGh6TjJKYVQySkhUMWN3YUZCSmFteEpSWGcyVDA4eU5WUmljV3hxWVhkRFNEaDRaVmRGZUdZNE9XSmpaVlJ1VkcxZmNUazViWFUwTURaTU5HaDJMWFlTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsSnBSRWxHU1dsb1FXWTJhRlI0YUc5S1ZuaDZPR3RJU1doM1dFRSIsImZjdiI6IjMiLCJmY19pZCI6Ii03ZlNkcXllX0lNR1lYc2dBQUFBQUE9PSJ9",
+            "location": "São Paulo, SP",
+            "job_title": "Senior Software Engineer",
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=-7fSdqye_IMGYXsgAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMQQrCMBAAQLz2CZ72Jog0IghSz6LHYh5Q0rpNI9tszG6xzxF8ih9TL3Oc4rUoDhZj4AyWe326jHCKPkTEXEFCeUxBHNwQcEwZPQtEhjOzJ1weB9UklTEiVHpRp6ErOx4NR2x5Nndu5U8jw-9N5BSb3X47lyn69erKLWaFi6MeIooiEHeOKrCfN0PtJuIN2PoLeHLHUqMAAAA&shmds=v1_ARwrE22gAe4vtEDQ13H0M7Z1XJOxlnDySNTjfMFNVdPLvOZEhg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=-7fSdqye_IMGYXsgAAAAAA%3D%3D",
+            "description": "A EmpresaMultinacional de grande porte do ramo de varejo eletrônico e de tecnologia.Descrição da vagaDesenvolver e manter aplicações backend escaláveis e de alta performance utilizando Java;Projetar e implementar APIs e serviços para suportar iniciativas da área comercial e aquisição de vendedores para a plataforma;Trabalhar com bancos de dados relacionais, garantindo performance, integridade e disponibilidade dos dados;Desenvolver soluções utilizando serviços AWS e boas práticas de arquitetura em nuvem;Colaborar com equipes multidisciplinares, incluindo Engenharia de Software, Design e Criação de Conteúdo;Participar das definições técnicas, revisões de código e evolução da arquitetura das aplicações;Garantir qualidade, escalabilidade, observabilidade e confiabilidade das soluções desenvolvidas.Perfil desejadoExperiência sólida em desenvolvimento backend utilizando Java;Conhecimento em arquitetura de microsserviços e desenvolvimento de APIs;Experiência com bancos de dados relacionais (SQL);Vivência com serviços AWS e desenvolvimento em ambientes cloud;Conhecimento em boas práticas de engenharia de software, versionamento e testes;Capacidade de atuar em equipes multidisciplinares e ambientes colaborativos;Inglês avançado para comunicação em ambiente internacional;Habilidade também no frontend - Javascript e seus frameworks;Graduação: Ensino superior completo;Inglês: avançado para falar com time na Índia que é da AWS;Disponibilidade para trabalhar 100% presencial na Vila Olímpia - São Paulo (SP).",
+            "source_link": "https://www.roberthalf.com/br/pt/vaga/s%C3%A3o-paulo/senior-software-engineer/63610-0013451625-brpt",
+            "company_name": "Robert Half",
+            "apply_options": [
+              {
+                "link": "https://www.roberthalf.com/br/pt/vaga/s%C3%A3o-paulo/senior-software-engineer/63610-0013451625-brpt?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Robert Half"
+              },
+              {
+                "link": "https://careers.cargill.com/en/job/sao-paulo/senior-software-engineer/23251/96882230496?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Cargill Careers"
+              },
+              {
+                "link": "https://wise.jobs/job/senior-software-engineer-in-sao-paulo-jid-1745?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Wise.jobs"
+              },
+              {
+                "link": "https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/Brazil-Sao-Paulo---Remote/Software-Development-Engineer-3_R17280?utm_source=AnitaB.org+job+board&utm_medium=getro.com&gh_src=AnitaB.org+job+board&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Workday"
+              },
+              {
+                "link": "https://jobs.lever.co/ppro/3ba5135b-8bf2-42a8-a255-f783e17e7934?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Lever"
+              },
+              {
+                "link": "https://jobs.smartrecruiters.com/Wise/744000135786239-senior-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Smart Recruiters Jobs"
+              },
+              {
+                "link": "https://br.indeed.com/viewjob?jk=5494241a83e90480&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Indeed"
+              },
+              {
+                "link": "https://www.welcometothejungle.com/fr/companies/wise-1/jobs/senior-software-engineer_sao-paulo_WISE_708mZ50?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "The Jungle"
+              }
+            ]
+          },
+          {
+            "via": "LinkedIn",
+            "title": "Grupo QuintoAndar | Staff Software Engineer - AI Developer Experience",
+            "job_id": "eyJqb2JfdGl0bGUiOiJHcnVwbyBRdWludG9BbmRhciB8IFN0YWZmIFNvZnR3YXJlIEVuZ2luZWVyIC0gQUkgRGV2ZWxvcGVyIEV4cGVyaWVuY2UiLCJjb21wYW55X25hbWUiOiJRdWludG9BbmRhciIsImh0aWRvY2lkIjoiMlNydVNtQXNQX0l2aVNRY0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3NCQ293QlFVcHBWRFIwU2xWT2FHSkJPWFF0U0hCb1dWbHBiR1l4VTFkeUxVRnNUSFl5TkhKRWRHcHhXQzFXUjBGTVdYRlVNVkJKVjJab01WaHBWV3c0YmxwdlgwUm9jREpzWVZrM2FWWmhNSGhGVWpOS0xVdGlMVUZVVTNOR1FXdE9VV05qYm5KWWJIY3dYemRDV1ZodGNGWjRlbk42WVVabE9UbE1ZMkp0YzFaallXUmtWVzlPZWpaYVNtdEpYMDBTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsRjFVbEpXUkhOaVJFdHZUbFZXVmxoYU0yWmpkbXRaU0VSeU1IYyIsImZjdiI6IjMiLCJmY19pZCI6IjJTcnVTbUFzUF9JdmlTUWNBQUFBQUE9PSJ9",
+            "location": "Qualquer lugar",
+            "job_title": "Grupo QuintoAndar | Staff Software Engineer - AI Developer Experience",
+            "thumbnail": "https://serpapi.com/searches/6a54014a31a601edf3b76be9/images/5EHzkZo4TmiasNEyMMwkWnazKPrwukht-6wzOSZba6E.jpeg",
+            "extensions": [
+              "há 2 dias",
+              "Trabalho de casa",
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=2SruSmAsP_IviSQcAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_02OMU7DQBBFRZsjUP0OCYGNkGhMFYkoogvyAaKN871ZtJlZdsbggttwFGruhOlonvSq91Y_Fytu61QUL1MS17UcQ8Uneg_jiF5H_wiV2EhMQlbcYv2MJ74za1l0My9MlIEdCu1tShZwJHgulVENotiqxszLx5N7sa5tzXITzYOnoRn03KrwoHP7qgf7w95OS7Hk4NzfP9zNTZF4ffX_TmhOZB1C7tB_fyl2Ycp6g373C4upVLjQAAAA&shmds=v1_ARwrE208LI1MHEVAmbMfDl6g0stHAhxVaguhjWlIjsHzk7svUA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=2SruSmAsP_IviSQcAAAAAA%3D%3D",
+            "description": "About Grupo QuintoAndar\n\nWe are Grupo QuintoAndar, the largest real estate ecosystem in Latin America. Guided by a shared purpose of helping people love where they live, we have a diversified portfolio of brands and solutions across different countries in Latin America, covering all phases of the housing journey. We also have a Technology Hub in Portugal. We develop technology and innovation to transform and enhance the overall living experience.\n\nWith the support of a world-class team of investors and advisors, including Kaszek, Qualcomm, General Atlantic, and SoftBank, Grupo QuintoAndar is currently valued at over USD 5.1 billion and continues to grow year over year.\n\nHere, you will work with top professionals in the market, in an environment that breathes innovation, collaboration, and high performance. To learn more about our story, visit: https://grupoquintoandar.com/pt/.\n\nLocation & Remote Work\n\nOur technology team operates under a \"remote-first\" model, which means we work from home and can live anywhere in Brazil. We also offer the option of working from our São Paulo offices or partner coworking spaces, up to twice a week.\n\nHiring Process Stages\n\nThe stages of our hiring processes aim to assess your experiences and allow you to meet our teams and explore career opportunities. They are structured as follows:\n\nPeople InterviewTech screening - CodingTechnical interview 1 - System DesignTechnical interview 2 - System DesignLeadership interview\n\nAbout the Team\n\nTo transform QuintoAndar into an Agentic Organization, we are building an AI-Native Developer Platform. Our mission is to move beyond individual AI assistants toward an ecosystem where autonomous agents understand our company, our codebase, and our workflows.\n\nAs a Staff Software Engineer on the AI Developer Experience team, you will own the technical vision for the AI infrastructure that powers developer workflows. You will define how AI interacts with our broader Internal Developer Platform, set the quality bar for AI-generated code, and build the systems that enable our 650+ Engineers to work with AI as a first-class collaborator.\n\nWhat you will do \n\nBuild a platform that gives AI systems structured access to our codebases, services, architecture, and operational data.Design the infrastructure for AI agents that can investigate failures, propose fixes, generate tests, and automate maintenance.Shape how AI integrates into developer workflows: code review, debugging, documentation, and internal assistants.Define standards and best practices for AI-assisted engineering across the organization.Evaluate and integrate AI models and tools, balancing cost, latency, and quality.\n\nRequirements\n\nWe are looking for someone with:\n\nA track record of building developer tools (our stack is primarily Go).Deep experience in leading complex platform or infrastructure projects.Solid understanding of GenAI/LLM integration, RAG, MCP and the infrastructure required to support AI coding agents at scale.A product mindset, treating internal platforms as products and engineers as your customers.Excellent English and Portuguese communication skills, capable of presenting to both technical and non-technical audiences.\n\nYou will stand out if you have:\n\nExperience with the Model Context Protocol (MCP) and building AI connectors.Experience with Durable Execution frameworks (like Temporal) for agent orchestration.Experience with AI evaluation, observability, or safety frameworks.History of driving technical initiatives across multiple teams.\n\nImportant\n\nOur hiring process starts with the application! If you truly want to be part of our team, please complete this step of the process. We analyze all candidates individually and provide feedback to all applicants.All communication will be conducted via email, so please stay tuned for our messages and release the domain @quintoandar.com.br to ensure our emails are not sent to spam.\n\nBenefits\n\nCompetitive salaryProfit sharingMeal allowance Health insuranceDental planLife insuranceChildcare subsidy and Atypical Parenthood subsidyWellhubHome office allowanceEmployee assistance program (mental health, social, legal, and financial support)Extended parental leaveDay off on birthday, Mother's Day, and Father's DayBenefits Club (discounts on everyday services)Discounts at educational institutionsReading kit for children – PlayKids\n\nDiversity & Inclusion at Grupo QuintoAndar\n\nWe value diversity and want everyone to feel welcome here, regardless of their age, gender identity, sexual orientation, race, color, ethnicity, origin, disability, religion, or any other characteristic. All our job openings are open to all individuals!\n\nYou'll notice there are some diversity questions in the application form. For affirmative action roles, this information may be used to verify your alignment with the target audience for the opportunity. In such cases, it may be used for elimination purposes. For non-affirmative action roles, this data will be used anonymously, exclusively to monitor and improve our inclusion practices in the hiring process, and will have no impact on your application.\n\nPrivacy and Data Protection\n\nThe Grupo QuintoAndar operates in compliance with privacy and data protection laws, including, but not limited to, the Brazilian General Personal Data Protection Law (LGPD) (Law No. 13,709/2018), and ensures the security of your data. To learn more, please access our Privacy Notice for Candidates. For questions or to exercise your rights as a data subject, please contact us through our Service Channel.",
+            "source_link": "https://br.linkedin.com/jobs/view/grupo-quintoandar-staff-software-engineer-ai-developer-experience-at-quintoandar-4402164911",
+            "company_name": "QuintoAndar",
+            "apply_options": [
+              {
+                "link": "https://br.linkedin.com/jobs/view/grupo-quintoandar-staff-software-engineer-ai-developer-experience-at-quintoandar-4402164911?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "LinkedIn"
+              },
+              {
+                "link": "https://br.jooble.org/jdp/4908241309152670238?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Jooble"
+              },
+              {
+                "link": "https://www.opentalent.in/jobs/staff-ai-engineer-telus-digital?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "OpenTalent"
+              },
+              {
+                "link": "https://bebee.com/br/jobs/staff-ai-engineer-2543-starian-florianopolis-santa-catarina--theirstack-688572287?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "BeBee"
+              },
+              {
+                "link": "https://interviewstack.io/jobs/ee4508ef-993a-4108-b64c-9c7776d9179a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "InterviewStack.io"
+              },
+              {
+                "link": "https://remoteonly.up.railway.app/remote-jobs/founding-ai-engineer-generative-ai?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "RemoteOnlyJobs"
+              }
+            ],
+            "detected_extensions": {
+              "posted_at": "há 2 dias",
+              "schedule_type": "Tempo integral",
+              "work_from_home": true
+            }
+          },
+          {
+            "via": "Universia",
+            "title": "Sr Software Engineer (Java)",
+            "job_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlciAoSmF2YSkiLCJjb21wYW55X25hbWUiOiJCYW5jbyBTYW50YW5kZXIgQnJhc2lsIiwiaHRpZG9jaWQiOiJOT2pZTzRoXzdWWllVMTFDQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBTVVk1ZUVWa1JHeDRTa05JWXpCcFgwZ3hNbEp4WkdVNFdFUmFkVFJWTjFFMWJsSmFPRE5FVjB0VlZWUlVURTlzT1V0R2FqQTVYMHByVWs5aWRESTRjbUpKV1VZM0xWaEhVbTV5UWxSc1dVNVdMWEF3U1U0d05WQTJSMDVHUlZGSVFUVkZjamswY2xOeVlYZDRVbXN4Y0ZkUmF6aEZTR0ZVTFUxb2Rrc3liMHh6YzNOVlpUTVNGbFJCUmxWaGREZGpSRGhQZUhCMFVWQTJYMTlDWVZFYUlrRkVjM0k1WmxGaVZXMWxYMVZIVmpSUWEyVjZOVFoxV0ZCdU16QTFjRUpNU0hjIiwiZmN2IjoiMyIsImZjX2lkIjoiTk9qWU80aF83VlpZVTExQ0FBQUFBQT09In0=",
+            "location": "São Paulo, SP",
+            "job_title": "Sr Software Engineer (Java)",
+            "extensions": [
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=NOjYO4h_7VZYU11CAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNMQ6CQBBA0dhyBKsp1RgwJDbYkRgTK5I9ABlgXDDLzLqzKPex9xJeTGx--X7yWSUnE8DILb4wEJzZDkwUYHPFJ24L8KSPaVCEjoBGH8iKAgtcRKyj9amP0WuRZaoutRoxDm3aypgJUyNzdpdG_6m1X3jvMFKdHw9z6tnu8hK5FTDIEblbpmVAHRwwaSRw0qIrwHzfAhVOTvZgqh8h9b6msQAAAA&shmds=v1_ARwrE21bcBFNpVazaZLbDsRUVLJh97kQoWCL0kkhO4Qr4aqAZQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=NOjYO4h_7VZYU11CAAAAAA%3D%3D",
+            "description": "Sr Software Engineer (Java)\n\n\n\n\n\nCountry: Brazil\n\n\n\n# QUEM SOMOS\nA Global Cards Brasil é a empresa global de cartões do Grupo Santander, referência em soluções de meios de pagamento e experiências financeiras inovadoras. Construímos possibilidades globais, escaláveis e sustentadas por pessoas excepcionais.\nFazemos parte de um dos maiores grupos financeiros do mundo, com atuação internacional e foco constante em inovação e experiência do cliente, impactando milhões de pessoas em diferentes países. Nosso propósito é apoiar pessoas e negócios para que prosperem, oferecendo soluções de cartões seguras, modernas e alinhadas às necessidades de um mundo cada vez mais digital. Tudo isso em uma cultura que valoriza propósito, autonomia e protagonismo, dando espaço real para criar, propor e transformar.\nVenha fazer parte de um time global, diverso e colaborativo com a oportunidade de construir o futuro dos meios de pagamento dentro do ecossistema Santander.\n\nTemos uma vaga para você se tornar Sr Software Engineer (Java).\n\nAqui, seu papel será:Desenvolver e manter aplicações Java/Quarkus seguindo boas práticas de engenharia;Escrever testes automatizados (unitários, integração, etc.) como parte fundamental do desenvolvimento;Participar de revisões de código, propondo melhorias de qualidade;Colaborar na resolução de problemas técnicos e bugs;Apoiar a adoção de práticas de DevOps (Kubernetes, CI/CD);Integrar sistemas via APIs REST e Kafka;Garantir observabilidade básica (logs, métricas, tracing).\n\nRequisitos Imprescindíveis:Experiência sólida com Java (Spring Boot) ou Go;Domínio de arquitetura de microsserviços e integração com mensageria (Kafka, RabbitMQ, etc.);Experiência com bancos de dados relacionais e NoSQL (PostgreSQL, MongoDB, Redis);Conhecimento em APIs RESTful, GraphQL, autenticação e segurança (OAuth2, JWT);Vivência com ambientes Cloud (AWS) e containers (Docker, Kubernetes, EKS);Práticas de CI/CD (Jenkins, GitHub Actions, ArgoCD);Conhecimento em observabilidade (Prometheus, Grafana, ELK, OpenTelemetry).\n\nRequisitos Desejáveis:Experiência com sistemas de emissão de cartões, pagamentos ou banking core;Conhecimento de Infra as Code (Terraform, Helm);Experiência com arquitetura orientada a eventos (event-driven);Familiaridade com práticas de SRE e engenharia de performance;Certificações em Cloud (AWS);Participação em comunidades técnicas ou projetos open source.\nLocal de trabalho:Geração Digital – Av Interlagos, 3501 – Interlagos, São Paulo - SP\n\n\n# BENEFÍCIOS:➡️ Auxílio refeição;\n\n➡️ Convênio médico;\n\n➡️ Convênio Odontológico: Plano básico e intermediário;\n\n➡️ Vale Transporte;\n\n➡️ Flex Férias: 24 dias úteis de férias podendo ser divididos em até 6 vezes, e a cada 2 meses trabalhados você já pode aproveitar 4 dias úteis;\n\n➡️ DayOff Aniversário;\n\n➡️ Parceiros de academia: Wellhub, Totalpass;\n\n➡️ Flex Working: Modelo de trabalho híbrido: 2 dias Home Office e 3 dias presenciais;\n\n➡️ Plataformas de treinamento com mais de 100 mil cursos;\n\n➡️ Linhas de carreira para o seu desenvolvimento profissional;\n\n➡️ Flex Learning: Incentivo para estudos exclusivo a funcionários com Alta Performance;\n\n➡️ Auxílio Creche;\n\n➡️ Programa Nascer;\n\n➡️ Licença Maternidade e Paternidade estendida;\n\n➡️ Seguro de Vida;\n\n➡️ Be Healthy - Programa que incentiva todos a terem hábitos mais saudáveis;\n\n➡️ PAPE - Programa de apoio pessoal especializado.\n\n#LI-Hybrid",
+            "source_link": "https://www.universia.net/br/emprego/c9453959-a3a5-5bc4-aaa5-b3a7ffe875b6/sr-software-engineer-java-hybrid.html",
+            "company_name": "Banco Santander Brasil",
+            "apply_options": [
+              {
+                "link": "https://www.universia.net/br/emprego/c9453959-a3a5-5bc4-aaa5-b3a7ffe875b6/sr-software-engineer-java-hybrid.html?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Universia"
+              },
+              {
+                "link": "https://br.indeed.com/viewjob?jk=37345cc5a2b1a98d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Indeed"
+              },
+              {
+                "link": "https://www.glassdoor.com.br/job-listing/sr-software-engineer-java-santander-JV_IC2479061_KO0,25_KE26,35.htm?jl=1010132240423&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Glassdoor"
+              },
+              {
+                "link": "https://jobs.quickin.io/reviewall/jobs/6a1f117cca2c330013442117?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Quickin"
+              },
+              {
+                "link": "https://br.linkedin.com/jobs/view/software-engineer-sr-at-benup-4248754382?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "LinkedIn"
+              },
+              {
+                "link": "https://bebee.com/br/jobs/sr-software-engineer-java-santander-sao-paulo-sao-paulo--theirstack-683310659?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "BeBee"
+              },
+              {
+                "link": "https://www.canarywharfian.co.uk/jobs/santander-cib/sr-software-engineer-java/10d6824f-db30-48d2-99a7-730e94aca521?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Canary Wharfian"
+              },
+              {
+                "link": "https://www.jobleads.com/br/job/sr-software-engineer--sao-paulo--ed3a9e9de69b07640bbaabcb7b5a50596?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "JobLeads"
+              }
+            ],
+            "detected_extensions": {
+              "schedule_type": "Tempo integral"
+            }
+          },
+          {
+            "via": "Jobs",
+            "title": "Software Engineer",
+            "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IlRha28iLCJodGlkb2NpZCI6ImlPdjJRaTBFQTFDa2pQVnBBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFRHSXRhbDgwUm1aRmN6STNkV3d4VUd0VExWSnhiVlY0YVd3eVJXRXpXR05ETkdJMlNsUkphV1JxU0RSUlFXOXdWR05tZWtONmVWODRkWEJEU1VWRmRtOVpibTVEYm5KVGVGWm1Xa0owYms5bk1IazVWMWhvV21Sa1pEaFlhbUYzUmw4dFRWZDVSMmxqWWtKdlgyYzViMVZZYTNsTFFsRm9hREpzZEZwR2RWcHdUMWN5Wlc4U0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabFJCTm1SNFlXcGhaMmx2VlY5alR6SmZPRXBxWjJwWFZqUlRTMEUiLCJmY3YiOiIzIiwiZmNfaWQiOiJpT3YyUWkwRUExQ2tqUFZwQUFBQUFBPT0ifQ==",
+            "location": "São Paulo, SP",
+            "job_title": "Software Engineer",
+            "extensions": [
+              "Tempo integral"
+            ],
+            "share_link": "https://www.google.com.br/search?ibp=htl;jobs&q=software+engineer&htidocid=iOv2Qi0EA1CkjPVpAAAAAA%3D%3D&hl=pt-BR&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMMQ6CQBAF0NhyBKupjWHVxAZrY0uCPRlwXNBl_8oMkXN4BY_ixdTmlS97LbJthas9eRQ6Rt9HkbGgJPqYemW6CMmQRvFQiqAT4IMsD51Z0sI51ZB7Nba-zVsMDlEazO6GRv_U2v3eFNik3u03c56iX9GZ76AoakIBLYeCqs8bVPIUsKaq_AL3Wp2FlQAAAA&shmds=v1_ARwrE22KS85LBdkpequwTa21N4dP9lAP22JLQias5FXTnPSt4g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=software+engineer&htidocid=iOv2Qi0EA1CkjPVpAAAAAA%3D%3D",
+            "description": "Sobre Nós\n\nA Tako é uma plataforma unificada de operações de pessoas que se torna a fonte de inteligência das empresas brasileiras. Nascemos para resolver um dos maiores problemas do país: a burocracia que trava negócios e drena energia, inovação, empregos e bilhões da economia. É um problema difícil, mas que a Tako está resolvendo com uma plataforma baseada em aplicações determinísticas como a folha, dados e agentes de IA que executam o trabalho e enfrentam a burocracia diretamente, para modernizar as empresas e o país.\n\nAlém da nossa excelência técnica, visão de longo prazo e time excepcional, a Tako é suportada por founders com histórico de sucesso, um escritório em São Francisco e investidores como Ribbit Capital e a16z, que já aportaram mais de R$160M na empresa nas rodadas seed e série A - leia mais aqui.\n\nAqui, valorizamos a diversidade de opiniões, histórias e experiências. Acreditamos que a troca construtiva é essencial para desenvolver soluções ousadas e relevantes.\n\nNosso time trabalha de forma presencial no nosso escritório no Itaim Bibi, São Paulo.\n\nSobre a posição\n\nComo Software Engineer na Tako, você será responsável por desenvolver produtos escaláveis que automatizam operações complexas, começando por problemas estruturais das empresas brasileiras, como folha de pagamento, integrações governamentais e fluxos regulatórios, além de criar infraestrutura que suporte aplicações de IA operando com segurança e previsibilidade.\n\nProcuramos engenheiros e engenheiras com mentalidade empreendedora e visão de negócio, capazes de atuar de forma colaborativa com Produto, Design e Operações. Esperamos que você vá além da execução técnica, compreendendo o impacto das soluções no negócio.\n\n\n\nResponsabilidadesDesenvolver e evoluir produtos intensivos em dados e processos assíncronos, utilizando Typescript em uma arquitetura serverless na AWS\n\nColaborar na construção de microsserviços e APIs escaláveis e de alta performance\n\nImplementar soluções técnicas que garantam qualidade, escalabilidade e consistência dos produtos\n\nParticipar de discussões técnicas e contribuir com ideias para melhorar a arquitetura dos sistemas\n\nTrabalhar com metodologias ágeis e práticas de entrega contínua\n\nEscrever código limpo, testável e bem documentado\n\nColaborar de forma multifuncional com outras equipes para alcançar resultados de alto impacto\n\nParticipar de code reviews e compartilhar conhecimento com o time\n\n\n\nRequisitosConhecimento de boas práticas de desenvolvimento de software\n\nExperiência com JavaScript/TypeScript ou disposição para aprender\n\nFamiliaridade com sistemas distribuídos e arquitetura de microsserviços\n\nConhecimento em cloud computing, preferencialmente AWS\n\nExperiência com metodologias ágeis de desenvolvimento de software\n\nHabilidades de resolução de problemas, autonomia e abordagem centrada no produto\n\nCapacidade de aprender rapidamente novas tecnologias e conceitos\n\nBoa comunicação e habilidade para trabalhar em equipe\n\n\n\nDiferenciaisExperiência com serviços da AWS (Lambda, DynamoDB, OpenSearch, RDS, step functions, api gateway)\n\nConhecimento em práticas de CI/CD e infraestrutura como código\n\nExperiência com desenvolvimento de APIs RESTful\n\nFamiliaridade com bancos de dados relacionais e não-relacionais\n\n\n\nO que oferecemosContratação PJ Premium: PJ + 13º + férias remuneradas, o melhor dos dois mundos, sem abrir mão de direitos\n\nStock Options: participação no programa de Stock Options da Tako, você cresce junto com a empresa\n\nPlano de Saúde SulAmérica top de linha: 100% de cobertura, sem desconto em folha e sem coparticipação, incluindo dependentes sem custo adicional. Acesso aos melhores hospitais e laboratórios de SP (Einstein, Sírio-Libanês, Vila Nova Star, etc) e alto valor de reembolso para consultas particulares. Plano com acesso à plataforma Wellhub\n\nCartão Swile de R$ 1.800/mês: use como quiser, alimentação, refeição, mobilidade ou cultura\n\nEquipamento topo de linha: MacBook Pro com chip Apple Silicon para você trabalhar sem travar\n\nCultura de foco, não de reuniões: na engenharia, a média é de 3 horas de reunião por semana. Sem GMUD, sem comitês técnicos infinitos, sem reunião que poderia ser um Slack. Aqui você passa o tempo fazendo o trabalho, não falando sobre ele\n\nFlexibilidade real: autonomia de verdade sobre como, quando e onde você trabalha melhor\n\nAuxílio Mudança: se você vem de outro estado, a gente cobre sua vinda pra SP pra você focar no que importa\n\nTako House em São Francisco: programa de intercâmbio no coração do Vale do Silício, vivenciando de perto o ecossistema de tech mais influente do mundo\n\nLicença parental remunerada: tempo pra estar presente nos momentos que importam\n\n Por que se juntar à Tako?A Tako tem talento de big tech e autonomia de startup. Temos o ambiente ideal para pessoas engenheiras que desejam deixar para trás o ritmo lento e a burocracia de grandes empresas. Aqui, você entrará em um ambiente acelerado e de alto crescimento, focado na construção de um produto inovador que está revolucionando um nicho de poucas e antigas soluções.\n\nValorizamos pessoas em diferentes momentos de carreira, desde aquelas que estão começando sua jornada na engenharia até profissionais experientes que buscam novos desafios. Independentemente do seu nível, você terá a oportunidade de crescer, aprender e fazer a diferença.\n\nOwnership, excelência e criatividade são primordiais do nosso ambiente, onde cada pessoa tem autonomia e responsabilidade por seu trabalho. Nossa equipe trabalha de forma presencial, pois valorizamos a colaboração e rapidez na tomada de decisão.",
+            "source_link": "https://jobs.ashbyhq.com/tako/cfedb281-76ee-47a2-8425-30b8eac9b5d1",
+            "company_name": "Tako",
+            "apply_options": [
+              {
+                "link": "https://jobs.ashbyhq.com/tako/cfedb281-76ee-47a2-8425-30b8eac9b5d1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Jobs"
+              },
+              {
+                "link": "https://jobs.quickin.io/botcity/jobs/69fa295871686e001273d170?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Quickin"
+              },
+              {
+                "link": "https://br.indeed.com/viewjob?jk=b31cb4ba5e09d90d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Indeed"
+              },
+              {
+                "link": "https://jobs.techto.org/jobs/498230980-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "TechTO Job Board"
+              },
+              {
+                "link": "https://www.glassdoor.com.br/job-listing/software-engineer-questrade-JV_IC2479061_KO0,17_KE18,27.htm?jl=1010155262362&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Glassdoor"
+              },
+              {
+                "link": "https://www.levels.fyi/jobs?jobId=138634191284642502&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Levels.fyi"
+              },
+              {
+                "link": "https://builtin.com/job/software-engineer-ii-frontend/8375827?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Built In"
+              },
+              {
+                "link": "https://startup.jobs/software-engineer-ii-frontend-brex-7510264?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                "title": "Startup Jobs"
+              }
+            ],
+            "detected_extensions": {
+              "schedule_type": "Tempo integral"
+            }
+          }
+        ],
+        "search_metadata": {
+          "id": "6a54014a31a601edf3b76be9",
+          "status": "Success",
+          "created_at": "2026-07-12 21:04:10 UTC",
+          "processed_at": "2026-07-12 21:04:10 UTC",
+          "json_endpoint": "https://serpapi.com/searches/yvQETqdGJA2UZRfcjeHLzg/6a54014a31a601edf3b76be9.json",
+          "raw_html_file": "https://serpapi.com/searches/yvQETqdGJA2UZRfcjeHLzg/6a54014a31a601edf3b76be9.html",
+          "google_jobs_url": "https://www.google.com.br/search?q=software+engineer&uule=w+CAIQICIjU2FvIFBhdWxvLFN0YXRlIG9mIFNhbyBQYXVsbyxCcmF6aWw&hl=pt&gl=br&udm=8",
+          "total_time_taken": 2.33
+        },
+        "search_parameters": {
+          "q": "software engineer",
+          "gl": "br",
+          "hl": "pt",
+          "engine": "google_jobs",
+          "google_domain": "google.com.br",
+          "location_used": "Sao Paulo,State of Sao Paulo,Brazil",
+          "location_requested": "Sao Paulo,State of Sao Paulo,Brazil"
+        },
+        "serpapi_pagination": {
+          "next": "https://serpapi.com/search.json?engine=google_jobs&gl=br&google_domain=google.com.br&hl=pt&location=Sao+Paulo%2CState+of+Sao+Paulo%2CBrazil&next_page_token=eyJmYyI6IkVvc0RDc3dDUVVwcFZEUjBTMk0zUVdwdVN6UTNOelpoVVVkWFdHeGFlSEp3VjFoaWJIWlNVVUpwUzFJdFlWWmpVMDVZYXpsRWRXbzVSeTFMTURoNVJFczVlVXRXZG1ONFFrRkplbmwwUlhkb05ucDNaSFU0VVVoeWVubzFaMU5WYkVsd2NXRjVOREJIYlZSZmFWRXpaSEJNVkVOMVgzWkpWak5rY1dWeFFtaDBaM0IxVGxob1owWktiazVtYkZkTFZVaFNRVzlWY25Sd1NqUkNZamR1TFVGYVZ6aG1iMk42UlVkbmMzbDZWMlZ6UmpOUWNGQnlNVzFEZEdaeVp6QkpSSEJOWm5kbmFHdGpORVEzYTNSRmVGUlRhVVZxZGxOdmQxTjNZek0yVm5RMFdrRm1TVEJPZUdGQlZUZE1abTkyYzFGSWFUVm9VMjl4VUdrNFRqaEJYMlZLVG5obk1VSjVXa1Y0VW5KQ2JXVlNlVTluZFRWeGMyZE9VM0ZEVjJoelUxUnVVRkZvU1V0RVltOU1aVVJpYlRKV2N6ZDZRM2h1VUVGSlJqaFVTV052TFVvNGMyaEdXbDlEYUVSNlVrSjROVUlTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsTTJSMUJrVjJOaVduTkVPV0ZsWDJ4aFRWVTVUREJHYWtKeFVWRSIsImZjdiI6IjMifQ%3D%3D&q=software+engineer",
+          "next_page_token": "eyJmYyI6IkVvc0RDc3dDUVVwcFZEUjBTMk0zUVdwdVN6UTNOelpoVVVkWFdHeGFlSEp3VjFoaWJIWlNVVUpwUzFJdFlWWmpVMDVZYXpsRWRXbzVSeTFMTURoNVJFczVlVXRXZG1ONFFrRkplbmwwUlhkb05ucDNaSFU0VVVoeWVubzFaMU5WYkVsd2NXRjVOREJIYlZSZmFWRXpaSEJNVkVOMVgzWkpWak5rY1dWeFFtaDBaM0IxVGxob1owWktiazVtYkZkTFZVaFNRVzlWY25Sd1NqUkNZamR1TFVGYVZ6aG1iMk42UlVkbmMzbDZWMlZ6UmpOUWNGQnlNVzFEZEdaeVp6QkpSSEJOWm5kbmFHdGpORVEzYTNSRmVGUlRhVVZxZGxOdmQxTjNZek0yVm5RMFdrRm1TVEJPZUdGQlZUZE1abTkyYzFGSWFUVm9VMjl4VUdrNFRqaEJYMlZLVG5obk1VSjVXa1Y0VW5KQ2JXVlNlVTluZFRWeGMyZE9VM0ZEVjJoelUxUnVVRkZvU1V0RVltOU1aVVJpYlRKV2N6ZDZRM2h1VUVGSlJqaFVTV052TFVvNGMyaEdXbDlEYUVSNlVrSjROVUlTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsTTJSMUJrVjJOaVduTkVPV0ZsWDJ4aFRWVTVUREJHYWtKeFVWRSIsImZjdiI6IjMifQ=="
+        }
+      },
+      "pagination_token": null,
+      "pagination_offset": null,
+      "collected_at": "2026-07-12 21:04:11.907120+00:00"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "05a273da-1223-46f5-94bf-89de11c51fdd",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBTbDlTUTNrdGFrdFhkMkYyZW5oWWNVeE9NbTFoVEY4eVdUSnJiRXd0WTFGNmRuZzNTek5xTVMwd1prWk1XRkpFYmtaNUxWVXhTMUpPWm5SdWJVdENjRzlNZFVkWVpVc3pXRlo0T0ZSTVJsbDVjVEk1UVhWSFowTjRUMWRSZFhKa1Z6WnNibmhJY0Zad2JVVkRZVzVmUW5aWVNERlhlV04xUXprNFRHUlFaMkpyWlhBeFRGSVNGbFJCUmxWaGREZGpSRGhQZUhCMFVWQTJYMTlDWVZFYUlrRkVjM0k1WmxGNE5pMTRVRU4zTkhvMlZqUnNTWFpZUzIxTFdDMXBRelpuYlZFIiwiZmN2IjoiMyIsImZjX2lkIjoiVzJiLURjczhYQ0o5aklnMUFBQUFBQT09In0=",
+      "source": "serpapi",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "description": "A Finance Brazil é uma boutique de inteligência financeira especializada em criação de valor, reestruturação estratégica e transações corporativas para empresas em crescimento. Atuamos diretamente com CEOs, investidores e fundos em projetos de M&A, reestruturação financeira, modelagem e estratégia corporativa.\n\nEstamos construindo uma plataforma própria de inteligência financeira baseada em IA e buscamos profissionais para atuar como AI Software Engineer, participando ativamente do desenvolvimento de produtos, sistemas e soluções tecnológicas que suportam decisões estratégicas e financeiras.\n\n\n\n\nO que buscamos\n\n• Forte capacidade de raciocínio lógico e pensamento estruturado\n\n• Perfil construtor (builder) e senso de responsabilidade\n\n• Alta disciplina e capacidade de execução\n\n• Autonomia para resolver problemas complexos\n\n• Interesse real em tecnologia, IA e construção de produtos\n\n• Capacidade de transformar regras de negócio em sistemas\n\n\n\n\nResponsabilidades\n\n• Desenvolver aplicações full stack (frontend e backend)\n\n• Estruturar bancos de dados e lógica de negócio\n\n• Integrar APIs e ferramentas de IA (Codex, Claude Code, Perplexity, etc.)\n\n• Construir fluxos inteligentes, automações e agentes de IA\n\n• Traduzir lógica financeira e estratégica em sistemas escaláveis\n\n• Evoluir continuamente a arquitetura dos produtos da empresa\n\n• Trabalhar próximo ao time de negócio para transformar demandas em soluções\n\n\n\n\nRequisitos\n\n• Experiência com desenvolvimento de software (backend e frontend)\n\n• Conhecimento sólido em lógica de programação e arquitetura de sistemas\n\n• Experiência com APIs, integrações e autenticação\n\n• Conhecimento em banco de dados (SQL ou NoSQL)\n\n• Familiaridade com ferramentas de IA (ChatGPT, Claude Code, Perplexity ou similares)\n\n• Capacidade de programar de forma estruturada, não dependente exclusivamente de IA\n\n• Perfil analítico, disciplinado e orientado a resultados\n\n\n\n\nDiferenciais\n\n• Experiência com ferramentas como Lovable, LangChain, ou agentes de IA\n\n• Experiência em construção de produtos SaaS\n\n• Conhecimento em dados, analytics ou BI\n\n• Experiência com automações e workflows inteligentes\n\n• Interesse ou experiência no setor financeiro\n\n\n\n\nO que oferecemos\n\n• Participação direta na construção de um produto real\n\n• Curva acelerada de aprendizado e crescimento\n\n• Autonomia e responsabilidade sobre entregas\n\n• Ambiente de alta performance\n\n• Contato direto com decisões estratégicas",
+      "published_at": null,
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "1337137c-452c-4cec-b35b-a67e8b9da0f9",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJGb3VuZGluZyBUZWFtIC0gU2VuaW9yIFNvZnR3YXJlIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiTmV2YWRhIENvLiIsImh0aWRvY2lkIjoiYnBZdDJJSmpORS0xN0VhZkFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3NCQ293QlFVcHBWRFIwU1c4d1dYSlBhVmRRWDFrNVkzSmZiRlppT1dwUVRGOUJNblZ4VXpSeFgxRlVTVWM0VlRkRFUzUllMVU5tZWpGRU5qSjRNMVZTUm5Sd1ZqQXpUblpvVm10dmNGWTFVVXd0ZWpSTWIySlZRbTVLTjB0WWQwMXBkWFE0VjJkUE4yaFVjbVl5VXpsVmVGcFlSMEZwUlhOTlNXVnpOVEppYTNCNllVMXZVVjkyUmw5V00ybFdVM2dTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsTTFhbEpVUkdodGJGTm9ia1pLV0hCNGFsaGFjbGd3VVRWelkxRSIsImZjdiI6IjMiLCJmY19pZCI6ImJwWXQySUpqTkUtMTdFYWZBQUFBQUE9PSJ9",
+      "source": "serpapi",
+      "title": "Founding Team - Senior Software Engineer",
+      "company": "Nevada Co.",
+      "location": "São Paulo, SP",
+      "description": "Product Engineer (Founding Team)\n📍 São Paulo (SP) | Full-time | PJ | Faixa salarial: 14k a 18k PJ (dependendo da senioridade)\nEstamos buscando a primeira pessoa de engenharia para se juntar a uma empresa de tecnologia em fase de construção de produto que já possui receita recorrente, clientes ativos e uma visão clara de longo prazo.\n\n\nEsta é uma oportunidade para trabalhar diretamente ao lado do fundador, participando não apenas da construção técnica, mas também das decisões estratégicas e de produto que irão definir os próximos anos da empresa. A liderança tem passagens por grandes players como Google e foi founder de outras startups. O projeto conta com uma das principais referências brasileiras em IA aplicada a negócios, como investidor e conselheiro ativo.\n\n\nO desafio\nVocê fará parte do time fundador de tecnologia e terá papel central na construção da plataforma. Mais do que executar especificações, esperamos alguém que goste de discutir produto, questionar premissas, avaliar trade-offs técnicos e participar das decisões que impactam o negócio.\nNo dia a dia, você irá:\n\n\nConstruir módulos da plataforma, desde integrações com APIs até interfaces para usuários finais.\n\n\nDesenvolver e evoluir aplicações web escaláveis.\n\n\nParticipar da definição da arquitetura e das escolhas de tecnologia.\n\n\nConstruir funcionalidades baseadas em IA Generativa.\n\n\nDesenvolver sistemas de agentes, memória contextual, RAG e inteligência conversacional aplicada a dados.\n\n\nTrabalhar com integrações, bancos de dados e infraestrutura em cloud.\n\n\nContribuir ativamente para a concepção e evolução do produto.\n\n\nAssumir progressivamente mais responsabilidades técnicas à medida que a empresa cresce.\n\n\nO que buscamos\nExperiência sólida em desenvolvimento de software.\nConhecimento em React, TypeScript e/ou Python (não são requisitos eliminatórios).\n\n\nExperiência com SQL e modelagem de dados.\n\n\nFamiliaridade com ambientes cloud (AWS, GCP ou Azure).\n\n\nInteresse genuíno por IA Generativa e aplicações práticas de LLMs.\n\n\nPerfil autônomo, curioso e confortável em ambientes de alta responsabilidade.\n\n\nCapacidade de discutir produto, negócio e tecnologia de forma integrada.\n\n\nDiferenciais\nExperiência construindo produtos SaaS.\nExperiência com arquiteturas baseadas em agentes e RAG.\n\n\nCertificações em AWS, GCP ou Azure.\n\n\nHistórico em startups ou empresas de produto digital.\n\n\nO que você encontrará\nParticipação direta nas decisões de produto e tecnologia.\nAutonomia real para influenciar arquitetura e roadmap.\n\n\nContato diário com liderança experiente e referência no setor.\n\n\nProduto com clientes pagantes e receita recorrente.\n\n\nAmbiente de construção, aprendizado acelerado e crescimento profissional.\n\n\nPossibilidade de evoluir para posições de liderança técnica conforme a empresa escala.\n\n\nModelo: Híbrido – São Paulo/SP\n\n\nFaixa salarial: A definir conforme senioridade e experiência",
+      "published_at": null,
+      "published_at_text": "há 3 dias",
+      "source_url": "https://bebee.com/br/jobs/founding-team-senior-software-engineer-nevada-co-sao-paulo-sao-paulo--t7xk-756544786",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "2bf76908-61ec-4438-8293-a817870e24bf",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFRETjNZVFJZUTI1T2J6ZDBURXd3YmxNME1pMVdObWx4UVhsSFdVRlBVVjl2ZURKeWNUSldWbU5SUjJZMGIzSkxPRTVSVjFKTmNDMHdWWGxaTkhOa1YxSllVbk4zTjFkNldsRk9TbEZOYUdoSWRIcDZZWGxPU0c1S05uZGliRTV1Ym1kV2IyUjFMVVJHT0dSa2RrWlJaakJaZEhOS1REUndhVXBTU2xCTE1WQkJaWFJJZDBzU0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabEkwTW1vek1tZElVRzQwY0RkQloxTkZMVXc0UlVZeGRub3hVRkUiLCJmY3YiOiIzIiwiZmNfaWQiOiJuNi0yenV1NlZuZDhTS2tnQUFBQUFBPT0ifQ==",
+      "source": "serpapi",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "description": "Sabemos que carreiras podem ser tão diferentes quanto as próprias pessoas. Por isso, na EY, você terá a liberdade, as ferramentas e as condições para se desenvolver e construir uma carreira tão única quanto você. Em Tech Financial Services (Tech FSO), estamos construindo um mundo de negócios melhor apoiando as necessidades e desafios tecnológicos dos nossos clientes do segmento financeiro (Mercado de Capitais, Bancos, Fintechs, Seguros e Gestão de Ativos). Entregamos soluções sob medida com base nas necessidades específicas de cada negócio, a partir de uma equipe multidisciplinar de especialistas com diferentes perfis, como especialistas em Dados, UX, até analistas de negócios e scrum masters.  #TechEY #TechFSO #CarreiraTech   Qual será o seu papel nesse propósito? Como CyberArk Security você irá atuar em cliente de grande porte em projeto internacional, com oportunidade de crescimento em frentes diversas para o segmento financeiro. Você poderá contar com ferramentas, conhecimentos e oportunidades para avançar e estar pronto/a para construir um mundo de negócios melhor para nossas pessoas, clientes e as comunidades que nos apoiam.  Por que você? Se você possui os requisitos abaixo, essa oportunidade pode ser sua:  Graduação em Sistemas de Informação, Ciência da Computação, Engenharia de Dados ou área relacionada; Inglês Avançado/Fluente - C2 (haverá contato com cliente internacional); Experiência como engenheiro Sênior em Segurança CyberArk; Experiência em gerenciamento de Acesso Privilegiado (PAM); Experiência em soluções CyberArk em um ambiente empresarial complexo.  Principais responsabilidades:  Liderar o design, implementação e otimização das soluções CyberArk PAM, incluindo EPV, PSM, CPM e Conjur. Atuar como especialista técnico em segurança de acesso privilegiado, orientando decisões de arquitetura e estratégia PAM em toda a empresa. Conduzir o onboarding e gerenciamento do ciclo de vida de contas privilegiadas, serviços e segredos em ambientes on-premises e na nuvem. Projetar e implementar fluxos de trabalho de acesso seguro, integrando CyberArk com ferramentas corporativas (ex.: ServiceNow, Active Directory, plataformas de nuvem). Desenvolver e manter frameworks de automação para onboarding de contas, rotação de senhas e aplicação de conformidade. Implementar e aprimorar o gerenciamento e monitoramento de sessões, incluindo isolamento e gravação de sessões privilegiadas. Liderar iniciativas de Monitoramento Contínuo de Controles (CCM) para garantir conformidade com políticas de segurança e requisitos regulatórios. Colaborar com equipes de segurança, infraestrutura e aplicações para incorporar princípios de privilégio mínimo e zero trust. Fornecer mentoria e liderança técnica para engenheiros juniores e contribuir para padrões e melhores práticas da equipe. Desenvolver e manter documentação, runbooks e procedimentos operacionais para os serviços PAM. Apoiar esforços de resposta a incidentes relacionados a acesso privilegiado e cenários de comprometimento de credenciais.  O que oferecemos: Vale Alimentação, Vale Refeição, Vale Transporte, Plano de saúde, Assistência odontológica, Universidade Corporativa e outros benefícios Educacionais, Wellhub, PLR, e muito mais. Clique aqui e conheça nosso universo de benefícios.  Quem somos: Somos uma das maiores empresas de serviços do mundo, em Auditoria, Consultoria, Impostos, Estratégia e Transações, orientados à Tecnologia. Com presença em mais de 150 países, aqui você terá a oportunidade de viver as experiências excepcionais que só a EY pode oferecer, com alcance global, cultura inclusiva e tecnologia para se tornar a sua melhor versão. Aqui, acreditamos que a força que impulsiona a inovação vem da diversidade de pessoas e ideias. Segundo o Great Place to Work 2022, somos a melhor empresa para pessoas LGBTQ+ do Brasil, e a 2a melhor empresa para Mulheres e para Pessoas Pretas. Assim, você poderá fazer parte de nossos programas e grupos que, juntos a inúmeras iniciativas internas, apoiam nossa constante busca pela equidade.   Quer se sentir desafiado/a, motivado/a e valorizado/a todos os dias? Inspirar mudanças e deixar um legado? Faça parte do nosso time e ajude-nos na construção de um mundo de negócios melhor!   Saiba mais sobre como é trabalhar na EY: Carreiras na EY LinkedIn @EY Instagram @eybrasilcarreiras       Oportunidade disponível em modelo presencial (com flexibilidade para o remoto) nos escritórios da EY em todo o Brasil. A EY acredita na igualdade de oportunidades. Independentemente de gênero, idade, raça, cor, credo, orientação sexual e deficiência, todos os candidatos qualificados serão considerados em nossos processos.",
+      "published_at": null,
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "30b711a2-b1a3-438c-a762-35487a89cbe5",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJSb2JlcnQgSGFsZiIsImh0aWRvY2lkIjoiLTdmU2RxeWVfSU1HWVhzZ0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3NCQ293QlFVcHBWRFIwVEZBNUxVVm9hRkJ2WDNOZlVpMUNRbEV5UlZSaWVXdHNUalp3WVRCMUxVRnBNazlDTFVOMVYybFlaRTl6VkU5aExXOUNlbVpKUjNRME5sVXdPVWcyU1dWSlZVNUxiVGh6TjJKYVQySkhUMWN3YUZCSmFteEpSWGcyVDA4eU5WUmljV3hxWVhkRFNEaDRaVmRGZUdZNE9XSmpaVlJ1VkcxZmNUazViWFUwTURaTU5HaDJMWFlTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsSnBSRWxHU1dsb1FXWTJhRlI0YUc5S1ZuaDZPR3RJU1doM1dFRSIsImZjdiI6IjMiLCJmY19pZCI6Ii03ZlNkcXllX0lNR1lYc2dBQUFBQUE9PSJ9",
+      "source": "serpapi",
+      "title": "Senior Software Engineer",
+      "company": "Robert Half",
+      "location": "São Paulo, SP",
+      "description": "A EmpresaMultinacional de grande porte do ramo de varejo eletrônico e de tecnologia.Descrição da vagaDesenvolver e manter aplicações backend escaláveis e de alta performance utilizando Java;Projetar e implementar APIs e serviços para suportar iniciativas da área comercial e aquisição de vendedores para a plataforma;Trabalhar com bancos de dados relacionais, garantindo performance, integridade e disponibilidade dos dados;Desenvolver soluções utilizando serviços AWS e boas práticas de arquitetura em nuvem;Colaborar com equipes multidisciplinares, incluindo Engenharia de Software, Design e Criação de Conteúdo;Participar das definições técnicas, revisões de código e evolução da arquitetura das aplicações;Garantir qualidade, escalabilidade, observabilidade e confiabilidade das soluções desenvolvidas.Perfil desejadoExperiência sólida em desenvolvimento backend utilizando Java;Conhecimento em arquitetura de microsserviços e desenvolvimento de APIs;Experiência com bancos de dados relacionais (SQL);Vivência com serviços AWS e desenvolvimento em ambientes cloud;Conhecimento em boas práticas de engenharia de software, versionamento e testes;Capacidade de atuar em equipes multidisciplinares e ambientes colaborativos;Inglês avançado para comunicação em ambiente internacional;Habilidade também no frontend - Javascript e seus frameworks;Graduação: Ensino superior completo;Inglês: avançado para falar com time na Índia que é da AWS;Disponibilidade para trabalhar 100% presencial na Vila Olímpia - São Paulo (SP).",
+      "published_at": null,
+      "published_at_text": null,
+      "source_url": "https://www.roberthalf.com/br/pt/vaga/s%C3%A3o-paulo/senior-software-engineer/63610-0013451625-brpt",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "353c70e4-4bc0-48df-beec-28e8026dfb63",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFNVWlBNamR3YjBsb1NFOVVhWFJ3VDJWdlluWk5PRUZvVDJocWRVNXlWR00xZFZkWmFYTnljMlpXZDI1Q1ZEVkdVMGxvVVZrMFJtUndRV3RKWTNWWFdVUXpiVXRCT0RWd2VqVlRjRXQ1VnpoVmRsWmFZWEJUU214UGJtcDRNa2x0VTJseU4zVnVPRWxaYzNsTFluZzROemxCVVRoeVRuVllNSFJ3TmtnMGMyeEVNRjh5T1ZjU0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabFF0T0ZaTU1UVmFOVmRPUlZkUGJGOHpaVlI1VkhFMFVXeHhOa0UiLCJmY3YiOiIzIiwiZmNfaWQiOiJHVFdYTTdwdHhBN2FKM1FNQUFBQUFBPT0ifQ==",
+      "source": "serpapi",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "description": "Python, dados e sistemas críticos em ambiente quantitativo;Alto nível técnico e interação com time global \nSobre nosso cliente\n\n Gestora global de investimentos com atuação em estratégias quantitativas e uso intensivo de tecnologia para desenvolvimento de sistemas e análise de dados. Estrutura enxuta, ambiente altamente técnico e foco em performance, com proximidade entre engenharia e áreas de decisão. \n\n\nDescrição\n\n \n\nDesenvolvimento e manutenção de aplicações emPython voltadas para processamento de dados e ambientes quantitativos;Atuação em sistemas end-to-end, desde ingestão de dados até geração de outputs;Resolução de problemas técnicos em ambiente produtivo, com foco em estabilidade e performance;Trabalhar com grandes volumes de dados, garantindo qualidade, consistência e disponibilidade;Colaboração com times técnicos e quantitativos para evolução de sistemas e modelos;Suporte a sistemas críticos e análise de falhas em ambientes de produção. \nPerfil desejável\n\n \n\nGraduação completa em Engenharia de Software, Ciência da Computação, Matemática ou correlatas;Bons conhecimento em Python, com foco em código estruturado e ambiente de produção;Inglês avançado/fluente para interação com time internacional;Experiência com SQL e bancos relacionais (PostgreSQL como diferencial);Experiência com manipulação e processamento de grandes volumes de dados;Familiaridade com ambientes Linux e análise de logs;Experiência com sistemas em produção (debugging, troubleshooting, incidentes);Capacidade de analisar problemas de forma estruturada (código, dados e sistema);Conhecimento de fundamentos de computação e boas práticas de desenvolvimento;Familiaridade com Git e conceitos básicos de CI/CD;Boa base de raciocínio lógico e analítico (matemática/estatística)\n\nDiferenciais:Experiência com dados ou sistemas distribuídosInteresse por mercado financeiro / sistemas quantitativos \nO que está sendo ofertado\n\n \n\nContratação CLT + benefícios e bônus atrativo;Contato direto com time internacional;Ambiente técnico exigente, com alta exposição a problemas complexos;Modelo majoritariamente remoto, porém necessário residir em São Paulo ou região para idas pontuais ao escritório.",
+      "published_at": null,
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "505bfdea-3bb5-4594-804f-7a3572f40a44",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IlRha28iLCJodGlkb2NpZCI6ImlPdjJRaTBFQTFDa2pQVnBBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFRHSXRhbDgwUm1aRmN6STNkV3d4VUd0VExWSnhiVlY0YVd3eVJXRXpXR05ETkdJMlNsUkphV1JxU0RSUlFXOXdWR05tZWtONmVWODRkWEJEU1VWRmRtOVpibTVEYm5KVGVGWm1Xa0owYms5bk1IazVWMWhvV21Sa1pEaFlhbUYzUmw4dFRWZDVSMmxqWWtKdlgyYzViMVZZYTNsTFFsRm9hREpzZEZwR2RWcHdUMWN5Wlc4U0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabFJCTm1SNFlXcGhaMmx2VlY5alR6SmZPRXBxWjJwWFZqUlRTMEUiLCJmY3YiOiIzIiwiZmNfaWQiOiJpT3YyUWkwRUExQ2tqUFZwQUFBQUFBPT0ifQ==",
+      "source": "serpapi",
+      "title": "Software Engineer",
+      "company": "Tako",
+      "location": "São Paulo, SP",
+      "description": "Sobre Nós\n\nA Tako é uma plataforma unificada de operações de pessoas que se torna a fonte de inteligência das empresas brasileiras. Nascemos para resolver um dos maiores problemas do país: a burocracia que trava negócios e drena energia, inovação, empregos e bilhões da economia. É um problema difícil, mas que a Tako está resolvendo com uma plataforma baseada em aplicações determinísticas como a folha, dados e agentes de IA que executam o trabalho e enfrentam a burocracia diretamente, para modernizar as empresas e o país.\n\nAlém da nossa excelência técnica, visão de longo prazo e time excepcional, a Tako é suportada por founders com histórico de sucesso, um escritório em São Francisco e investidores como Ribbit Capital e a16z, que já aportaram mais de R$160M na empresa nas rodadas seed e série A - leia mais aqui.\n\nAqui, valorizamos a diversidade de opiniões, histórias e experiências. Acreditamos que a troca construtiva é essencial para desenvolver soluções ousadas e relevantes.\n\nNosso time trabalha de forma presencial no nosso escritório no Itaim Bibi, São Paulo.\n\nSobre a posição\n\nComo Software Engineer na Tako, você será responsável por desenvolver produtos escaláveis que automatizam operações complexas, começando por problemas estruturais das empresas brasileiras, como folha de pagamento, integrações governamentais e fluxos regulatórios, além de criar infraestrutura que suporte aplicações de IA operando com segurança e previsibilidade.\n\nProcuramos engenheiros e engenheiras com mentalidade empreendedora e visão de negócio, capazes de atuar de forma colaborativa com Produto, Design e Operações. Esperamos que você vá além da execução técnica, compreendendo o impacto das soluções no negócio.\n\n\n\nResponsabilidadesDesenvolver e evoluir produtos intensivos em dados e processos assíncronos, utilizando Typescript em uma arquitetura serverless na AWS\n\nColaborar na construção de microsserviços e APIs escaláveis e de alta performance\n\nImplementar soluções técnicas que garantam qualidade, escalabilidade e consistência dos produtos\n\nParticipar de discussões técnicas e contribuir com ideias para melhorar a arquitetura dos sistemas\n\nTrabalhar com metodologias ágeis e práticas de entrega contínua\n\nEscrever código limpo, testável e bem documentado\n\nColaborar de forma multifuncional com outras equipes para alcançar resultados de alto impacto\n\nParticipar de code reviews e compartilhar conhecimento com o time\n\n\n\nRequisitosConhecimento de boas práticas de desenvolvimento de software\n\nExperiência com JavaScript/TypeScript ou disposição para aprender\n\nFamiliaridade com sistemas distribuídos e arquitetura de microsserviços\n\nConhecimento em cloud computing, preferencialmente AWS\n\nExperiência com metodologias ágeis de desenvolvimento de software\n\nHabilidades de resolução de problemas, autonomia e abordagem centrada no produto\n\nCapacidade de aprender rapidamente novas tecnologias e conceitos\n\nBoa comunicação e habilidade para trabalhar em equipe\n\n\n\nDiferenciaisExperiência com serviços da AWS (Lambda, DynamoDB, OpenSearch, RDS, step functions, api gateway)\n\nConhecimento em práticas de CI/CD e infraestrutura como código\n\nExperiência com desenvolvimento de APIs RESTful\n\nFamiliaridade com bancos de dados relacionais e não-relacionais\n\n\n\nO que oferecemosContratação PJ Premium: PJ + 13º + férias remuneradas, o melhor dos dois mundos, sem abrir mão de direitos\n\nStock Options: participação no programa de Stock Options da Tako, você cresce junto com a empresa\n\nPlano de Saúde SulAmérica top de linha: 100% de cobertura, sem desconto em folha e sem coparticipação, incluindo dependentes sem custo adicional. Acesso aos melhores hospitais e laboratórios de SP (Einstein, Sírio-Libanês, Vila Nova Star, etc) e alto valor de reembolso para consultas particulares. Plano com acesso à plataforma Wellhub\n\nCartão Swile de R$ 1.800/mês: use como quiser, alimentação, refeição, mobilidade ou cultura\n\nEquipamento topo de linha: MacBook Pro com chip Apple Silicon para você trabalhar sem travar\n\nCultura de foco, não de reuniões: na engenharia, a média é de 3 horas de reunião por semana. Sem GMUD, sem comitês técnicos infinitos, sem reunião que poderia ser um Slack. Aqui você passa o tempo fazendo o trabalho, não falando sobre ele\n\nFlexibilidade real: autonomia de verdade sobre como, quando e onde você trabalha melhor\n\nAuxílio Mudança: se você vem de outro estado, a gente cobre sua vinda pra SP pra você focar no que importa\n\nTako House em São Francisco: programa de intercâmbio no coração do Vale do Silício, vivenciando de perto o ecossistema de tech mais influente do mundo\n\nLicença parental remunerada: tempo pra estar presente nos momentos que importam\n\n Por que se juntar à Tako?A Tako tem talento de big tech e autonomia de startup. Temos o ambiente ideal para pessoas engenheiras que desejam deixar para trás o ritmo lento e a burocracia de grandes empresas. Aqui, você entrará em um ambiente acelerado e de alto crescimento, focado na construção de um produto inovador que está revolucionando um nicho de poucas e antigas soluções.\n\nValorizamos pessoas em diferentes momentos de carreira, desde aquelas que estão começando sua jornada na engenharia até profissionais experientes que buscam novos desafios. Independentemente do seu nível, você terá a oportunidade de crescer, aprender e fazer a diferença.\n\nOwnership, excelência e criatividade são primordiais do nosso ambiente, onde cada pessoa tem autonomia e responsabilidade por seu trabalho. Nossa equipe trabalha de forma presencial, pois valorizamos a colaboração e rapidez na tomada de decisão.",
+      "published_at": null,
+      "published_at_text": null,
+      "source_url": "https://jobs.ashbyhq.com/tako/cfedb281-76ee-47a2-8425-30b8eac9b5d1",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "554df5dc-2c2b-4a5e-8e0c-d0bc27af30cd",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlcmluZyBBbmFseXN0IiwiY29tcGFueV9uYW1lIjoiU2luY2giLCJodGlkb2NpZCI6IlE4cTd5bGlxLXVQNmp4Uk9BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFNXaHBkRXBrWVV0dU1YQkdZWGhuYTNWV09VdHNhVWhXV1haVE5uQnBOVVp5Tmt0MUxVUlVWM0pWV0VkcE5GUXhabkkxYWpWc1dHVmtNa3N3TWpCUVlVaGFkbWgyVFdWTGJGTjZUR1V4WVdsUVgyNW1aSEo0T1dwbWJHMWtUWEpvZFhOWVkycHhVME5aWW5GNmFXY3RPVXhOU1hjM1ZURXhNWEpMU2pGTFpTMUxSVVV4YW00U0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabE5DTFZCdmNUaGlhVXBhVEZWalpuUTNabmRJUTAxZlpHVXRiVUUiLCJmY3YiOiIzIiwiZmNfaWQiOiJROHE3eWxpcS11UDZqeFJPQUFBQUFBPT0ifQ==",
+      "source": "serpapi",
+      "title": "Sr Software Engineering Analyst",
+      "company": "Sinch",
+      "location": "Qualquer lugar",
+      "description": "ABOUT SINCH \n\n\nSinch is pioneering the way the world communicates. More than 150,000 businesses - including Google, Uber, Paypal, Visa, Tinder, and many others - rely on Sinch's Customer Communications Cloud to power engaging customer experiences through mobile messaging, voice, and email.\n\n\nWhether you need to verify users or craft omnichannel campaigns, Sinch makes it easy. Our AI-infused Super Network, APIs, and applications ensure you can connect with your customers reliably and securely, at every step of their journey.\n\n\nAt Sinch we \"Dream Big\", \"Win Together\", \"Keep it simple\", and \"Make it Happen\". These values are our foundation!\n\n \n\nDESCRIPTION  \n\n\nRemote or Hybrid (for candidates based in São Paulo).\n\n\nAs a Senior Backend Software Engineer, you will design, build, and maintain distributed backend services that process high-volume, low-latency messaging traffic to detect and prevent fraud across multiple communication channels, including SMS, RCS, and WhatsApp.\n\n\nYou will work on highly scalable systems that rely on event-driven architectures, distributed data processing, and cloud-native technologies. The role requires close collaboration with globally distributed engineering teams to build reliable, high-performance services while sharing technical knowledge and contributing to engineering best practices.\n\n\n \n\n\nRESPONSIBILITIES\n\n\nDesign, develop, and maintain scalable backend services and APIs.\n\n\nBuild and evolve distributed systems capable of processing high-volume, time-sensitive workloads.\n\n\nDevelop solutions using Java/Rust and work with distributed messaging platforms such as Kafka.\n\n\nDesign efficient data solutions using relational and analytical databases (e.g. MySQL, ClickHouse, BigQuery, Athena).\n\n\nEnsure reliability, observability, fault tolerance, and operational excellence across services.\n\n\nCollaborate with Product Managers, Designers, and Engineers across multiple regions.\n\n\nContribute to code reviews, technical discussions, and engineering best practices.\n\n\nContinuously improve performance, scalability, security, and maintainability of our platform.\n\n\nParticipate in knowledge sharing across our global anti-fraud organization.\n\n\n \n\n\nREQUIREMENTS\n\n\nProfessional experience in backend software development.\n\n\nBachelor's degree in a related field.\n\n\nProfessional working proficiency in English (Advanced or Fluent).\n\n\nStrong experience developing applications in Java and/or Rust.\n\n\nExperience designing and operating distributed systems.\n\n\nSolid understanding of event-driven architectures and messaging systems (Kafka or similar technologies).\n\n\nExperience working with relational and analytical databases.\n\n\nExperience building applications deployed on cloud platforms (i.e. AWS).\n\n\nExperience with containerized environments (Docker and Kubernetes).\n\n\nExperience implementing observability solutions, including logging, metrics, and monitoring.\n\n\nStrong understanding of software engineering best practices, including testing, code quality, performance, and security.\n\n\nExcellent communication and collaboration skills.\n\n\n \n\n\nNICE TO HAVE\n\n\nExperience with Rust is a plus. We don't expect everyone to know Rust from day one, but we do expect curiosity and willingness to learn. Our team will provide the support needed during your onboarding and learning journey. \n\n\nExperience in fraud detection, cybersecurity, telecommunications, or messaging platforms.\n\n\nExperience processing large-scale streaming data.\n\n\nExperience with Infrastructure as Code and CI/CD pipelines.\n\nExperience working in globally distributed engineering teams.\n\n \n\n \n\nOUR HIRING PROCESS \n\n\nWe are committed to ensuring a recruitment process that is fair, objective, consistent, and inclusive. Our approach includes structured, competency-based interviews designed to evaluate your skills, experience, and qualifications relevant to the role. At times, we may include a data-driven assessment to enhance our hiring success and identify candidates likely to excel. \n\n\nWe believe in a two-way process and encourage you to ask questions throughout the journey. If this role isn't what you're looking for, please explore the other opportunities listed on our career page: https://www.sinch.com/careers/. No matter who you are, we hope you find an exciting path forward - hopefully with us!\n\n\n \n\n\nBENEFITS \nSTAY HEALTHY: We cover 100% of medical and dental plans for Sinchers and eligible dependents through Bradesco Saúde.\n\n\nFLEXIBLE BENEFITS: With the Caju flexible benefit card, our Sinchers can choose to use benefits on food, education, and home office assistance.\n\n\nFAMILY FIRST: Our Sinchers can enjoy paid maternity leave for 180 days and paternity leave for 30 days. Plus, we provide daycare assistance for kids up to five years old.\n\n\nEVERYDAY WELLBEING: We partner with Wellhub to help Sinchers access gyms and wellness options.\n\n\nSECURE YOUR FUTURE: Our Partnership with Prudential life insurance provides coverage for all Sinchers in the events of unexpected absences, serious illness, accidents, and disabilities.\n\n\nDIVERSITY AND INCLUSION: We offer annual reimbursements for certain expenses related to disabilities and/or transgender needs. \n\n\nTAKE A BREAK: Our Sinchers can take a day off on their birthday to celebrate with their loved ones.",
+      "published_at": null,
+      "published_at_text": "há 2 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/sr-software-engineering-analyst-at-sinch-4436615560",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "ac04d55b-901c-4535-a92c-190158725ebf",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJHcnVwbyBRdWludG9BbmRhciB8IFN0YWZmIFNvZnR3YXJlIEVuZ2luZWVyIC0gQUkgRGV2ZWxvcGVyIEV4cGVyaWVuY2UiLCJjb21wYW55X25hbWUiOiJRdWludG9BbmRhciIsImh0aWRvY2lkIjoiMlNydVNtQXNQX0l2aVNRY0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3NCQ293QlFVcHBWRFIwU2xWT2FHSkJPWFF0U0hCb1dWbHBiR1l4VTFkeUxVRnNUSFl5TkhKRWRHcHhXQzFXUjBGTVdYRlVNVkJKVjJab01WaHBWV3c0YmxwdlgwUm9jREpzWVZrM2FWWmhNSGhGVWpOS0xVdGlMVUZVVTNOR1FXdE9VV05qYm5KWWJIY3dYemRDV1ZodGNGWjRlbk42WVVabE9UbE1ZMkp0YzFaallXUmtWVzlPZWpaYVNtdEpYMDBTRmxSQlJsVmhkRGRqUkRoUGVIQjBVVkEyWDE5Q1lWRWFJa0ZFYzNJNVpsRjFVbEpXUkhOaVJFdHZUbFZXVmxoYU0yWmpkbXRaU0VSeU1IYyIsImZjdiI6IjMiLCJmY19pZCI6IjJTcnVTbUFzUF9JdmlTUWNBQUFBQUE9PSJ9",
+      "source": "serpapi",
+      "title": "Grupo QuintoAndar | Staff Software Engineer - AI Developer Experience",
+      "company": "QuintoAndar",
+      "location": "Qualquer lugar",
+      "description": "About Grupo QuintoAndar\n\nWe are Grupo QuintoAndar, the largest real estate ecosystem in Latin America. Guided by a shared purpose of helping people love where they live, we have a diversified portfolio of brands and solutions across different countries in Latin America, covering all phases of the housing journey. We also have a Technology Hub in Portugal. We develop technology and innovation to transform and enhance the overall living experience.\n\nWith the support of a world-class team of investors and advisors, including Kaszek, Qualcomm, General Atlantic, and SoftBank, Grupo QuintoAndar is currently valued at over USD 5.1 billion and continues to grow year over year.\n\nHere, you will work with top professionals in the market, in an environment that breathes innovation, collaboration, and high performance. To learn more about our story, visit: https://grupoquintoandar.com/pt/.\n\nLocation & Remote Work\n\nOur technology team operates under a \"remote-first\" model, which means we work from home and can live anywhere in Brazil. We also offer the option of working from our São Paulo offices or partner coworking spaces, up to twice a week.\n\nHiring Process Stages\n\nThe stages of our hiring processes aim to assess your experiences and allow you to meet our teams and explore career opportunities. They are structured as follows:\n\nPeople InterviewTech screening - CodingTechnical interview 1 - System DesignTechnical interview 2 - System DesignLeadership interview\n\nAbout the Team\n\nTo transform QuintoAndar into an Agentic Organization, we are building an AI-Native Developer Platform. Our mission is to move beyond individual AI assistants toward an ecosystem where autonomous agents understand our company, our codebase, and our workflows.\n\nAs a Staff Software Engineer on the AI Developer Experience team, you will own the technical vision for the AI infrastructure that powers developer workflows. You will define how AI interacts with our broader Internal Developer Platform, set the quality bar for AI-generated code, and build the systems that enable our 650+ Engineers to work with AI as a first-class collaborator.\n\nWhat you will do \n\nBuild a platform that gives AI systems structured access to our codebases, services, architecture, and operational data.Design the infrastructure for AI agents that can investigate failures, propose fixes, generate tests, and automate maintenance.Shape how AI integrates into developer workflows: code review, debugging, documentation, and internal assistants.Define standards and best practices for AI-assisted engineering across the organization.Evaluate and integrate AI models and tools, balancing cost, latency, and quality.\n\nRequirements\n\nWe are looking for someone with:\n\nA track record of building developer tools (our stack is primarily Go).Deep experience in leading complex platform or infrastructure projects.Solid understanding of GenAI/LLM integration, RAG, MCP and the infrastructure required to support AI coding agents at scale.A product mindset, treating internal platforms as products and engineers as your customers.Excellent English and Portuguese communication skills, capable of presenting to both technical and non-technical audiences.\n\nYou will stand out if you have:\n\nExperience with the Model Context Protocol (MCP) and building AI connectors.Experience with Durable Execution frameworks (like Temporal) for agent orchestration.Experience with AI evaluation, observability, or safety frameworks.History of driving technical initiatives across multiple teams.\n\nImportant\n\nOur hiring process starts with the application! If you truly want to be part of our team, please complete this step of the process. We analyze all candidates individually and provide feedback to all applicants.All communication will be conducted via email, so please stay tuned for our messages and release the domain @quintoandar.com.br to ensure our emails are not sent to spam.\n\nBenefits\n\nCompetitive salaryProfit sharingMeal allowance Health insuranceDental planLife insuranceChildcare subsidy and Atypical Parenthood subsidyWellhubHome office allowanceEmployee assistance program (mental health, social, legal, and financial support)Extended parental leaveDay off on birthday, Mother's Day, and Father's DayBenefits Club (discounts on everyday services)Discounts at educational institutionsReading kit for children – PlayKids\n\nDiversity & Inclusion at Grupo QuintoAndar\n\nWe value diversity and want everyone to feel welcome here, regardless of their age, gender identity, sexual orientation, race, color, ethnicity, origin, disability, religion, or any other characteristic. All our job openings are open to all individuals!\n\nYou'll notice there are some diversity questions in the application form. For affirmative action roles, this information may be used to verify your alignment with the target audience for the opportunity. In such cases, it may be used for elimination purposes. For non-affirmative action roles, this data will be used anonymously, exclusively to monitor and improve our inclusion practices in the hiring process, and will have no impact on your application.\n\nPrivacy and Data Protection\n\nThe Grupo QuintoAndar operates in compliance with privacy and data protection laws, including, but not limited to, the Brazilian General Personal Data Protection Law (LGPD) (Law No. 13,709/2018), and ensures the security of your data. To learn more, please access our Privacy Notice for Candidates. For questions or to exercise your rights as a data subject, please contact us through our Service Channel.",
+      "published_at": null,
+      "published_at_text": "há 2 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/grupo-quintoandar-staff-software-engineer-ai-developer-experience-at-quintoandar-4402164911",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "bf669d75-06d7-4776-aa6d-74616b17d4b6",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFN6VTBiVmhEYmtONk56QklUMk50TjBoT1VqbHljekoyYkdoR01YRnFjM05wZWkwd1pHNW9VMnBqWjFSd2JXVTFVakphVFRGcmNVZDVUSEp0TldoeWFFRkZhekpIUXpKcE5IVkthRkJUZUVOcE9HbEJXRWs1TTJOaVl5MWlhRzVZV1ZFdFZYVkVkMFo1U0dsNlVGTnZUakJPYjNWUVFYTkdVWEp5VVRocGVWUTRObHBaTjJnU0ZsUkJSbFZoZERkalJEaFBlSEIwVVZBMlgxOUNZVkVhSWtGRWMzSTVabEZ5UmtWcVEzTm5RbU42ZWpWb1FrTmthekp4Wm1GcVJIUXRkRkUiLCJmY3YiOiIzIiwiZmNfaWQiOiJGZzI3bHdnOW5zQTcyUUxNQUFBQUFBPT0ifQ==",
+      "source": "serpapi",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "description": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\n\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\n\nWhen you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.\n\nDevelop and maintain software applications using Python to deliver high-quality solutions that meet business needs. This role focuses on writing clean and efficient code, collaborating with cross-functional teams, and contributing to the entire software development lifecycle from design to deployment.\n\nWhat You'll Do:\n\nDesign, develop, and maintain Python applications and services.\nWrite clean, maintainable code following best practices and coding standards.\nCollaborate with team members to gather requirements and implement solutions.\nDebug and troubleshoot applications to improve performance and reliability.\nParticipate in code reviews and contribute to continuous improvement initiatives.\nWork with databases, APIs, and third-party integrations to build robust systems.What We Are Looking For:\n\n3+ years of experience with Python development.\nStrong understanding of software development principles and design patterns.\nExperience with web frameworks and API development.\nKnowledge of databases and data modeling techniques.\nFamiliarity with version control systems and collaborative development workflows.\nAdvanced level of English.\n\nHow we do make your work (and your life) easier:\n\n100% remote work (from anywhere).\nExcellent compensation in USD or your local currency if preferred\nHardware and software setup for you to work from home.\nFlexible hours: create your own schedule.\nPaid parental leaves, vacations, and national holidays.\nInnovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\nSupportive environment with mentorship, promotions, skill development, and diverse growth opportunities.\n\nApply now and become part of a global team where your unique talents can truly thrive!",
+      "published_at": null,
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    },
+    {
+      "id": "e44f3807-268c-4133-b1da-29b0016bbbd8",
+      "collection_run_id": "dbf44619-46f5-4c4d-8390-4211f7d1561d",
+      "raw_api_response_id": "3be239a4-1915-4f50-ba9b-c70634a8cf9d",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlciAoSmF2YSkiLCJjb21wYW55X25hbWUiOiJCYW5jbyBTYW50YW5kZXIgQnJhc2lsIiwiaHRpZG9jaWQiOiJOT2pZTzRoXzdWWllVMTFDQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBTVVk1ZUVWa1JHeDRTa05JWXpCcFgwZ3hNbEp4WkdVNFdFUmFkVFJWTjFFMWJsSmFPRE5FVjB0VlZWUlVURTlzT1V0R2FqQTVYMHByVWs5aWRESTRjbUpKV1VZM0xWaEhVbTV5UWxSc1dVNVdMWEF3U1U0d05WQTJSMDVHUlZGSVFUVkZjamswY2xOeVlYZDRVbXN4Y0ZkUmF6aEZTR0ZVTFUxb2Rrc3liMHh6YzNOVlpUTVNGbFJCUmxWaGREZGpSRGhQZUhCMFVWQTJYMTlDWVZFYUlrRkVjM0k1WmxGaVZXMWxYMVZIVmpSUWEyVjZOVFoxV0ZCdU16QTFjRUpNU0hjIiwiZmN2IjoiMyIsImZjX2lkIjoiTk9qWU80aF83VlpZVTExQ0FBQUFBQT09In0=",
+      "source": "serpapi",
+      "title": "Sr Software Engineer (Java)",
+      "company": "Banco Santander Brasil",
+      "location": "São Paulo, SP",
+      "description": "Sr Software Engineer (Java)\n\n\n\n\n\nCountry: Brazil\n\n\n\n# QUEM SOMOS\nA Global Cards Brasil é a empresa global de cartões do Grupo Santander, referência em soluções de meios de pagamento e experiências financeiras inovadoras. Construímos possibilidades globais, escaláveis e sustentadas por pessoas excepcionais.\nFazemos parte de um dos maiores grupos financeiros do mundo, com atuação internacional e foco constante em inovação e experiência do cliente, impactando milhões de pessoas em diferentes países. Nosso propósito é apoiar pessoas e negócios para que prosperem, oferecendo soluções de cartões seguras, modernas e alinhadas às necessidades de um mundo cada vez mais digital. Tudo isso em uma cultura que valoriza propósito, autonomia e protagonismo, dando espaço real para criar, propor e transformar.\nVenha fazer parte de um time global, diverso e colaborativo com a oportunidade de construir o futuro dos meios de pagamento dentro do ecossistema Santander.\n\nTemos uma vaga para você se tornar Sr Software Engineer (Java).\n\nAqui, seu papel será:Desenvolver e manter aplicações Java/Quarkus seguindo boas práticas de engenharia;Escrever testes automatizados (unitários, integração, etc.) como parte fundamental do desenvolvimento;Participar de revisões de código, propondo melhorias de qualidade;Colaborar na resolução de problemas técnicos e bugs;Apoiar a adoção de práticas de DevOps (Kubernetes, CI/CD);Integrar sistemas via APIs REST e Kafka;Garantir observabilidade básica (logs, métricas, tracing).\n\nRequisitos Imprescindíveis:Experiência sólida com Java (Spring Boot) ou Go;Domínio de arquitetura de microsserviços e integração com mensageria (Kafka, RabbitMQ, etc.);Experiência com bancos de dados relacionais e NoSQL (PostgreSQL, MongoDB, Redis);Conhecimento em APIs RESTful, GraphQL, autenticação e segurança (OAuth2, JWT);Vivência com ambientes Cloud (AWS) e containers (Docker, Kubernetes, EKS);Práticas de CI/CD (Jenkins, GitHub Actions, ArgoCD);Conhecimento em observabilidade (Prometheus, Grafana, ELK, OpenTelemetry).\n\nRequisitos Desejáveis:Experiência com sistemas de emissão de cartões, pagamentos ou banking core;Conhecimento de Infra as Code (Terraform, Helm);Experiência com arquitetura orientada a eventos (event-driven);Familiaridade com práticas de SRE e engenharia de performance;Certificações em Cloud (AWS);Participação em comunidades técnicas ou projetos open source.\nLocal de trabalho:Geração Digital – Av Interlagos, 3501 – Interlagos, São Paulo - SP\n\n\n# BENEFÍCIOS:➡️ Auxílio refeição;\n\n➡️ Convênio médico;\n\n➡️ Convênio Odontológico: Plano básico e intermediário;\n\n➡️ Vale Transporte;\n\n➡️ Flex Férias: 24 dias úteis de férias podendo ser divididos em até 6 vezes, e a cada 2 meses trabalhados você já pode aproveitar 4 dias úteis;\n\n➡️ DayOff Aniversário;\n\n➡️ Parceiros de academia: Wellhub, Totalpass;\n\n➡️ Flex Working: Modelo de trabalho híbrido: 2 dias Home Office e 3 dias presenciais;\n\n➡️ Plataformas de treinamento com mais de 100 mil cursos;\n\n➡️ Linhas de carreira para o seu desenvolvimento profissional;\n\n➡️ Flex Learning: Incentivo para estudos exclusivo a funcionários com Alta Performance;\n\n➡️ Auxílio Creche;\n\n➡️ Programa Nascer;\n\n➡️ Licença Maternidade e Paternidade estendida;\n\n➡️ Seguro de Vida;\n\n➡️ Be Healthy - Programa que incentiva todos a terem hábitos mais saudáveis;\n\n➡️ PAPE - Programa de apoio pessoal especializado.\n\n#LI-Hybrid",
+      "published_at": null,
+      "published_at_text": null,
+      "source_url": "https://www.universia.net/br/emprego/c9453959-a3a5-5bc4-aaa5-b3a7ffe875b6/sr-software-engineer-java-hybrid.html",
+      "collected_at": "2026-07-12 21:04:12.054613+00:00"
+    }
+  ]
+}
