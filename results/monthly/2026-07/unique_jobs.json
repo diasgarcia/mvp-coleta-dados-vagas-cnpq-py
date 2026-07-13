@@ -1,0 +1,2466 @@
+{
+  "round_id": "2026-07",
+  "generated_at": "2026-07-13T00:34:40Z",
+  "repository": "python",
+  "deduplication_key": "source + external_id",
+  "jobs": [
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZ1UyRnVkRzl6TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNVOUtRVTFHVTFSTldXdE1hRjlLY2xCR1dVazBZWFZvZWpoMlQxQllWVmxUTVhWQmVHVkJXR1JhUW1SWk5WQTBYeTB4T0cwdFVrNTZkM2hGYldoNVlYUjNVVkJXVHpWRGFtdFBSREU0YldGd2F6UmpNbXBLUTJsd1VWWnRWVFpCTTI1SVh6WnFlbmhwVlUxd1F6TjVlR1JTTFdNd2EwTjVkSG93TVZaMWFVcHFiV015T1hvU0YybHFTbFZoY0dKWlQyRnliSGRPTkZCdE5reGlkVUZqR2lKQlJITnlPV1pVWjA1V1JuWk1TV3AzTFcxRmNHTjRTVkZRT0RsNFRYQnBRMHAzIiwiZmN2IjoiMyIsImZjX2lkIjoiVzJiLURjczhYQ0o5aklnMUFBQUFBQT09In0=",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZlFtRjFjblVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzFkRloyaHlRMjQwVG1OVk0wOUthREJ3U2s5VFFsQlhabXRvYTA1Q1pURmlNV1p3VWw4d056Wm5Xa0pNVlhoNE5UQm5WV3Q1UkVsNlRWUTNZM2hXZWpCYWFsaENVa1ZKV0dZeVVXTkNjMUJwZGxWSWJXeE5WVU5DVVdOSVVUbHpiSEpZWm5aaVRFdzVaMEpxYjNSTWVWSTJOV0UzTTBSbk1XNUNiVkZoUW1KaldHVXhkMmdTRjJ0cVNsVmhkbGR4U1dSMlVqVk9iMUJxWlhKME1GRmpHaUpCUkhOeU9XWlNZbXRGTjJkSlkyMUNkamRyYkZReWNIZHphMnRsUm1kYWVsZEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0ifQ==",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJaVUyOXliMk5oWW1Fc1UzUmhkR1VnYjJZZ1UyRnZJRkJoZFd4dkxFSnlZWHBwYkEiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNVOXFOakpmWTNOdlJHaDBlRUZ6UzNWdGR6bFZaVTFEVTE5SWVEZHViMWh2WHpGalpWcHRjQzFFTkdVdE5VaHpaSFJFZWpGYWIyRkpUMUk0V2xCbWFXc3hOa0ZNTFhOSVdISXlVbXMyYjAxU1pFRjBSM05SYlVsM1IyRnpUblphWlhkRGNuVkxhRzV2TUVGNU5GVTNTbVpIY1hnekxUTmxOekZJWHpCMVdWUlFXblpPY0VrU0YyVlVTbFZoY25Ga1RuRnBWbmRPTkZBeVVHNW1iVUUwR2lKQlJITnlPV1pSVDIxbFUxbEpSRGQzYzI5d09YbEhXWFZGZVdRMlp6SkRWbmwzIiwiZmN2IjoiMyIsImZjX2lkIjoiVzJiLURjczhYQ0o5aklnMUFBQUFBQT09In0=",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTakZzWDFsc2NVOW5ORWRGVWt0ZlRqQjVZVmR6Vm1veGJWcEdTSHBMWmpaRU1rWnRZV1pVV25wWFZFWmpYMDVwVkZFNWJIWnpSemhyUTFKdWFrczNla3h1VW5KZk1HRklWREJhUlMxSlltVkNXRVJKTXpWZlV6RmlWRFpNUjBWcFl6bFlSVEpEUVRCVWJVRjJkVlpvUWtOWGVWcFRXRlpMVkVndGFXcERhMWxaUmxaM2JsWVNGMXBFU2xWaGRHNTFSSFYxUVRsMU9GQnRkSFp6WjFFNEdpSkJSSE55T1daUlVtUlRkVlpRZDFnM1dqbFJNMWxNYUU5amFtdDNUVFIwTUdsMyIsImZjdiI6IjMiLCJmY19pZCI6IlcyYi1EY3M4WENKOWpJZzFBQUFBQUE9PSJ9",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJb1VtbGlaV2x5WVc4Z1VISmxkRzhzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzJsRU55MXdRVFF4YjFOUmNIcHVNa0ZET0VGYWNTMW9VRVZ4VkZsM1FUaGpMVzFtWDJOSFYwMXlVV2R3TUZVek5qTXlaMjV3VmkxTFgydEhOUzB3U25aNGRqbDZTbU13UkhGTVRXOXFZbTk0T0RoRFZGRlRXWGhmYTBSbFNtZHhURmQxVlVFMmQwTnJNR2RwY2pSVFRrbGZWbTFUYTA5MU0zb3lTV3hLYkRaT2JqZFZTR0VTRjJoVVNsVmhkbXBpUm1GaE0zRjBjMUF4V1hwRmMwRnJHaUpCUkhOeU9XWlNSSEZWVVdORVYzVm9TVzVaWkdOT1JIUkJMVzE1YVVWbFZsVm4iLCJmY3YiOiIzIiwiZmNfaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0ifQ==",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdFUyRnZJRXB2YzJVZ1pHOXpJRU5oYlhCdmN5eFRkR0YwWlNCdlppQlRZVzhnVUdGMWJHOHNRbkpoZW1scyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVERKMmJIZFBNbTFHTUdaRFNrSldRMGxpYXpoRlRFVXpNbmx4UjNKYVFVSklXWFZDZUZBeVluUldNa290VVhkeWIyRmthMkozY25wd04wOUNkMWxGWWsxdk1XSXRTbE10VlRsek0wVkllbmM0UkRCZmRqVjVTbGhzYTBaTWQyZE1RVE5VYTBST1J6ZzNjVWg1YTJWeFZUWXhSMk0wYUdObGFUQkZjbmRWZW1SS1JYRkdNRGNTRjJSRVNsVmhkbTE2UjJFeWVtMTBhMUI0TjB4Rk1FRnZHaUpCUkhOeU9XWlJielk1Ym5WMU1saHdkelphWDNVemFHTXhXbXBUWDNwbGNWVkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0ifQ==",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJBSSBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkZpbmFuY2UgQnJhemlsIiwiaHRpZG9jaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdlUyRnZJRXB2YzJVZ1pHOGdVbWx2SUZCeVpYUnZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1dOYWVIVTJjVkJHZVdneFluWXhWM1psZVMxZlFqUmFWbXRKUkRCUWRHUXhSRkpIU1hnMGNVSlpVRFEyT1VWTmRtMW1UazFqYUU0elVYRnZMVUl4YlhsRllXZFJjblJvTmpCeVZ6UXRNWFYwWTAwMk4yVkpTMlpTYVZOdGJ6SllTMnAzWWt4VU5EUTRhalEwTW1sd1dpMUZWMUJQUVdGdE5tdHFiRkJMVTBKcFRqUTBXRkFTRjI1VVNsVmhjbGhCVEhWTE1YZE9ORkIyWm1WbmNWRkpHaUpCUkhOeU9XWlRiR1JYUm01YU9HSmhhWFZvYUVSdE5IQjRORlJmYVc1RVUzTlIiLCJmY3YiOiIzIiwiZmNfaWQiOiJXMmItRGNzOFhDSjlqSWcxQUFBQUFBPT0ifQ==",
+      "title": "AI Software Engineer",
+      "company": "Finance Brazil",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/ai-software-engineer-at-finance-brazil-4435695679",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJEZWxpdmVyeSBBSSBTb2Z0d2FyZSDigItFbmdpbmVlcuKAiywgQnJhemlsIC0gWCBEZWxpdmVyeSIsImNvbXBhbnlfbmFtZSI6IkJvc3RvbiBDb25zdWx0aW5nIEdyb3VwIiwiaHRpZG9jaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZ1UyRnVkRzl6TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNuRkJVR2RTUTE5UE5FaGFkVWhPYVRSVWNWbHhPWGxCYm1abmFXaHlha05xTFd0bFNsSkpkVEJSZVhoTU1ITkdWSGRyVlVaNVFsaFRRMEp6U1VwUlJrUmxRV05mTkhGT2VITjVVRXgwU1ZONVV6RlBSRGN3YWpZMk1tVmpRVWw0YVVkVE0xTTVNVmN4UVY4NFNtTkxNMWRmUldFNWNsbHZTR0ZQTjNKd2NITlhabEpoVW5nU0YybHFTbFZoY0dKWlQyRnliSGRPTkZCdE5reGlkVUZqR2lKQlJITnlPV1pTYmxCb0xXc3daRk5aZW10c1lYSmxSRU5IWTA5MFluaEVNa2xuIiwiZmN2IjoiMyIsImZjX2lkIjoicUJ5SEtQaFlJa1R2ZVlPNUFBQUFBQT09In0=",
+      "title": "Delivery AI Software ​Engineer​, Brazil - X Delivery",
+      "company": "Boston Consulting Group",
+      "location": "São Paulo, SP (+1)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://careers.bcg.com/global/en/job/55896/Delivery-AI-Software-%E2%80%8BEngineer%E2%80%8B-Brazil-X-Delivery",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJEZWxpdmVyeSBBSSBTb2Z0d2FyZSDigItFbmdpbmVlcuKAiywgQnJhemlsIC0gWCBEZWxpdmVyeSIsImNvbXBhbnlfbmFtZSI6IkJvc3RvbiBDb25zdWx0aW5nIEdyb3VwIiwiaHRpZG9jaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZlFtRjFjblVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU201MVdGUkNhRkJ6UWtKTU1WUmpZemhXYVZSSWMxZEJVMnc1VFdSdk9XNUlPRjlGU2xwd1pITnVXbk50UzNGdFgzSkNjM290Um1OS1VGcEpRMlZuVEVGUlZqRnZiVVo1TVZwRU5sRk9kbVp4ZG5sNFVreFVMVEYzUjJSS2MwOW1iblZCZEVsNVFsSnZjRFZEVUZkelEwcFhSVXhPY0UxZk1uTlNjamd0WTBaS05qWmlPVVFTRjJ0cVNsVmhkbGR4U1dSMlVqVk9iMUJxWlhKME1GRmpHaUpCUkhOeU9XWlJXRlZLVWtocVl5MVRRMGxOYldnMk5uUllSSFV5ZFdSa1RFSkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0ifQ==",
+      "title": "Delivery AI Software ​Engineer​, Brazil - X Delivery",
+      "company": "Boston Consulting Group",
+      "location": "São Paulo, SP (+1)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://careers.bcg.com/global/en/job/55896/Delivery-AI-Software-%E2%80%8BEngineer%E2%80%8B-Brazil-X-Delivery",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJEZWxpdmVyeSBBSSBTb2Z0d2FyZSDigItFbmdpbmVlcuKAiywgQnJhemlsIC0gWCBEZWxpdmVyeSIsImNvbXBhbnlfbmFtZSI6IkJvc3RvbiBDb25zdWx0aW5nIEdyb3VwIiwiaHRpZG9jaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJaVUyOXliMk5oWW1Fc1UzUmhkR1VnYjJZZ1UyRnZJRkJoZFd4dkxFSnlZWHBwYkEiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNrVlpkVE52V0hKMlZYbFVhbUpRYTA1c1dYSkVhVlpVZEd4WWFHbENUV2xJTFROalRrTmhjbkE1VlhJNVUySnNlVlZhYVdJMFEyRmxhR1pzVUhCeFZqQnZjRmcxYzBOTlprMXhVVzVLU1dkS2FtZDFURGwxUW5wV1EyWk9abkYxZURkalVEaGZObmhJWmswMGVtRkVTMnhvWVcxdlZHYzJiWFk1VTBrMlRsZFFlRkpTZG5jU0YyVlVTbFZoY25Ga1RuRnBWbmRPTkZBeVVHNW1iVUUwR2lKQlJITnlPV1pUVVd3MmVucGhaVFo2TlVzd1VXTlFOVmxYVUZrelVUbHpUVjluIiwiZmN2IjoiMyIsImZjX2lkIjoicUJ5SEtQaFlJa1R2ZVlPNUFBQUFBQT09In0=",
+      "title": "Delivery AI Software ​Engineer​, Brazil - X Delivery",
+      "company": "Boston Consulting Group",
+      "location": "São Paulo, SP (+1)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://careers.bcg.com/global/en/job/55896/Delivery-AI-Software-%E2%80%8BEngineer%E2%80%8B-Brazil-X-Delivery",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJEZWxpdmVyeSBBSSBTb2Z0d2FyZSDigItFbmdpbmVlcuKAiywgQnJhemlsIC0gWCBEZWxpdmVyeSIsImNvbXBhbnlfbmFtZSI6IkJvc3RvbiBDb25zdWx0aW5nIEdyb3VwIiwiaHRpZG9jaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJb1VtbGlaV2x5WVc4Z1VISmxkRzhzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2xreWRUVmhRV2x1YWpOUU4waEJWbTVuVWtSaGMyOUNXbTlFY1dwRFZHbDNiR1V0T1dVemVqbGZOV3RQWldKSFlUbFZWR05WYmtVMVNYUnhaRzVGVGpoSU5tNDNSMDFwWkhsUFpXRnJMVlJGUTNSdmNHdGZXVmwzV21SYVJtNTZSbmhGTmxkTE1VWnNRMHQ2Y1c1cFJFdHVWWFJZU2xKUFFuUjJjekJGU1dFMmVUZG9jbThTRjJoVVNsVmhkbXBpUm1GaE0zRjBjMUF4V1hwRmMwRnJHaUpCUkhOeU9XWlVlSEZHZWs1S1VtUnJSRTFMVkVkeWMwNWthbGRCY2paWU1UbEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0ifQ==",
+      "title": "Delivery AI Software ​Engineer​, Brazil - X Delivery",
+      "company": "Boston Consulting Group",
+      "location": "São Paulo, SP (+1)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://careers.bcg.com/global/en/job/55896/Delivery-AI-Software-%E2%80%8BEngineer%E2%80%8B-Brazil-X-Delivery",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJEZWxpdmVyeSBBSSBTb2Z0d2FyZSDigItFbmdpbmVlcuKAiywgQnJhemlsIC0gWCBEZWxpdmVyeSIsImNvbXBhbnlfbmFtZSI6IkJvc3RvbiBDb25zdWx0aW5nIEdyb3VwIiwiaHRpZG9jaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdFUyRnZJRXB2YzJVZ1pHOXpJRU5oYlhCdmN5eFRkR0YwWlNCdlppQlRZVzhnVUdGMWJHOHNRbkpoZW1scyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1VreldITnpkMmhSTUVsVGFIWmlkMU0xVGtNdFdVOXlWMHN0TFd3M056VnJURVk1VVdOa1RXa3laVWt3VUhWaWFVMHhaRzlLVTBFME5IVjVkVXcwTWxVNVgxVmtRMDlDZGxkc1QyWkpObE5uTkc5UlVESm1SRVJJY0RGbmJrVk5aVzVtYmxwM1NqSk9ObEp1UWpreFQwMHhOQzFxUVZkcWNuTXRYemROVW5wU1ZXbEhkMmdTRjJSRVNsVmhkbTE2UjJFeWVtMTBhMUI0TjB4Rk1FRnZHaUpCUkhOeU9XWlVUMk56TTBwbVpHa3pUSFZZWVVKMVVsUmhPSEZYWmw5cmVFaFIiLCJmY3YiOiIzIiwiZmNfaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0ifQ==",
+      "title": "Delivery AI Software ​Engineer​, Brazil - X Delivery",
+      "company": "Boston Consulting Group",
+      "location": "São Paulo, SP (+1)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://careers.bcg.com/global/en/job/55896/Delivery-AI-Software-%E2%80%8BEngineer%E2%80%8B-Brazil-X-Delivery",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJEZWxpdmVyeSBBSSBTb2Z0d2FyZSDigItFbmdpbmVlcuKAiywgQnJhemlsIC0gWCBEZWxpdmVyeSIsImNvbXBhbnlfbmFtZSI6IkJvc3RvbiBDb25zdWx0aW5nIEdyb3VwIiwiaHRpZG9jaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdlUyRnZJRXB2YzJVZ1pHOGdVbWx2SUZCeVpYUnZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzFseU5FaHZia0ZDZFZkVWFtWm9ibE5oV0daUmREWnRaR2xLZG1wdmVuaGxPRFl4ZVhkYVNXSmpORGRuWVZwclZqbE1SM0k0UzBSVFptVk1XR2w1YW5SRVdFTmtlRVl6Um0wd2IxcDVWVVIyTlZwU2NGaERSVmMzWVZCS05rdGxablpKYkZkQmRVWktUV3BzU25CRWJrbEZXSEF3WDFjd1NGSTBjMnh0UTI1eFdIQjVkRGNTRjI1VVNsVmhjbGhCVEhWTE1YZE9ORkIyWm1WbmNWRkpHaUpCUkhOeU9XWlNWVmRzTFdzMUxVTjVObVZHY1U5UlVtbGthRUkxYkZOcE5YWlIiLCJmY3YiOiIzIiwiZmNfaWQiOiJxQnlIS1BoWUlrVHZlWU81QUFBQUFBPT0ifQ==",
+      "title": "Delivery AI Software ​Engineer​, Brazil - X Delivery",
+      "company": "Boston Consulting Group",
+      "location": "São Paulo, SP (+1)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://careers.bcg.com/global/en/job/55896/Delivery-AI-Software-%E2%80%8BEngineer%E2%80%8B-Brazil-X-Delivery",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJHcnVwbyBRdWludG9BbmRhciB8IFN0YWZmIFNvZnR3YXJlIEVuZ2luZWVyIC0gQUkgRGV2ZWxvcGVyIEV4cGVyaWVuY2UiLCJjb21wYW55X25hbWUiOiJRdWludG9BbmRhciIsImh0aWRvY2lkIjoiMlNydVNtQXNQX0l2aVNRY0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWdVMkZ1ZEc5ekxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTbTFaZGxwcE5rUm5iVXM1ZFdsc2NWazVPV1JoYUhjMmRrdDNNM1JpYWtWbk1qZEdVbkExWkhReWVFMDJOek50TWxoUk1scDBWMVI1V0haeVpWaHdUeTFmWjBOMWVqSkdXWFkwVmtWWU5FaE9TR3BST1ZaS2NWOXNZWE5xUjFKelJrRjFNV2cyYUVGVFRsVm5UMjV3Y0hwUk1WWkdYMEozZGpKMVdsbFFWWE15TUhSdVFqVVNGMmxxU2xWaGNHSlpUMkZ5YkhkT05GQnROa3hpZFVGakdpSkJSSE55T1daUlpVWkdSRnBTT1ZSVmRqQjZaa296TTBOUU1IcDZXRGd0VmxGbiIsImZjdiI6IjMiLCJmY19pZCI6IjJTcnVTbUFzUF9JdmlTUWNBQUFBQUE9PSJ9",
+      "title": "Grupo QuintoAndar | Staff Software Engineer - AI Developer Experience",
+      "company": "QuintoAndar",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-10",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 2 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/grupo-quintoandar-staff-software-engineer-ai-developer-experience-at-quintoandar-4402164911",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJHcnVwbyBRdWludG9BbmRhciB8IFN0YWZmIFNvZnR3YXJlIEVuZ2luZWVyIC0gQUkgRGV2ZWxvcGVyIEV4cGVyaWVuY2UiLCJjb21wYW55X25hbWUiOiJRdWludG9BbmRhciIsImh0aWRvY2lkIjoiMlNydVNtQXNQX0l2aVNRY0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2xkbFVrOURiMnRaYVUxbVVUZHVOWEUwUTNoTldtcHhja1Z0TVRreVVGbENYekphVEhOa1FtUkdiRWd5U0haV1dHTkNYelF3UzNWNldIWlVObU00WkV4UlJXaGxkRFV3Y1hkamJubEZaM04xV2tZek5VaFllRmxWY0RaRFJXMUxaVU4yYjBrMU1XMVVOa2xzZDBjemRXbGFUMjQxUWpWNFJteHZkazFzV21adU1GZDJOWElTRjFwRVNsVmhkRzUxUkhWMVFUbDFPRkJ0ZEhaeloxRTRHaUpCUkhOeU9XWlVOVXBXVWswNVZYRnpOM0J6V0d4R1IwSk9OQzFDV1d4VGVHWm4iLCJmY3YiOiIzIiwiZmNfaWQiOiIyU3J1U21Bc1BfSXZpU1FjQUFBQUFBPT0ifQ==",
+      "title": "Grupo QuintoAndar | Staff Software Engineer - AI Developer Experience",
+      "company": "QuintoAndar",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-10",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 2 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/grupo-quintoandar-staff-software-engineer-ai-developer-experience-at-quintoandar-4402164911",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJHcnVwbyBRdWludG9BbmRhciB8IFN0YWZmIFNvZnR3YXJlIEVuZ2luZWVyIC0gQUkgRGV2ZWxvcGVyIEV4cGVyaWVuY2UiLCJjb21wYW55X25hbWUiOiJRdWludG9BbmRhciIsImh0aWRvY2lkIjoiMlNydVNtQXNQX0l2aVNRY0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSXRVMkZ2SUVwdmMyVWdaRzl6SUVOaGJYQnZjeXhUZEdGMFpTQnZaaUJUWVc4Z1VHRjFiRzhzUW5KaGVtbHMiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNWbFJRVFI0TlVodWRWTmphMVpyU0dSWmEydFNNRzlzUldodVoxUTFaMTlqZUhCZk4yZE5OMEl0U1ZSUVp6Wk5aekI1VlhOM1ZrbGxiekZLYUVOTGVtdzBWMHBNWDFGNU1rdGpOSFl3VVVwMGJsRXpTMDF4UTJOMVpHRTVaQzFKUXpadVpEbGZMVkJEY1ZoemIyeEVXWEJLYm5wRlgwNVhNazAwVm5WeGExZHljVTFhWDFVU0YyUkVTbFZoZG0xNlIyRXllbTEwYTFCNE4weEZNRUZ2R2lKQlJITnlPV1pUZGtNdFYyRmhPVTkyU3kxNFdIcEhVbHB5WDJwbmVYVmtOV3BCIiwiZmN2IjoiMyIsImZjX2lkIjoiMlNydVNtQXNQX0l2aVNRY0FBQUFBQT09In0=",
+      "title": "Grupo QuintoAndar | Staff Software Engineer - AI Developer Experience",
+      "company": "QuintoAndar",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-10",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 2 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/grupo-quintoandar-staff-software-engineer-ai-developer-experience-at-quintoandar-4402164911",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJNaWQtbGV2ZWwgU29mdHdhcmUgRW5naW5lZXIg4oCTIEJhY2stZW5kIiwiY29tcGFueV9uYW1lIjoiSm9idGFpbG9yIiwiaHRpZG9jaWQiOiJGbnpMVmF3SFZRTjJKOHc0QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMDFCTURaM2RVVnhZMll4Y0ZCM2J6ZFhRbmxJVVdGUldsUXlTRVZPVDFsTFRXVmxPR1ZCTmpaWWVISlBURGwxVXpCQlpYWldla2xGYlRJelVsTXlOMFpFU2pSNWNraGtTMVI0U2s1c2MzUmFaVTFUZG5NMVkwSkNjek0wYmxGcFEyZDBUSEJNVUZGakxVWk1ZeTFtU1dkUFNqbGFUbE5MVGxweE0zQXlka0p1WkZCcWFIUVNGMXBFU2xWaGRHNTFSSFYxUVRsMU9GQnRkSFp6WjFFNEdpSkJSSE55T1daVWRGWjFOM041Y0dRM2JXUnlTblZXTFdFemJqaElWVWQ2TFdkbiIsImZjdiI6IjMiLCJmY19pZCI6IkZuekxWYXdIVlFOMko4dzRBQUFBQUE9PSJ9",
+      "title": "Mid-level Software Engineer – Back-end",
+      "company": "Jobtailor",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-05",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 7 dias",
+      "source_url": "https://www.jobleads.com/br/job/mid-level-software-engineer-back-end--sao-paulo--ecfeed1835eae460149c4e0bae75b32f1",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJSb2JlcnQgSGFsZiIsImh0aWRvY2lkIjoiLTdmU2RxeWVfSU1HWVhzZ0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWdVMkZ1ZEc5ekxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTemhLYjJ4ZmJXRllXbmwyYlRsdFJtOUZTSE5mY0RRdFMxZ3RlVlIwVTNGeE9WaHdlR2hDVm1kdVptUk9NR0poVjBoaFZYSjJNVVpvT0U5VlRIcDVaWFpOVGxkYWQyRlhOVlZUTm1rd2VYTmZkM0JCTUd4VGJWSXdVVU13UmpOV1JrZFNXRzV3TTBKME9XWmtTRlZZVW5WT09XZERSWGQ2ZFU1VFFVNWFkR0pOWm5oU1NXRVNGMmxxU2xWaGNHSlpUMkZ5YkhkT05GQnROa3hpZFVGakdpSkJSSE55T1daUlJrTXdORGxaV0RsM2FuQTNZVlpWWldrd2RHUmFNelJ3VDNkMyIsImZjdiI6IjMiLCJmY19pZCI6Ii03ZlNkcXllX0lNR1lYc2dBQUFBQUE9PSJ9",
+      "title": "Senior Software Engineer",
+      "company": "Robert Half",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.roberthalf.com/br/pt/vaga/s%C3%A3o-paulo/senior-software-engineer/63610-0013451625-brpt",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJSb2JlcnQgSGFsZiIsImh0aWRvY2lkIjoiLTdmU2RxeWVfSU1HWVhzZ0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWlVMjl5YjJOaFltRXNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTV3N0T0VwNE1FNDJiRmN6VW1oNU1WSjFkRXhYVDNreVNIa3RiMlIwY0RNelpFMVhMVXBJVlMxQlVXbEJSV1l3WlVsS01pMVliVXd4Wm5RNVZIQlVhVUZHWVVGZmFHNTFSazU0YzB4NFYycEpRVmxhU2tjMloyVnZjbU5KYUZSeFZFZHZSRXgyWVVSUVlXTlBNM0kwUjJ0WVIxZGhjRWxCT0VGd2VrdFFPRU5oTFRkNGJHSVNGMlZVU2xWaGNuRmtUbkZwVm5kT05GQXlVRzVtYlVFMEdpSkJSSE55T1daVGVXTTBiV1k0TVUxS2FGQlhSRGxtTWxaTlVVdEJNa1EzVDJaUiIsImZjdiI6IjMiLCJmY19pZCI6Ii03ZlNkcXllX0lNR1lYc2dBQUFBQUE9PSJ9",
+      "title": "Senior Software Engineer",
+      "company": "Robert Half",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.roberthalf.com/br/pt/vaga/s%C3%A3o-paulo/senior-software-engineer/63610-0013451625-brpt",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJSb2JlcnQgSGFsZiIsImh0aWRvY2lkIjoiLTdmU2RxeWVfSU1HWVhzZ0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWpVMkZ2SUZCaGRXeHZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2psQ2NGVjBiVlpKUlRFNFoweFRTVzFSZFRSR1dVUkhXVlZsVjI1Q2FGVjZSM1pZV2tOeFJGVXdaRGh4TTFwVk1rRk9iVjlVTTBoVGNFdFVPRWMwYjI5dU5EQm9hV1pGUTE5eWNVWTFWUzB6YlhaYVNHWTFiVlZSTjFORmQzVTNNUzB6VEdST0xXeEJlVzFZWXpaUmNGTllkRzUyT1cxUFNVMXJjRGt3ZEVKWU16RTJNallTRjFwRVNsVmhkRzUxUkhWMVFUbDFPRkJ0ZEhaeloxRTRHaUpCUkhOeU9XWlVOM1IwZW1KWVIxUmlVSEJ4TlZCVFpuQlRaMW80WTBvemRGbDMiLCJmY3YiOiIzIiwiZmNfaWQiOiItN2ZTZHF5ZV9JTUdZWHNnQUFBQUFBPT0ifQ==",
+      "title": "Senior Software Engineer",
+      "company": "Robert Half",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.roberthalf.com/br/pt/vaga/s%C3%A3o-paulo/senior-software-engineer/63610-0013451625-brpt",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJSb2JlcnQgSGFsZiIsImh0aWRvY2lkIjoiLTdmU2RxeWVfSU1HWVhzZ0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSXRVMkZ2SUVwdmMyVWdaRzl6SUVOaGJYQnZjeXhUZEdGMFpTQnZaaUJUWVc4Z1VHRjFiRzhzUW5KaGVtbHMiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFRESXlYMnRIYWpKc1pqRlNaMlJqT1VaQ1YyeEdObFJUV2xkc2QwdGxSbWRNTW14eGVpMXZaRlF0TTFWNU1sRnZaa3h1UzNkUExYRlJSR1k0WTFJNVMyeGFSVUYwVVhnd2F6RmhWRTVTU1hCQ1h6aHlMVGszUVVSWlkyaFVRa3RJV0dkalkwSTNRa015VkRsNWQwWkJZVGd6UjNaUFVtcEtTVXRtWjFocE1YZHdOR3hCWjBvU0YyUkVTbFZoZG0xNlIyRXllbTEwYTFCNE4weEZNRUZ2R2lKQlJITnlPV1pUUTJOMlptbFZhbU5xU2xCblZuVldla3hFV1dzdGJXaE1aMVZuIiwiZmN2IjoiMyIsImZjX2lkIjoiLTdmU2RxeWVfSU1HWVhzZ0FBQUFBQT09In0=",
+      "title": "Senior Software Engineer",
+      "company": "Robert Half",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.roberthalf.com/br/pt/vaga/s%C3%A3o-paulo/senior-software-engineer/63610-0013451625-brpt",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBEZXZlbG9wZXIgKEJhY2tlbmQgSmF2YSBQbGVubykiLCJjb21wYW55X25hbWUiOiJFbmdob3VzZSBTeXN0ZW1zIiwiaHRpZG9jaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZlFtRjFjblVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU25jellWaHpOM1pZWkMxUFJUWllabloyTmpWWlRUUk9iVWN3UjNwQldXUlllVFkyZG5WVllXUjJWbTlmVUdscVgzaEJhRXhQV1RSTFZ6ZFZhRzA0VTFWSVFXVjJWWGwxZGt4RVUxOURRelE1UjJaVlMxcEtVbEF4V21GQlltcEdOVTVVZVZOVWFrSmFZV1ZoVlRSNVRtUlFZMlJzTUVzNFpWcFVlWEYyYVdaa2RWVjNUR2dTRjJ0cVNsVmhkbGR4U1dSMlVqVk9iMUJxWlhKME1GRmpHaUpCUkhOeU9XWlNiMnh5UjA5c0xXeDZabmRSTTJaSlUzVnZTa3A2YTJKM2FWUkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0ifQ==",
+      "title": "Software Developer (Backend Java Pleno)",
+      "company": "Enghouse Systems",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-developer-backend-java-pleno-at-enghouse-systems-4437339431",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBEZXZlbG9wZXIgKEJhY2tlbmQgSmF2YSBQbGVubykiLCJjb21wYW55X25hbWUiOiJFbmdob3VzZSBTeXN0ZW1zIiwiaHRpZG9jaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJaVUyOXliMk5oWW1Fc1UzUmhkR1VnYjJZZ1UyRnZJRkJoZFd4dkxFSnlZWHBwYkEiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMweHZSMGhCVWxKUlkzSXRaRXBHVWtRMk4yWnFSMGxpY1ZJNU0zbE1TemhxY1VaalJrczNNa2xNTVVneWFXOUZWbTl4YzNsMVdtUkNWVjk0UXpkVVMzWTViMHhMVVVFeU1WbFNZbWhJVURCbWQyOHpjRTF2VVRka2N6VjFPRFZKVGpoQllWaDFjVkV6VGpkZlRXNW9hMWxaVEZOSVpqSlBOM1oxUTIwNVZXNHRhSEZ4V0VRU0YyVlVTbFZoY25Ga1RuRnBWbmRPTkZBeVVHNW1iVUUwR2lKQlJITnlPV1pSVDIxVFFXRmFWRmxhT1RSSFZHVm1MVlk1Um5wbFVGQkRibFZSIiwiZmN2IjoiMyIsImZjX2lkIjoiWXphbE4tb2NTekVfNEZZWUFBQUFBQT09In0=",
+      "title": "Software Developer (Backend Java Pleno)",
+      "company": "Enghouse Systems",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-developer-backend-java-pleno-at-enghouse-systems-4437339431",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBEZXZlbG9wZXIgKEJhY2tlbmQgSmF2YSBQbGVubykiLCJjb21wYW55X25hbWUiOiJFbmdob3VzZSBTeXN0ZW1zIiwiaHRpZG9jaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTbXMwUzFKS2FEbHRlazh3V1hKNlRqbFViV2x3WHpadU9XZDZWMTlqTVZKRVFVbFBZVGR1VmxFNVlYRnNaM0JXVXpCYVpGbGhaek5hYzNCeFpFUnhOemQwVDFJMWNIQTFkaTFIYkVWQ1gyRXRlRTF0ZWtkWlFUQkVVVzVxUm1oSVQxVnhNMHhaUVVSNk1rbHRSR3RpTW5ZemF6ZHphSFp6YkVFMVlTMHlTblpXZFhORFowa1NGMXBFU2xWaGRHNTFSSFYxUVRsMU9GQnRkSFp6WjFFNEdpSkJSSE55T1daU1gwaE9WMlJ6YUVWS01sVkZZWGRKVTE5TGQwODJVR1pXUWt4UiIsImZjdiI6IjMiLCJmY19pZCI6Ill6YWxOLW9jU3pFXzRGWVlBQUFBQUE9PSJ9",
+      "title": "Software Developer (Backend Java Pleno)",
+      "company": "Enghouse Systems",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-developer-backend-java-pleno-at-enghouse-systems-4437339431",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBEZXZlbG9wZXIgKEJhY2tlbmQgSmF2YSBQbGVubykiLCJjb21wYW55X25hbWUiOiJFbmdob3VzZSBTeXN0ZW1zIiwiaHRpZG9jaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJb1VtbGlaV2x5WVc4Z1VISmxkRzhzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1UwMWNYQk5NRnBUWW5GQmVqQk1NVEY0VWxvd1duWmtNMFpzTjBGNFl6WjZaMUpvZG5aa1MyVTJWMjB6V1RWRFFVTldkRzlOTUZFNWRUVlRaVXBKVkVsS00yOVJRa3g2YUdzd1RrZDBRVXA0YURWSWRVVkRVRXcxY1ZoRGMzQnlhMnhxY0ZJeE1UZGFSMjh4Yld3d1NtSmllbVZ2YlZWWmMzazRUMEV3YzNOeFEzZDBTRzBTRjJoVVNsVmhkbXBpUm1GaE0zRjBjMUF4V1hwRmMwRnJHaUpCUkhOeU9XWlJhV2swZEhwbU1UZFFORmg1ZGs5UVRWUnFWamxvUzBGYWEwOUIiLCJmY3YiOiIzIiwiZmNfaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0ifQ==",
+      "title": "Software Developer (Backend Java Pleno)",
+      "company": "Enghouse Systems",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-developer-backend-java-pleno-at-enghouse-systems-4437339431",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBEZXZlbG9wZXIgKEJhY2tlbmQgSmF2YSBQbGVubykiLCJjb21wYW55X25hbWUiOiJFbmdob3VzZSBTeXN0ZW1zIiwiaHRpZG9jaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdlUyRnZJRXB2YzJVZ1pHOGdVbWx2SUZCeVpYUnZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEcxcllreEZOa3RaUkhFelNFZHlZMmxVVFVscFRrTTVjbVZNU2w5cmVGcExSa05NUm05RGExaFRXWFZIU1dvelUzTm1aV3gxYWxJMVFpMDNRekJsZFc5bFQwWjRPRFl0WVdGNVUzTk9ZMDlXTUVWRlNqaGhWa2xVTldWd2RqUmtZV1pQVmsxSFVYTjZjVmc1UkZGNVRYaFVjM2MzWTJOWlgyRjFZbDkxZVdOM05WUTFNRElTRjI1VVNsVmhjbGhCVEhWTE1YZE9ORkIyWm1WbmNWRkpHaUpCUkhOeU9XWlRSUzFqVlMwM2QzQXhjMWhKWW05SlkyeFdXa3BhV0U5UldHUkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJZemFsTi1vY1N6RV80RllZQUFBQUFBPT0ifQ==",
+      "title": "Software Developer (Backend Java Pleno)",
+      "company": "Enghouse Systems",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-developer-backend-java-pleno-at-enghouse-systems-4437339431",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBEZXZlbG9wZXIgaW4gVGVzdCIsImNvbXBhbnlfbmFtZSI6IkRldnRlc3RDbyAxMjM2NiIsImh0aWRvY2lkIjoibEJDcHRxT2xZbjdHcnZGSUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWlVMjl5YjJOaFltRXNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTakEzZFRKVU1tWlZYMVZTWTE5c01XZzFMV3g2UjNreVFXZzBZMWxHT0Y5MlRYWjZWREowV0haRU9XWnhXbEI1WWpBeGMwUndVMUI2Ym1wR1IzVnhTakJGVjJkMExVbHplVTQzVEdoamNsb3RUSGxvV0Vsbk9YQmpla0U1U25ONVdYaHVZVkJxY1hKdFluQTFjMm94VkVwNVdFeDNWemxDTjJOd1NWTm1kWGxVZFRGbFJXZ1NGMlZVU2xWaGNuRmtUbkZwVm5kT05GQXlVRzVtYlVFMEdpSkJSSE55T1daVFlYZEVjemQ0YmpCdFExaEJTamd0Y3paclJuUllNalJUUW5WUiIsImZjdiI6IjMiLCJmY19pZCI6ImxCQ3B0cU9sWW43R3J2RklBQUFBQUE9PSJ9",
+      "title": "Software Developer in Test",
+      "company": "DevtestCo 12366",
+      "location": "Votorantim, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/software-developer-in-test-at-devtestco-12366-4424293788",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoQUkgVHJhaW5pbmcpIiwiY29tcGFueV9uYW1lIjoiQWxpZ25lcnIiLCJodGlkb2NpZCI6ImRDeVhsQWphTFVWb3V3RnJBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0l2VTJGdklFcHZjMlVnWkc4Z1VtbHZJRkJ5WlhSdkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVm8xZVhKRlREbFZlR1JxYUhwYVZqZDJObmQxYm05SVozVlFWVFk0VkRKZlpGODBkaTFtV1hWS1RHTkZZV1pqU2s4M1ZXbEhOMWhTWVdGb1dHUmliWFY0VjI4eWNrcGtXSEl6Y0Y5Q1ZEWjRNbWhGUTJ0Q05pMWFZbEl0WkZwT01teGhSVVZXV0ZZM01sSlFaMDlhTFVsaE9XWjRkM1Z0VVhJMldEbG1hR1ZtZUVwck0yZ1NGMjVVU2xWaGNsaEJUSFZMTVhkT05GQjJabVZuY1ZGSkdpSkJSSE55T1daVWIzZHFka3BxY21oNVNWb3laa0pLUW10RVVHeE5VMjQ0YTNWQiIsImZjdiI6IjMiLCJmY19pZCI6ImRDeVhsQWphTFVWb3V3RnJBQUFBQUE9PSJ9",
+      "title": "Software Engineer (AI Training)",
+      "company": "Alignerr",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-engineer-ai-training-at-alignerr-4438540939",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoQUkgVHJhaW5pbmcpIiwiY29tcGFueV9uYW1lIjoiQWxpZ25lcnIiLCJodGlkb2NpZCI6ImRDeVhsQWphTFVWb3V3RnJBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lmUW1GMWNuVXNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTbEJNVkV4WVdFOWxYMHBSZUMxbE5uWkZPVFJPTlZkWlZTMHRWV0pHVmxwRFJUTllPVzVMVTBwVlpVMVhaVkEwWDBsUFpYQktlVGhzUlhocWRGWTVWR2w1UkhGQlFVeEtNblIzWkVOblZYVkNjREZPZG1admNFbFVSM1psUVZSTE9ITlVjVFJZY201T1lrZElPWFpOWDFGMGFXZFhORkYxYTFKWU56UkZNVkkxVGtkTU1rOFNGMnRxU2xWaGRsZHhTV1IyVWpWT2IxQnFaWEowTUZGakdpSkJSSE55T1daVVZHa3hTa1JQZURKT1RGTnJjWGwwVm10TVVUVndVVGhxU2tWQiIsImZjdiI6IjMiLCJmY19pZCI6ImRDeVhsQWphTFVWb3V3RnJBQUFBQUE9PSJ9",
+      "title": "Software Engineer (AI Training)",
+      "company": "Alignerr",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-engineer-ai-training-at-alignerr-4438540939",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoQUkgVHJhaW5pbmcpIiwiY29tcGFueV9uYW1lIjoiQWxpZ25lcnIiLCJodGlkb2NpZCI6ImRDeVhsQWphTFVWb3V3RnJBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lvVW1saVpXbHlZVzhnVUhKbGRHOHNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURFZ0VjJOdGNWVk9lbEJ6TUZwUlVrOXliemRKUlZoNFZGVmhUMWxOVjNCbFdVMDNjM1pQV1ZaV1VXbzJUazB0Wm5GRmJUWXlWWFJtWDFCVVkwbE1YME13ZUVsTVF6UXRNbXRpZVVSWlExa3hTV016WDJkd09HVkJWMWRuTVc1cWF6ZzVRelJHYjBKUE5ucGFWR2RRUm5BMmRWWmpNRGxNVG5GWk1UaEtiV1ZFVGxsQ1lYUVNGMmhVU2xWaGRtcGlSbUZoTTNGMGMxQXhXWHBGYzBGckdpSkJSSE55T1daVVZtNXNVVkpVVmxaalpUZHNXazE2ZVZaeFJrWnpaR2xhWlRCbiIsImZjdiI6IjMiLCJmY19pZCI6ImRDeVhsQWphTFVWb3V3RnJBQUFBQUE9PSJ9",
+      "title": "Software Engineer (AI Training)",
+      "company": "Alignerr",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-08",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 4 dias",
+      "source_url": "https://br.linkedin.com/jobs/view/software-engineer-ai-training-at-alignerr-4438540939",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0l0VTJGdklFcHZjMlVnWkc5eklFTmhiWEJ2Y3l4VGRHRjBaU0J2WmlCVFlXOGdVR0YxYkc4c1FuSmhlbWxzIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUSFU0ZFVwcmJrVXdORFZRTVhGdWFVRndXa3hWVkU5c0xWRTRlakpzTFU1S1JFSkNSa05tY1RVdFR5MVdlakZQUzE5RU5sY3pSRWhCU0ZaWFZHVlZRbll4ZFVKaE1teEJWbXRvWWtKclNtczRVbVZVYmpkdFZsbHlXVUZHVlVGRU4yVkRhRk50WHpkUVFXSTJObWN0VlV0dlJFVm1YMkl0WVVzMk5qSkhNems1ZFV0RlIxVVNGMlJFU2xWaGRtMTZSMkV5ZW0xMGExQjROMHhGTUVGdkdpSkJSSE55T1daUlRtb3hWazFzY1ZoQ1dVNVVOWE5tYjJsRU0wWktRbXAyT1RKMyIsImZjdiI6IjMiLCJmY19pZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSJ9",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0l2VTJGdklFcHZjMlVnWkc4Z1VtbHZJRkJ5WlhSdkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUR1F6VldRMmIwSm1Wa1Y1ZW0xbVJGQkVZMnhNUVZGbU4yVTFORVYzUnpoRVRXOWxOeTExWkZkWGRqaFFPVEV5ZDBselRHY3pTa2h6VkdnMlV6VXRURFpVY1doWlZ6TmtlbTFvUjFOM1NGY3dibXRTYjBGM2IySmxWVkJ1TVZKNE1tbFViazl1UTNkVFJFaDNPR0ppT1dSMVdXZDBjVWw1TURNeVMyTkxZekZKV0hwWmJYVVNGMjVVU2xWaGNsaEJUSFZMTVhkT05GQjJabVZuY1ZGSkdpSkJSSE55T1daUmJEUnlUREJFT1ZNeGFFY3liVlp0WW1ZMWNucExOVGc0Ykd4QiIsImZjdiI6IjMiLCJmY19pZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSJ9",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lmUW1GMWNuVXNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMHBHTVhaUlUxRnVkekZKV0VsdWRFeFFXRXBzTVV0WGVHbDFVVkpaT0dkc1EwdGtPV3BRVkZKNGFHUnRkbEZtUzBOd2VXRjNhMUI1WWxSb1pIUkdibUowUjJKNlFXaEVNbnBEUlhkemMxODJia0l6ZVRsbmFFOWhiV0pKTmtOWVkyOTJhVGg2YjFOTWRHZGxkRW94T1ZScWVtd3lOamQ0YTJSM1RHZHBaRzFzTFhaQ1RFVVNGMnRxU2xWaGRsZHhTV1IyVWpWT2IxQnFaWEowTUZGakdpSkJSSE55T1daVGRXNDVWR3RIT0hCYVlsRnlTek5TU1cxb2NrSjFWRGQ2YlRKMyIsImZjdiI6IjMiLCJmY19pZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSJ9",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lnVTJGdWRHOXpMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzI0d1prOVpWbU5pU2xoTlgxbFdWbVZyUkc5SGVWTlVNM3BDU0U1Zk9YTmlRMDE0VkVWc1VYSktlalZHUkdaUWFXNUlTVUpVYjFveFNGUkViamxRWW5GT1VFUndVa04xU2xwVGQyRlVWV3hTUlZkYVgzTnJObEUwUmxBMFJrSTVhSGwzZFdFNVEwbFhkVEIwYW5kVE9WYzRXWEJIZEhOaWEyaENibVZqYVhWRFZIZHZVVU1TRjJscVNsVmhjR0paVDJGeWJIZE9ORkJ0Tmt4aWRVRmpHaUpCUkhOeU9XWlJkSFo1TnpBeE1HbElRMk5aVWxsNmJFaFBkWGhHTVdaZlNsTjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJHVFdYTTdwdHhBN2FKM1FNQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lpVTI5eWIyTmhZbUVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEZWZlJtcFFSeTFxYW14RlpuRXhkWEZTV0ZSd1dERkJNbUZKUW5aSE0yZDNjRWQxYUdWWU1qVm5abGd4YW1oRGNucHRkVWhyTFhodGRqaDNUa1EyU0cwelRXSTFZbGgyVWtkUWRIZFllRGs1WWt4VVozRmpXRzloWlhoSk5XTlRjSGRtZFc5c2NGZGhhSGRJVm5CSGN6VXhZemhZWW1aTUxYbEZaWFEwYjFoMmFrZGxaSGNTRjJWVVNsVmhjbkZrVG5GcFZuZE9ORkF5VUc1bWJVRTBHaUpCUkhOeU9XWlRjbXBtYmpneFNrTmZhVkY2ZW0xU01rTXhOV3N6WDFwbE1uVlIiLCJmY3YiOiIzIiwiZmNfaWQiOiJHVFdYTTdwdHhBN2FKM1FNQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNrSmFaRU5qVHpoNmRFSnBTak5vV0hOYVpGRkhZV2xSZERKelNXWmFVMEppZVdvM1ZuVnZWRXRYTlVObGVWbDBSbkUxV2s4eFUzUndSV1Z3U1dkbWMyeFhRams0ZEMxUE1uSkNPREZmWjA1eVFVeEJWM2RLYVUwelZtazBVbFZYUldkcFh6WTJOMlprZFRoTE4yOW1NMnRWTFRoSGNWSk5WRU5QYldsQmREUk1SWFo1VEVvU0YxcEVTbFZoZEc1MVJIVjFRVGwxT0ZCdGRIWnpaMUU0R2lKQlJITnlPV1pSU1dSRGMyeFlPVTFMV1hGd1VVbDNjR2xwTVRSaE0zVjNPVmxCIiwiZmN2IjoiMyIsImZjX2lkIjoiR1RXWE03cHR4QTdhSjNRTUFBQUFBQT09In0=",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAoUHl0aG9uKSAtIFF1YW50IFN5c3RlbXMiLCJjb21wYW55X25hbWUiOiJNaWNoYWVsIFBhZ2UiLCJodGlkb2NpZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lvVW1saVpXbHlZVzhnVUhKbGRHOHNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUR1prVURGWVptbENkMkk0VnpCeWFWOXRUVnBRUkc1eFJXdEZkMm81YWxOeGNFNXdTblZGVlVkdUxXaGZVV1J4UzJZelozcGZOVXRqWVVOa2RWSlhXRFZLVEdkMFFVRkpORzVUTlUxWmFFMXFlRzlFWWxrMkxYSnpWMVZPWjNndFZIaHBabmhaWTBaMU9XZGpVRjlIU1dsMlRsUTFhbXhQYm5oUGFXbDZRbkJtVlVwaVpEVVNGMmhVU2xWaGRtcGlSbUZoTTNGMGMxQXhXWHBGYzBGckdpSkJSSE55T1daUlZTMUxhSFZGUVRaWFlqUlNibUpDZFdkNWFrNXJOREJNWVU1MyIsImZjdiI6IjMiLCJmY19pZCI6IkdUV1hNN3B0eEE3YUozUU1BQUFBQUE9PSJ9",
+      "title": "Software Engineer (Python) - Quant Systems",
+      "company": "Michael Page",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.michaelpage.com.br/job-detail/software-engineer-python-quant-systems/ref/jn-052026-7027912",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0l0VTJGdklFcHZjMlVnWkc5eklFTmhiWEJ2Y3l4VGRHRjBaU0J2WmlCVFlXOGdVR0YxYkc4c1FuSmhlbWxzIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVXRJY0RSVmNpMHpXRzF3VVhscVlYQndkME5WTjIxRFQzSnBMVFJ1YUdaa1ozVkNabUpYWjBSMlJ6Z3pjbWd5Y1c1V1ZDMWFlbWROVVhBMFpIWnBSVXB5UnpSelpta3lSRUYzTlRKRFVFcGhOVXBJWTJsNGVEZzNaMFIzY2pCMVlYWTVORmhCVEZsdlp6VktWRVl4YlhsSmJHVkhhall6VkY5TE1XSndWR2cxYUVsaFRWRVNGMlJFU2xWaGRtMTZSMkV5ZW0xMGExQjROMHhGTUVGdkdpSkJSSE55T1daU2IyVjZabFIxVERSdlZHRTFlbmhzWmpsYU16aDBZMjlNVFdsbiIsImZjdiI6IjMiLCJmY19pZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSJ9",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "published_date": "2026-06-24",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0l2VTJGdklFcHZjMlVnWkc4Z1VtbHZJRkJ5WlhSdkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURzE0Y1ZRMUxVb3RWSFZYU2s0emVXRmhSekZNUldkcUxVczRTbFpHZFc4M01YbHJkVjh5YW5sWmVYaG5VR2t3ZG1GS1lWTmxXbXg1UmpoMWRXRmZUMFZxTFRScWN6QkRjbWxzZEZScE1XMWhTRU5mVHpkSWMwSXhUV1JCU3pkMmRtNU5SRFpKU21WNWVEQTBNRTlHWTJ3eVQyNXNRa1JoTVVsRVlsVjJUMXBQU0VkT2Ftb1NGMjVVU2xWaGNsaEJUSFZMTVhkT05GQjJabVZuY1ZGSkdpSkJSSE55T1daUldHRk5TVGhSU1ZkWFgyeHJURU5DU201U1NFaHFSemc0TkhCbiIsImZjdiI6IjMiLCJmY19pZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSJ9",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "published_date": "2026-06-24",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lmUW1GMWNuVXNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVU5KWnpOSU1ITmZRWEpMYmxRd00xZEtaM0JPUjBSTGJFeHRlR2x3Ym1Sa01tRkJWa1kwWjB4TE1TMTNaMnBHV0VnNWMyRkdkM2x1ZFZORFlXbHJPRWRqWTNFdE1YbFllazlEYUd4eGVHOTVNMHB3TlZWVWRVUnlVSEZMVkhkbWNuRm9jemhGZDBSMk9HcGFSRmx3UTA1aU0wWmZOVVZ4ZGxSVWNHaFZWbFpRWmxKc2IwVVNGMnRxU2xWaGRsZHhTV1IyVWpWT2IxQnFaWEowTUZGakdpSkJSSE55T1daVGFuUlFkV2d0YlhwRWJXY3lYMFJUTkVZMlR6ZHZhSEJKVDJObiIsImZjdiI6IjMiLCJmY19pZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSJ9",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "published_date": "2026-06-24",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lnVTJGdWRHOXpMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1hkTldUSlFkbTVwWlRCWlRuTktNalU1UzFOd2NHZDRTWGhSWDNwVlp6QXlkMjk0UzNZdFdGbEdlSGRXWHpnMWNYZ3lUVmR4Vm1KeFZHWkRWMGxJU21wS1ptcFFWWGRyYmxkM2NscDNTVU5LY21zMFlqQXpibWRsWlZsSVQxaERNMlpMYnpKWWVtUlhVREJPU1d4TVNFd3RhVU5aYldSZmJWQm1jMk10Y1hvNWRFdFFSamtTRjJscVNsVmhjR0paVDJGeWJIZE9ORkJ0Tmt4aWRVRmpHaUpCUkhOeU9XWlNNRFJTWDFGbVluSXlSV0ZpVDA5SFIwcE1USEJ3VG5WTWRqbG4iLCJmY3YiOiIzIiwiZmNfaWQiOiJuNi0yenV1NlZuZDhTS2tnQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "published_date": "2026-06-24",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lpVTI5eWIyTmhZbUVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEdoNmVEbFZZVkZ2VVVkNVEzTXhMVGxYYWkxeU1FTTVZMVJhVDNwVU1HcEtabTVYVFRWVWFXVlVjV0l4YXpRelZHcEhibWwyVlRSekxUUkJVMVJOY1ZCSmRrcGhjVlpZWldwcGVsTlFiVGczVFcxWlZrRjBOVlpyUXpSd1MxZE9jRkpYY2pSemNucGxhRFV4VkVSTlQwRXdVbXB5ZEMxRlgzUlNVVVpXTkVkNmNVZzJTV1lTRjJWVVNsVmhjbkZrVG5GcFZuZE9ORkF5VUc1bWJVRTBHaUpCUkhOeU9XWlRZV2hCVUc5ZlVIRXhNa3M0YkdWTGVYRXhTVFIzVEVzd2MyVm4iLCJmY3YiOiIzIiwiZmNfaWQiOiJuNi0yenV1NlZuZDhTS2tnQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "published_date": "2026-06-24",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNuUXlkV0puYVZKdGQwNXhhRGRXWmxCYVp5MVNTRGhtU1RjNVRHeDROMFJ4YjBSNU5GcGpRazFUZWtwdVZFcDFlRFZ5ZVVkc0xWWXdia2RWY2pWSlNtaGhlWFpzUVMxRmIxQlFlWHBEYldVeGNFRm5RbTFDV0hOcmRYSkRYekZrTFMxVVlXRk5NVTVFTlVoT1ZHbEZVMU5YZG05RGNXUnVaRWROZDBacFIyazVRbTl5UVVvU0YxcEVTbFZoZEc1MVJIVjFRVGwxT0ZCdGRIWnpaMUU0R2lKQlJITnlPV1pTZDJkeU5GaExZMk5RVDBJd2FWUkpURkJZWTB0VmFWZEpVRVJSIiwiZmN2IjoiMyIsImZjX2lkIjoibjYtMnp1dTZWbmQ4U0trZ0FBQUFBQT09In0=",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "published_date": "2026-06-24",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEN5YmVyQXJrIFNlY3VyaXR5IiwiY29tcGFueV9uYW1lIjoiRVkiLCJodGlkb2NpZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lvVW1saVpXbHlZVzhnVUhKbGRHOHNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVmwwYldsc1lqaDZjVUpEY2t0aFFWQjRhblk1VUd0VmIyOVhSelZ4TUZZMFRXeExkRTlQV0Vrek0xTkJVMDVZVEdoNVQzQlFVbGRZV1dwWVlUbDJZa2R6ZEhWSGRsOUlhMTluTmxSM1pHbFRTME0wWm1jM1gxSTJZV2R2TVhOblZscFNPRGM1WlVjMlN6QktjVTEwV1RCcU1uVkRTMmhyY1hwdGEwWkRVVU5UUkZkWGJEZ1NGMmhVU2xWaGRtcGlSbUZoTTNGMGMxQXhXWHBGYzBGckdpSkJSSE55T1daVFJXZDBWbXhwVGtnNFUySnVaM1o0YVZobVRVdzRYMGQ0Y3pobiIsImZjdiI6IjMiLCJmY19pZCI6Im42LTJ6dXU2Vm5kOFNLa2dBQUFBQUE9PSJ9",
+      "title": "Software Engineer - CyberArk Security",
+      "company": "EY",
+      "location": "São Paulo - SP",
+      "published_date": "2026-06-24",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 18 dias",
+      "source_url": "https://careers.ey.com/ey/job/S%C3%A3o-Paulo-JK-Software-Engineer-CyberArk-Security-SP-04543-011/1388534933/",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciB8IEVhcmx5IENhcmVlciIsImNvbXBhbnlfbmFtZSI6IlRha28iLCJodGlkb2NpZCI6IjRWSHlvSmNuX3cxUlZob2FBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lnVTJGdWRHOXpMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1VWdlYwazBhRGRDY0hFMVQyVkljbGxZYVROQmNFTklOMGxPVmpsQllsWjNhakJSZWxaNFUyRk9WWEkxYW5odVFXcDNiemN4VTJOWFp6UkdPRTkwVldaYWIzTlJlVmgzYWs1emVUbERWV1IxWVVweGFubDZWRlZpT1hCU1dYZHpaRlp5TW1OQllqY3liSE40V1hCV04xb3RTMTk2VHpsTVZVcG1SMGQwTmsweGVWTjFha2dTRjJscVNsVmhjR0paVDJGeWJIZE9ORkJ0Tmt4aWRVRmpHaUpCUkhOeU9XWlJaRTFWYzJGV1VrSkVlR0pOTnpVNE4xSjJlVzFvVEZselJrZG4iLCJmY3YiOiIzIiwiZmNfaWQiOiI0Vkh5b0pjbl93MVJWaG9hQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer | Early Career",
+      "company": "Tako",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://jobs.ashbyhq.com/tako/4f558b5e-133a-4d80-9934-15026e3da5b9",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBNYW5hZ2VyIiwiY29tcGFueV9uYW1lIjoiR3J1cG8gT0xYIiwiaHRpZG9jaWQiOiJDbkRGZERsbUlyZEZyZkZtQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZlFtRjFjblVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzJ3MGEwWm1kekJDZWtSQ1FWbzRTMVJsYW1vNU9VdFhhMDVyVFdGSFltRktRamxxUWxWQlJFTnZWWEZCZDB4NkxWcHFiMTkwVEdaSlFqbFhRVmRCZW5GSFREaE1ZVEJUVXpnM1gzTllhVFYwV2paa2VHYzJOekF3UnpWVldWVXhWM1Z3Tmt4TGRVeHRRV28zUldVMWRVeG9kR1EzWkRSUk9UWkVaSHBzY1d3M1VVYzBVa3dTRjJ0cVNsVmhkbGR4U1dSMlVqVk9iMUJxWlhKME1GRmpHaUpCUkhOeU9XWlRSbXhGYVdkaWJHdFRNVk5TVkhCdGFHUlJjelJ3TldWVU9USkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJDbkRGZERsbUlyZEZyZkZtQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer Manager",
+      "company": "Grupo OLX",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://vemsergrupoolx.gupy.io/jobs/11580908?jobBoardSource=gupy_public_page",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBNYW5hZ2VyIiwiY29tcGFueV9uYW1lIjoiR3J1cG8gT0xYIiwiaHRpZG9jaWQiOiJDbkRGZERsbUlyZEZyZkZtQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJb1VtbGlaV2x5WVc4Z1VISmxkRzhzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2pVMVJHZzRiVm8wVTBKclpDMUZRbWx1WDFVd1ZIazVOR1I1VGxZeFduaDVaMHQxVFZCUldqRXdNMkZRTjI0MVFqTm9ObkpGVVZCaU1HZFlOM2RPWTNCaVJUbGhkSGgxTFcwdFJrRXlVVEpNVFdWTlRscDRlSFpHYnpGZlZUQllWMUZGTlROalduUTBVMlIwVkRoTVNGWTNSakp1ZVVsa1lUaHJWMnRNY1VsSk1uWTJhRGNTRjJoVVNsVmhkbXBpUm1GaE0zRjBjMUF4V1hwRmMwRnJHaUpCUkhOeU9XWlJjR0ZMZDJ0QmIxaG5iVmwyTkdoNFpUTTNlWGhxVGpaU1dtbDMiLCJmY3YiOiIzIiwiZmNfaWQiOiJDbkRGZERsbUlyZEZyZkZtQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer Manager",
+      "company": "Grupo OLX",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://vemsergrupoolx.gupy.io/jobs/11580908?jobBoardSource=gupy_public_page",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBNYW5hZ2VyIiwiY29tcGFueV9uYW1lIjoiR3J1cG8gT0xYIiwiaHRpZG9jaWQiOiJDbkRGZERsbUlyZEZyZkZtQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdlUyRnZJRXB2YzJVZ1pHOGdVbWx2SUZCeVpYUnZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2pCdVZIUnBiM2hxZEdKaGVqVXRWME5XVFhkMU9GUmxRMU40TFZKQk1XdENTVlpWT1hkdVJVVkJNMTlpZGtObWJuQlVjVGRQVUU1MGJXTlJNRTQzYzFGV2FtOUJaRVZVV1ZsR2VGZzNUaTF6VkRkbU16UTRNMlJ0ZFRsc1RVZ3lhbmRpVlRsc05uaFdla000VUU1VGNVeE1NMDVSTVVnNWRXSnZaRXBQZVZKMFQzWlNWVWdTRjI1VVNsVmhjbGhCVEhWTE1YZE9ORkIyWm1WbmNWRkpHaUpCUkhOeU9XWlVjbUkyTkZBeFNVaEVNV3RVVVZkWmRtcFhURzE0Ym5Gc1pGVjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJDbkRGZERsbUlyZEZyZkZtQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer Manager",
+      "company": "Grupo OLX",
+      "location": "Qualquer lugar",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://vemsergrupoolx.gupy.io/jobs/11580908?jobBoardSource=gupy_public_page",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IlRha28iLCJodGlkb2NpZCI6ImlPdjJRaTBFQTFDa2pQVnBBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMxTmxhemxpVkMxMFNWSnlTbGsyYzFwWVJsZGxOVTk0VUhWU2MwZHZTWEZCUmtkaU5XeE5RMU5KWmpkelVVeGliVlpIYTJscVJrbDNia3d3TW1SQ1dGTTRhRmxaVldKSU5EZHZORkZhZUZZeFptbFlRbEZsYlRoblUxQktaMGRJV1hOVlYzcEpZM2h6U1c1UWEyOW5UbkkyYm1Gc1NFZFNOVFp0UjJoeVlURnBRa1Z0ZDJvU0YxcEVTbFZoZEc1MVJIVjFRVGwxT0ZCdGRIWnpaMUU0R2lKQlJITnlPV1pUYWxkcU5HZFdaazF6YkdrNU1VaE5lakIzVUVnNE9VaExVa2RuIiwiZmN2IjoiMyIsImZjX2lkIjoiaU92MlFpMEVBMUNralBWcEFBQUFBQT09In0=",
+      "title": "Software Engineer",
+      "company": "Tako",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://jobs.ashbyhq.com/tako/cfedb281-76ee-47a2-8425-30b8eac9b5d1",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IldhYnRlYyBDYXJlZXJzIiwiaHRpZG9jaWQiOiI2cnhyRFdMMW94NzFSc0tzQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZlFtRjFjblVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1dKQmREVllWME01ZUdKQ1lTMTBTa2R1Tm01S1gwOUJNazh4WmtkeFEwVlZVM1JXTkdNM1NFZFlaWGN4UWtOUlZqSm1kREZhTW5KeGNHWlVhRzUxTkVJeGRVVlhYMUZITFZJelUxOTVXRmhEWlZoV2VucGFVbXRmYTBzMGIwZFdaelZtY3pKbWFUaEhNMmMyUzFWV1MwRnJkV0Y2ZVVWWVJFZHBhazgyTVhoWlgwWmlkMDBTRjJ0cVNsVmhkbGR4U1dSMlVqVk9iMUJxWlhKME1GRmpHaUpCUkhOeU9XWlVjRk5aTVZWUGVHTTRjVVp1Vms4NFNub3RiWEkxVW1ka1FrcG4iLCJmY3YiOiIzIiwiZmNfaWQiOiI2cnhyRFdMMW94NzFSc0tzQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer",
+      "company": "Wabtec Careers",
+      "location": "Contagem - Parque Industrial, Contagem - MG",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://careers.wabtec.com/job/software-engineer-in-contagem-mg-brazil-jid-3183",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IldhYnRlYyBDYXJlZXJzIiwiaHRpZG9jaWQiOiI2cnhyRFdMMW94NzFSc0tzQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJb1VtbGlaV2x5WVc4Z1VISmxkRzhzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1dscFdrZDRNWGMwUVdKelNucEZia2Q2UjNjdFFVeE1RbFpYYUdSbVQwRldZMW80TldvMmRVRkdaRk40ZFVVelZHcHZWRkpLZUhWNlNIWlFURlExWDNWT2VrWk9ia2hmV2w5Q2QyUm5YMnhoVW1sdWFrNVlYemhFUjI1cE9FaENVblJUTlc1clRVcEtTak4wVUZvMGRUSnFjVVpETldscWIzZE5VbTA0VjFWTFZVVlBPRWtTRjJoVVNsVmhkbXBpUm1GaE0zRjBjMUF4V1hwRmMwRnJHaUpCUkhOeU9XWlRkVmhtTjFGYWRpMHhkVXN5UkVac2JUZGFRM1pyY2t4NFpVRm4iLCJmY3YiOiIzIiwiZmNfaWQiOiI2cnhyRFdMMW94NzFSc0tzQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer",
+      "company": "Wabtec Careers",
+      "location": "Contagem - Parque Industrial, Contagem - MG",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://careers.wabtec.com/job/software-engineer-in-contagem-mg-brazil-jid-3183",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IldhYnRlYyBDYXJlZXJzIiwiaHRpZG9jaWQiOiI2cnhyRFdMMW94NzFSc0tzQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdlUyRnZJRXB2YzJVZ1pHOGdVbWx2SUZCeVpYUnZMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2xkbVVrWmZjVzV1VlhORE9TMVNVWGM1YWtKT2FEWjRkVTlaY2pVM1dtazBNRlV3YzA1Q2JVZzVUVFZYWm5GNFMwa3RiREp5VDJsdmFtTkJRbTQyU21sV1pXOXVURVZTVFdsdVVESlBkRWhDTWpaaGNIWmpPRTlsUlZOUWRrOHRkazFPVVd4emNqTlRWRzQ0YkdSQ0xYUkNkWE4zYjJORGRHeDZSRVpOV0MwdFdWOUZVR01TRjI1VVNsVmhjbGhCVEhWTE1YZE9ORkIyWm1WbmNWRkpHaUpCUkhOeU9XWlNOVzA0VFhGcE9HVTBWRFJtVlVGV1JUVmxPV2RVV2s1d05EZEIiLCJmY3YiOiIzIiwiZmNfaWQiOiI2cnhyRFdMMW94NzFSc0tzQUFBQUFBPT0ifQ==",
+      "title": "Software Engineer",
+      "company": "Wabtec Careers",
+      "location": "Contagem - Parque Industrial, Contagem - MG",
+      "published_date": "2026-07-09",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 3 dias",
+      "source_url": "https://careers.wabtec.com/job/software-engineer-in-contagem-mg-brazil-jid-3183",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlciAoSmF2YSkiLCJjb21wYW55X25hbWUiOiJCYW5jbyBTYW50YW5kZXIgQnJhc2lsIiwiaHRpZG9jaWQiOiJOT2pZTzRoXzdWWllVMTFDQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJZ1UyRnVkRzl6TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNrdGZZamcwZWpWMWFrcE9la0UwWTNVelNYbHFhRlZ6Y0ROUVYwbGZjWFpJWjBaSGVFTk9XVWxVY0dReFVpMHpVME5ZZEhsUmRtTTBWVVJrV2pKdFNuaGlSMkoxUVc1RWNuTmhNbVpZZURKS2FsUlVSVWRXV25JeU9FTnZPSGhCVGxCQllqSnVTVzVRU0dodlRIZElkVzlZYTJSeGVscDRlRXBNTTBWNFpFSkJTRXhEVjI4U0YybHFTbFZoY0dKWlQyRnliSGRPTkZCdE5reGlkVUZqR2lKQlJITnlPV1pVYVhGdFEwVk1iVWxPTUhocVNrTktWak5sVkdsMFFrdG5RV05SIiwiZmN2IjoiMyIsImZjX2lkIjoiTk9qWU80aF83VlpZVTExQ0FBQUFBQT09In0=",
+      "title": "Sr Software Engineer (Java)",
+      "company": "Banco Santander Brasil",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.universia.net/br/emprego/c9453959-a3a5-5bc4-aaa5-b3a7ffe875b6/sr-software-engineer-java-hybrid.html",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlciAoSmF2YSkiLCJjb21wYW55X25hbWUiOiJCYW5jbyBTYW50YW5kZXIgQnJhc2lsIiwiaHRpZG9jaWQiOiJOT2pZTzRoXzdWWllVMTFDQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJaVUyOXliMk5oWW1Fc1UzUmhkR1VnYjJZZ1UyRnZJRkJoZFd4dkxFSnlZWHBwYkEiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMxODVSalZZUzE5Vk5YWXdVMkoxWjFCMFNqVlNPSFZmYkY5TVUzbzFRVjlKVm05TWIwMUpOV1YwYldaMVprUmtkSGRETlZaeVMwTmpaVzVGWWtOVlFWWkZaMnBsY21OTmFuaE5TWFJyTFhKUFJtOVdjbWh6UmxSeVF6bElZVFJVV2pkQ1ltaGlNVTl6T0hacVlUTlVVMHR3ZWtacGJVeE5WRVZHYUZNMGFXSmxVV3RKTVdvU0YyVlVTbFZoY25Ga1RuRnBWbmRPTkZBeVVHNW1iVUUwR2lKQlJITnlPV1pVUW5aVFdWZzNSVEpoYlhKdFZFaG9ablZaVEhVeExVOU5VRjluIiwiZmN2IjoiMyIsImZjX2lkIjoiTk9qWU80aF83VlpZVTExQ0FBQUFBQT09In0=",
+      "title": "Sr Software Engineer (Java)",
+      "company": "Banco Santander Brasil",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.universia.net/br/emprego/c9453959-a3a5-5bc4-aaa5-b3a7ffe875b6/sr-software-engineer-java-hybrid.html",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlciAoSmF2YSkiLCJjb21wYW55X25hbWUiOiJCYW5jbyBTYW50YW5kZXIgQnJhc2lsIiwiaHRpZG9jaWQiOiJOT2pZTzRoXzdWWllVMTFDQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJalUyRnZJRkJoZFd4dkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUR2M1UmxkalpWUlJlV3MyYTAxR1ZreFJjMGhrVG1wNU5VNHhWRTl4U1U0M09YbDRNUzFsVEdGTFkzUXlVVEJ3V2xaU1pGVjRaV2h6YmtSUVJYRlFMVGt4U2pKRE1EVTFjbHBRWlRKclkwY3pSamRaVkVwSVFXMUpWSE51TjFSMVptdzBXVGt6U1VkaFdVMDJVbGRJTjJ4c2FGZFJaVmRpWHpZNFpIQk9VRlJPU0d0RWJtb1NGMXBFU2xWaGRHNTFSSFYxUVRsMU9GQnRkSFp6WjFFNEdpSkJSSE55T1daVFQwTTBWVmREVjI1VVYxcFBOMmxzVFZGUVpVYzJYemhNT1dkUiIsImZjdiI6IjMiLCJmY19pZCI6Ik5PallPNGhfN1ZaWVUxMUNBQUFBQUE9PSJ9",
+      "title": "Sr Software Engineer (Java)",
+      "company": "Banco Santander Brasil",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.universia.net/br/emprego/c9453959-a3a5-5bc4-aaa5-b3a7ffe875b6/sr-software-engineer-java-hybrid.html",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTciBTb2Z0d2FyZSBFbmdpbmVlciAoSmF2YSkiLCJjb21wYW55X25hbWUiOiJCYW5jbyBTYW50YW5kZXIgQnJhc2lsIiwiaHRpZG9jaWQiOiJOT2pZTzRoXzdWWllVMTFDQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJdFUyRnZJRXB2YzJVZ1pHOXpJRU5oYlhCdmN5eFRkR0YwWlNCdlppQlRZVzhnVUdGMWJHOHNRbkpoZW1scyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEZKcmRWSklTVk4yVjNSTFRpMW5ObUUyWWtoaFdHODFSV2RuVGpGNmVYTnJhR3BmYmxSR2EydHVkM0JHZHpSSVNURnhlVkI2TFdKVk1YSjFVa0p0UW5jd1RqQnlVREJVVFMxQmJHWlZWelpDTkhaMGJtY3phVE15WlRoSGVHd3piQzFYZGpSelRWSk1RMUJoUVVSV1NtMDBUamRtUm5RMlVuVndTRnBuY1VwWVN5MHRUMThTRjJSRVNsVmhkbTE2UjJFeWVtMTBhMUI0TjB4Rk1FRnZHaUpCUkhOeU9XWlNNV1pLWmxoU1JreFRibWRWYkdaVVUwOW5UbEZ3YkdKcVpVbEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJOT2pZTzRoXzdWWllVMTFDQUFBQUFBPT0ifQ==",
+      "title": "Sr Software Engineer (Java)",
+      "company": "Banco Santander Brasil",
+      "location": "São Paulo, SP",
+      "published_date": null,
+      "publication_date_source": "missing",
+      "published_at_text": null,
+      "source_url": "https://www.universia.net/br/emprego/c9453959-a3a5-5bc4-aaa5-b3a7ffe875b6/sr-software-engineer-java-hybrid.html",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciBCYWNrZW5kIC0gSVQgQ3JlZGl0IFJpc2siLCJjb21wYW55X25hbWUiOiJNYWduZXRpcyIsImh0aWRvY2lkIjoicFhfRWNEWGZmX2s2ZDJOdUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSXRVMkZ2SUVwdmMyVWdaRzl6SUVOaGJYQnZjeXhUZEdGMFpTQnZaaUJUWVc4Z1VHRjFiRzhzUW5KaGVtbHMiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNWaDFUV3R3ZG5kc01ETXdNRlpDTVV0emNsOTRhbmxYTlhkVWQwaFdha1ZuY1doT1IwSTRkWE5ETTAwd1NTMUJaMnBLU25CSGFHTlJSRXBmU3pKRmQwSnRYMUZYZFhvdFVtUnZUM1JTVHpjM1JEbFFXbGhmY0RkMVZpMTVjRjgyYkdaMlFWbFFUbkpIVUhocE1VSk5iSGhpVTNsa1ZuZHlUbGcxV1RGS1RrOXBWR1JTUTA0U0YyUkVTbFZoZG0xNlIyRXllbTEwYTFCNE4weEZNRUZ2R2lKQlJITnlPV1pTYmpoeldEQnRlRFJ4TWpWTE0zbG1ka0ZVU25aeVZYTlpXRXhCIiwiZmN2IjoiMyIsImZjX2lkIjoicFhfRWNEWGZmX2s2ZDJOdUFBQUFBQT09In0=",
+      "title": "Staff Software Engineer Backend - IT Credit Risk",
+      "company": "Magnetis",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-03",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 9 dias",
+      "source_url": "https://www.glassdoor.com.br/job-listing/staff-software-engineer-backend-it-credit-risk-magnetis-JV_IC2479061_KO0,46_KE47,55.htm?jl=1010054362175",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0l0VTJGdklFcHZjMlVnWkc5eklFTmhiWEJ2Y3l4VGRHRjBaU0J2WmlCVFlXOGdVR0YxYkc4c1FuSmhlbWxzIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVnBhT0ZWUE1rOW5OazlrWVRGMGFqSkxjSGhIYWtsR1pGbzVNRGhxWlhrNWIyNTVaRlJEYW1oMWJWQldjR1ZrVGs1NVZFOVhURlI0ZDNNM1duUkdPSEJrV1hsd2QxUkJOMU0zVVRGaE5UbHRVSE5DYzBaMVFYcFlXRk5IWVc1TlNuZHJiRTA1U0VGVFpVRlNUR1ZrUmxndFRsbHVXSHBhUjJ4NU9YZE5VbmRmTFdFMGVVZ1NGMlJFU2xWaGRtMTZSMkV5ZW0xMGExQjROMHhGTUVGdkdpSkJSSE55T1daVVVETnpRekZQTTFnMGRWZHRTblJ5YW1JeWVERm1Ubmw2U2paUiIsImZjdiI6IjMiLCJmY19pZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSJ9",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0l2VTJGdklFcHZjMlVnWkc4Z1VtbHZJRkJ5WlhSdkxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMVZFU0hkbGMyRlBhVmxSVDFOWmEyRnJlbkpCYTJOekxUQnFkREptVW1GWkxWZFJkRWhsZFVRek1rNVBXWFppYmxsVk9HSXllWEZVY0dwRlRITmpjbDl4ZEZoR2FHSlZVbFk0V0ZobGJXeFlZVTlyZVRsMVJrbEJla2RXTkdGcFEwZEZXVmRtV1V4dFpuTldOVmx2Y0hGTGNYQTBVazFHU1dOTk5WVTFkVE0wWkZsS1ZrZ1NGMjVVU2xWaGNsaEJUSFZMTVhkT05GQjJabVZuY1ZGSkdpSkJSSE55T1daVE9Gb3pWRlJoV1haaGJHcHhWVmRJYUdkVWEybExMV1ZXYkdkUiIsImZjdiI6IjMiLCJmY19pZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSJ9",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "Sergipe, Valparaíso - SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lmUW1GMWNuVXNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTblJHYVV4d1RqSTVWVmhoVEZFd1ZIRnJla3gyV1hCV05ERlhYMGsyVkdVdFlYcFJlWFJaZEVGSVpGTmtRMEowVm1WUE0wVmFXVlJsTXpSNlVFWmxjVGt3Y0RsaWIxTXRNbnByZUVjM2FYVjNaMDFrUWsxaU5XdEpUVWh6VWtKVE5HdHBVMGhIZW5SUFVtdFlRMjFNV0VoRE5URklUMjkzTTJjNWJHUnhXRTh3VG1aVGFXWVNGMnRxU2xWaGRsZHhTV1IyVWpWT2IxQnFaWEowTUZGakdpSkJSSE55T1daUmQyTkdWbFZRYjJWR1F6RmljbFpYTTA5T1JIQTFaa1JpU0d4biIsImZjdiI6IjMiLCJmY19pZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSJ9",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "Sergipe, Valparaíso - SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lnVTJGdWRHOXpMRk4wWVhSbElHOW1JRk5oYnlCUVlYVnNieXhDY21GNmFXdyIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2tGeFJ6VmpOa3hVWVRRMWNXOVBSRmxWVEVKNFFrbHZTV0l5UTNOM1RqRm9NbWhqY1VobmRteExhalp5U1U5VGIySlZkbTU2U1U0MVYwaEpRMHA1YVU1emIxbzBVRjlzYUZoNE4yaFBhRXc0U20xSU0zRmpjMTkwWWpOZlNqUndXV3hUWVRGRGRWbEZkRlkwTVRNd1ptVm9Vbm8zVVdnelJsa3RSek5MU2tsVVJXOTVOMEVTRjJscVNsVmhjR0paVDJGeWJIZE9ORkJ0Tmt4aWRVRmpHaUpCUkhOeU9XWlNXRFZ2T1ZoaWJFUXRWbmxtWlZGRGNHaHlWbkkyVlZOQ01ITm4iLCJmY3YiOiIzIiwiZmNfaWQiOiJGZzI3bHdnOW5zQTcyUUxNQUFBQUFBPT0ifQ==",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lpVTI5eWIyTmhZbUVzVTNSaGRHVWdiMllnVTJGdklGQmhkV3h2TEVKeVlYcHBiQSIsImdsIjoiYnIiLCJobCI6InB0IiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU25OR2JFSlNTRTh5V2xCT1ZuTlpNVFpqUXpGRVNVbDVhM3BCZGxwdk9FOU9WWE0yUnpST1dVcElTbGRhWlhRNFVHOW5VakJhYkROVGNVaDJVMnRZVkV4M2NVSkhhemQ2ZVVSUFpFWjJTVm8wVDNFM1dsQnJhV05FUlU1VllsSnVhVFpFTkhCSGVuVjBaVloxVURFMWNWSjFkRkZCVW01Q1dEZHBXVFF5TVY5TU4zRXpOSFFTRjJWVVNsVmhjbkZrVG5GcFZuZE9ORkF5VUc1bWJVRTBHaUpCUkhOeU9XWlNkVEpETlRoTlNXWjNNa3QwYTBkUmJFSTNORTl3Ukhwb1ZWcEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJGZzI3bHdnOW5zQTcyUUxNQUFBQUFBPT0ifQ==",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lqVTJGdklGQmhkV3h2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMzbGhRa0ZoZVZkRFVsVlhUMEZJTlhCTFFYaExjbE4yYjJKTVdFNURiREJLU0ZoZlZrY3hkRmx5ZEZJM1JHMVFhVzkxU0hSM2JsSkZiVzlSY210UGFuTkdTMUpUTFY5MVFsUlllVmR6TWpSb1VGaFVabTlSUzNka1ZXMXZVakJSYTB0NGNtWlFOamhXYTBKV2JsWTVSeTFSY0Rkd1RsWkhjMUJxWjB0blNUZzBSRVZDUW1zU0YxcEVTbFZoZEc1MVJIVjFRVGwxT0ZCdGRIWnpaMUU0R2lKQlJITnlPV1pSVnpaU1h6WnZUeTFZVms4ek56TXlSalZXTlc4d2FrOTZRWGRCIiwiZmN2IjoiMyIsImZjX2lkIjoiRmcyN2x3Zzluc0E3MlFMTUFBQUFBQT09In0=",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "collected_at": "2026-07-13 00:33:39.982335+00:00",
+      "run_ids": [
+        "7065a041-b2df-4237-be39-40e0e6427df0"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBQeXRob24gU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJCQUlSRVNERVYiLCJodGlkb2NpZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lvVW1saVpXbHlZVzhnVUhKbGRHOHNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTbXBSY1RCaFVXeFRRbkpVTTJ0SVNsQnNOSEJ0UWtoRWFIWm1VVlIyVW5KT1MyTTFZMlppUTBwalltOTZOa2RNWkd0TVMyTlJlVzlEZERscFYwUXpXRXc1V1RabVVWOUlhazVUUnpoaGMwRldWbWQxWnpWVU5tWkhVbkpYUVRSdlNrMDVka28yTFZCNVVrWTBjVEpzYTJsQlQweFhVelp1TFdKRWFWa3RUSEYzWlhwUlNtMFNGMmhVU2xWaGRtcGlSbUZoTTNGMGMxQXhXWHBGYzBGckdpSkJSSE55T1daUk9GaFBZMU4zYW1odlV6ZHZYMnM1VjNSaWMyOXNUbGgyZWpKQiIsImZjdiI6IjMiLCJmY19pZCI6IkZnMjdsd2c5bnNBNzJRTE1BQUFBQUE9PSJ9",
+      "title": "Work From Home Python Software Engineer",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-python-software-engineer/37395069",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciAtIFB5dGhvbiArIEMrKyIsImNvbXBhbnlfbmFtZSI6IkJBSVJFU0RFViIsImh0aWRvY2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSW9VbWxpWldseVlXOGdVSEpsZEc4c1UzUmhkR1VnYjJZZ1UyRnZJRkJoZFd4dkxFSnlZWHBwYkEiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFRHTm1hVVZJTUdOdGFuWmhVMll3VjNvNFFYZzBNbWxGVDFWcWVHTmlWRms0UVhjNVZrYzFaVEI0YzJWU2NURndhVGg0VEhkdFMwVTNYMUZsV21sb2FuRlJibVpTWkZKT1EzWm9aekJKVVVsbWNFUm1TVlpwTFhSbmVrTjZkSFJ5WDIxMGVYRmxWemcyVkVsWWRuQjVhekJGYTNKNmEwSndlWEZmTkdZeVRWQXhNVU00TkdzU0YyaFVTbFZoZG1waVJtRmhNM0YwYzFBeFdYcEZjMEZyR2lKQlJITnlPV1pTWmt4Mk1WQjNURkJaYzJoYU1GbHljbW90TVdOR1ZIWkhSRkozIiwiZmN2IjoiMyIsImZjX2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09In0=",
+      "title": "Work From Home Staff Software Engineer - Python + C++",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-staff-software-engineer-python-c/37395044",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "collected_at": "2026-07-13 00:34:13.020588+00:00",
+      "run_ids": [
+        "38c2edd0-852d-4bd6-8ea1-73009bf56dc5"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciAtIFB5dGhvbiArIEMrKyIsImNvbXBhbnlfbmFtZSI6IkJBSVJFU0RFViIsImh0aWRvY2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWZRbUYxY25Vc1UzUmhkR1VnYjJZZ1UyRnZJRkJoZFd4dkxFSnlZWHBwYkEiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNqZFVhMnMwWlVSdVpXeFhjVlJQT0ZsTlEyWk9WbkoxWkMxR2NtdGpiRVZPY2psVFNtdDBhbkJ1V2xoS2FYazFOMjFpWDI1M1FXdDZUSHBwV2xsc09GcHBVV2R6WlRGTVMwaEdOMFJpWHpBMWNrdHlMV3gwWDJSc2NEQnhYM055TkZKQ2VIZHVhbEpyYW5ORU9XbEJRVzh4WVcxWlZuQTJaUzB3VVV0WlVscHNha290YzBvU0YydHFTbFZoZGxkeFNXUjJValZPYjFCcVpYSjBNRkZqR2lKQlJITnlPV1pTUkVOb1VuSnpXa2hvV2poS1RISkRaWGt5ZW5CRlEyaFRWemRCIiwiZmN2IjoiMyIsImZjX2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09In0=",
+      "title": "Work From Home Staff Software Engineer - Python + C++",
+      "company": "BAIRESDEV",
+      "location": "Sergipe, Valparaíso - SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-staff-software-engineer-python-c/37395044",
+      "sample_region": "bauru",
+      "collection_run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "collected_at": "2026-07-13 00:34:27.689546+00:00",
+      "run_ids": [
+        "4fb7db8c-e6cb-457a-adec-3836b3d2e05f"
+      ],
+      "sample_regions": [
+        "bauru"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciAtIFB5dGhvbiArIEMrKyIsImNvbXBhbnlfbmFtZSI6IkJBSVJFU0RFViIsImh0aWRvY2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWdVMkZ1ZEc5ekxGTjBZWFJsSUc5bUlGTmhieUJRWVhWc2J5eENjbUY2YVd3IiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTV1JUVTNKcE1qSllZVU5sZFZCRFYycHNZbk01WTNWalZ6UTVlV2xYZDJ0TWRUbDFOMlJ2VG5kc1ltZE9VWGg2Y1hjNGNVRXRjelIyZGxnMU9WcHRNMDVQWTJOcFVrRTFjUzFmTkhWWFRYQlNURGxTT0Rsa09GTnBaMHBKVmpScE5GazNia2d6YTFJMWIwUjNNSGhzUjBGV1MxOVJRMEYwU1U1aVgzRlRZblJQTlU1Tk0yc1NGMmxxU2xWaGNHSlpUMkZ5YkhkT05GQnROa3hpZFVGakdpSkJSSE55T1daU2VESktUbWw2VkdGcWRWTk9OWEZWU0VkV2JVRXhVa1o2VWxWbiIsImZjdiI6IjMiLCJmY19pZCI6IjQ1Z2l6dTd3ZXM0cEJ3U01BQUFBQUE9PSJ9",
+      "title": "Work From Home Staff Software Engineer - Python + C++",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-staff-software-engineer-python-c/37395044",
+      "sample_region": "santos",
+      "collection_run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "collected_at": "2026-07-13 00:34:18.518802+00:00",
+      "run_ids": [
+        "f4374487-4736-4951-a11f-4c7bf105ce64"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciAtIFB5dGhvbiArIEMrKyIsImNvbXBhbnlfbmFtZSI6IkJBSVJFU0RFViIsImh0aWRvY2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSWlVMjl5YjJOaFltRXNVM1JoZEdVZ2IyWWdVMkZ2SUZCaGRXeHZMRUp5WVhwcGJBIiwiZ2wiOiJiciIsImhsIjoicHQiLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURWx2TUVrMWFubHBjRlJaTkdWSmJrOVNlRVJKTlY5S1JUUnJSRll0VW5oeE9TMUVObGhIWjBoa1NVeEVPVVp6UkRGTWMxVlZhVEJYWDFsUmQyMTZlVXBIWTIxYVJYRm9kREo0VWpGU1FWZENXRFJJVWxKMFZFVnBRMFZDYkVzMU5YTnVhazVoVnkxeFZURXpSSFV5ZG10UGVUWTJaVFJSTFVoQ1NFbDVjWHA1ZFRSYVkwd1NGMlZVU2xWaGNuRmtUbkZwVm5kT05GQXlVRzVtYlVFMEdpSkJSSE55T1daVU9IQjBXVzluZUZOWGRtdG9ZVmM1YTJoalV6QkhNMGRWYmpsQiIsImZjdiI6IjMiLCJmY19pZCI6IjQ1Z2l6dTd3ZXM0cEJ3U01BQUFBQUE9PSJ9",
+      "title": "Work From Home Staff Software Engineer - Python + C++",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-staff-software-engineer-python-c/37395044",
+      "sample_region": "sorocaba",
+      "collection_run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "collected_at": "2026-07-13 00:34:01.510370+00:00",
+      "run_ids": [
+        "526ef372-c5ab-4209-8149-a9438800f1ce"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciAtIFB5dGhvbiArIEMrKyIsImNvbXBhbnlfbmFtZSI6IkJBSVJFU0RFViIsImh0aWRvY2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSXRVMkZ2SUVwdmMyVWdaRzl6SUVOaGJYQnZjeXhUZEdGMFpTQnZaaUJUWVc4Z1VHRjFiRzhzUW5KaGVtbHMiLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNURXRkRE13TVd4d1ZVTnlSa2REVjNwcFdqaEVWRzFVVFhwbU5HUlpNMnR5Y3pKVVdsUkROWEo0WlhFMWNtbFJURFoyZUVNeGRUQTVWWFJNTmxoaFJHcHJlRkZvUW1OcVRqWjNiRWM1Vm5FelRFZDBabDgyU0ZCa1VVcHBkRkozTTBWNmJuRXhjVEpKTlZodVpVNTNXakpHVkhSaFVGOHhjVXRhV25SQk5HMDFOR04xYzNnU0YyUkVTbFZoZG0xNlIyRXllbTEwYTFCNE4weEZNRUZ2R2lKQlJITnlPV1pTYjFkbVJUaFlSWGd6Yld4bVVGRk5hWEJ6UkUxbVVGVllPSEJCIiwiZmN2IjoiMyIsImZjX2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09In0=",
+      "title": "Work From Home Staff Software Engineer - Python + C++",
+      "company": "BAIRESDEV",
+      "location": "São Paulo, SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-staff-software-engineer-python-c/37395044",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "collected_at": "2026-07-13 00:33:56.283255+00:00",
+      "run_ids": [
+        "cebe2283-12b3-4798-80a2-c6264153b32c"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "serpapi",
+      "external_id": "eyJqb2JfdGl0bGUiOiJXb3JrIEZyb20gSG9tZSBTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciAtIFB5dGhvbiArIEMrKyIsImNvbXBhbnlfbmFtZSI6IkJBSVJFU0RFViIsImh0aWRvY2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSXZVMkZ2SUVwdmMyVWdaRzhnVW1sdklGQnlaWFJ2TEZOMFlYUmxJRzltSUZOaGJ5QlFZWFZzYnl4Q2NtRjZhV3ciLCJnbCI6ImJyIiwiaGwiOiJwdCIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMyWlBjRVEwUjFVNFlXaGlWMU5mVEU5SlZrRjZTbWs1ZEdSSFdUTTVYekJrWW5kUU0xZGZhbDlIU0VGVVlYZFpkMEpmV0hGNlVHOHlhazFUTWs1NldtdFlXbmhrWDAxaVYxRlVkVXB1UkhVMGVtTlFVSGxDVWt0T1FXNUVPWEpzUW1sNFNXTlVNVkkyVnpoQlVFUklNMGN6U0ZoVlJqZFlTSE5MU3psVVlYQmtWMU5NV25FU0YyNVVTbFZoY2xoQlRIVkxNWGRPTkZCMlptVm5jVkZKR2lKQlJITnlPV1pSWWtOTFRXUkJaMlkxTUV0NVlrbDBkeTFhV25BMk5WSXdWMnQzIiwiZmN2IjoiMyIsImZjX2lkIjoiNDVnaXp1N3dlczRwQndTTUFBQUFBQT09In0=",
+      "title": "Work From Home Staff Software Engineer - Python + C++",
+      "company": "BAIRESDEV",
+      "location": "Sergipe, Valparaíso - SP (+35)",
+      "published_date": "2026-07-07",
+      "publication_date_source": "serpapi_estimated",
+      "published_at_text": "há 5 dias",
+      "source_url": "https://www.catho.com.br/vagas/work-from-home-staff-software-engineer-python-c/37395044",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "collected_at": "2026-07-13 00:34:37.590585+00:00",
+      "run_ids": [
+        "952f0a06-876a-4fe3-a249-78d761be14a8"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "729863668",
+      "title": "OPERADOR E PROGRAMADOR DE TORNO CNC",
+      "company": "Riberman Plásticos Industriais",
+      "location": "Ribeirão Preto, SP",
+      "published_date": "2026-06-15",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=9fea0f3aaaaa5d69",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "collected_at": "2026-07-13 00:33:09.556332+00:00",
+      "run_ids": [
+        "5681f353-c1df-4b1f-8836-905873456b3e"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "731647264",
+      "title": "DevOps Engineer",
+      "company": "Vitae Brasil",
+      "location": "São José dos Campos, São Paulo",
+      "published_date": "2026-06-16",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/devops-engineer-at-vitae-brasil-4426879202",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "7199da37-7a71-421d-a34f-4234e2a347a8",
+      "collected_at": "2026-07-13 00:32:50.758692+00:00",
+      "run_ids": [
+        "7199da37-7a71-421d-a34f-4234e2a347a8"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "731870844",
+      "title": "PROGRAMADOR(A) WEB",
+      "company": "EARH SOLUÇÕES EM GESTÃO DE PESSOAS",
+      "location": "São José do Rio Preto, SP",
+      "published_date": "2026-06-16",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=0783c9b2ab2751ab",
+      "sample_region": "sao-jose-do-rio-preto",
+      "collection_run_id": "10535db8-893d-4efc-b559-605ab0ffe833",
+      "collected_at": "2026-07-13 00:33:38.250987+00:00",
+      "run_ids": [
+        "10535db8-893d-4efc-b559-605ab0ffe833"
+      ],
+      "sample_regions": [
+        "sao-jose-do-rio-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "733053243",
+      "title": "Programador",
+      "company": "TM Consultoria",
+      "location": "Ribeirão Preto, SP",
+      "published_date": "2026-06-17",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=ce7ab500b503ea3f",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "collected_at": "2026-07-13 00:33:09.556332+00:00",
+      "run_ids": [
+        "5681f353-c1df-4b1f-8836-905873456b3e"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "735775132",
+      "title": "Engenheiro de Integrações e Dados",
+      "company": "GRUPO MENDES",
+      "location": "Santos, SP",
+      "published_date": "2026-06-19",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=5ca1be23641e35de",
+      "sample_region": "santos",
+      "collection_run_id": "c9e34686-0ee3-4539-af48-6285252bde50",
+      "collected_at": "2026-07-13 00:33:22.724244+00:00",
+      "run_ids": [
+        "c9e34686-0ee3-4539-af48-6285252bde50"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "735973100",
+      "title": "Engenheiro de Integrações e Dados",
+      "company": "Grupo Mendes",
+      "location": "Santos, São Paulo",
+      "published_date": "2026-06-19",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/engenheiro-de-integra%C3%A7%C3%B5es-e-dados-at-grupo-mendes-4428284837",
+      "sample_region": "santos",
+      "collection_run_id": "c9e34686-0ee3-4539-af48-6285252bde50",
+      "collected_at": "2026-07-13 00:33:22.724244+00:00",
+      "run_ids": [
+        "c9e34686-0ee3-4539-af48-6285252bde50"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "738202918",
+      "title": "Operador e Programador de Centro de Usinagem",
+      "company": "b-dandrea",
+      "location": "Ribeirão Preto, SP",
+      "published_date": "2026-06-22",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=9acf8f157a06fad1",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "collected_at": "2026-07-13 00:33:09.556332+00:00",
+      "run_ids": [
+        "5681f353-c1df-4b1f-8836-905873456b3e"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "738221362",
+      "title": "Data Engineer / EF / São Jose dos Campos/SP",
+      "company": "Bayer",
+      "location": "São José dos Campos, São Paulo",
+      "published_date": "2026-06-22",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/data-engineer-ef-s%C3%A3o-jose-dos-campos-sp-at-bayer-4431704214",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "7199da37-7a71-421d-a34f-4234e2a347a8",
+      "collected_at": "2026-07-13 00:32:50.758692+00:00",
+      "run_ids": [
+        "7199da37-7a71-421d-a34f-4234e2a347a8"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "738464586",
+      "title": "Data Engineer - Semantic Modeler / EF / São Jose dos Campos/SP",
+      "company": "Bayer",
+      "location": "São José dos Campos, São Paulo",
+      "published_date": "2026-06-22",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/data-engineer-semantic-modeler-ef-s%C3%A3o-jose-dos-campos-sp-at-bayer-4431729485",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "7199da37-7a71-421d-a34f-4234e2a347a8",
+      "collected_at": "2026-07-13 00:32:50.758692+00:00",
+      "run_ids": [
+        "7199da37-7a71-421d-a34f-4234e2a347a8"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "739438398",
+      "title": "Operador e Programador de Centro de Usinagem",
+      "company": "New Usinagem e peças",
+      "location": "Ribeirão Preto, SP",
+      "published_date": "2026-06-23",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=47c8eb49d1085cda",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "collected_at": "2026-07-13 00:33:09.556332+00:00",
+      "run_ids": [
+        "5681f353-c1df-4b1f-8836-905873456b3e"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "741897488",
+      "title": "QA Automation Engineer II",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-26",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/qa-automation-engineer-ii-at-nextpower-4414726090",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "741900388",
+      "title": "Software Developer",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-26",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/software-developer-at-nextpower-4414716161",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "741948961",
+      "title": "Embedded Software Engineer",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-26",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/embedded-software-engineer-at-nextpower-4414719104",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "741952261",
+      "title": "Backend Developer",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-26",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/backend-developer-at-nextpower-4414719093",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "742907458",
+      "title": "Software Engineer III - Scrum Master",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-27",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/software-engineer-iii-scrum-master-at-nextpower-4414722105",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "742908421",
+      "title": "Frontend Developer",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-27",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/frontend-developer-at-nextpower-4414723142",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "742911122",
+      "title": "Sr. Embedded Software Engineer – R&D",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-27",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/sr-embedded-software-engineer-%E2%80%93-r-d-at-nextpower-4414718124",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "742911123",
+      "title": "Sr. Embedded Software Engineer",
+      "company": "Nextpower",
+      "location": "Sorocaba, São Paulo",
+      "published_date": "2026-06-27",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/sr-embedded-software-engineer-at-nextpower-4415082910",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "745573952",
+      "title": "Programador e Preparador de Centro de Usinagem",
+      "company": "Consultora e Psicóloga Marluci Gomes Vitorino",
+      "location": "Sorocaba, SP",
+      "published_date": "2026-06-30",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=5a3dc7b007c56b13",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "748259023",
+      "title": "Cientista de Dados",
+      "company": "UNIMED DE SANTOS COOPERATIVA DE TRABALHO MEDICO",
+      "location": "Santos, SP",
+      "published_date": "2026-07-02",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=b2f5db5ef74d0f79",
+      "sample_region": "santos",
+      "collection_run_id": "c9e34686-0ee3-4539-af48-6285252bde50",
+      "collected_at": "2026-07-13 00:33:22.724244+00:00",
+      "run_ids": [
+        "c9e34686-0ee3-4539-af48-6285252bde50"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "748712270",
+      "title": "Cientista de Dados",
+      "company": "Unimed Santos",
+      "location": "Santos, São Paulo",
+      "published_date": "2026-07-03",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/cientista-de-dados-at-unimed-santos-4436442897",
+      "sample_region": "santos",
+      "collection_run_id": "c9e34686-0ee3-4539-af48-6285252bde50",
+      "collected_at": "2026-07-13 00:33:22.724244+00:00",
+      "run_ids": [
+        "c9e34686-0ee3-4539-af48-6285252bde50"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "749696404",
+      "title": "Desenvolvedor(a) de Software – Vaga exclusiva para Pessoas com Deficiência",
+      "company": "Embraer",
+      "location": "São José dos Campos, São Paulo",
+      "published_date": "2026-07-03",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/desenvolvedor-a-de-software-%E2%80%93-vaga-exclusiva-para-pessoas-com-defici%C3%AAncia-at-embraer-4436774760",
+      "sample_region": "sao-jose-dos-campos",
+      "collection_run_id": "7199da37-7a71-421d-a34f-4234e2a347a8",
+      "collected_at": "2026-07-13 00:32:50.758692+00:00",
+      "run_ids": [
+        "7199da37-7a71-421d-a34f-4234e2a347a8"
+      ],
+      "sample_regions": [
+        "sao-jose-dos-campos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "749753674",
+      "title": "PROGRAMADOR RODOVIARIO SENIOR",
+      "company": "TAC Corporation",
+      "location": "Santos, SP",
+      "published_date": "2026-07-03",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=8eb945579cb53765",
+      "sample_region": "santos",
+      "collection_run_id": "c9e34686-0ee3-4539-af48-6285252bde50",
+      "collected_at": "2026-07-13 00:33:22.724244+00:00",
+      "run_ids": [
+        "c9e34686-0ee3-4539-af48-6285252bde50"
+      ],
+      "sample_regions": [
+        "santos"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "752544453",
+      "title": "PROGRAMADOR PLENO",
+      "company": "Vagas e oportunidades no Grupo Rodonaves",
+      "location": "Ribeirão Preto, SP",
+      "published_date": "2026-07-06",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=037fa5454fad0542",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "collected_at": "2026-07-13 00:33:09.556332+00:00",
+      "run_ids": [
+        "5681f353-c1df-4b1f-8836-905873456b3e"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "752544456",
+      "title": "PROGRAMADOR SÊNIOR",
+      "company": "Vagas e oportunidades no Grupo Rodonaves",
+      "location": "Ribeirão Preto, SP",
+      "published_date": "2026-07-06",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=91bec402eb116016",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "collected_at": "2026-07-13 00:33:09.556332+00:00",
+      "run_ids": [
+        "5681f353-c1df-4b1f-8836-905873456b3e"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "753990040",
+      "title": "Master Backend Developer (Kotlin/Java), Brazil",
+      "company": "CI&T",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-07",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/master-backend-developer-kotlin-java-brazil-at-ci-t-4437858819",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "754140660",
+      "title": "Engenheiro(a) de Dados Azure + Databricks",
+      "company": "Digiage Technologies",
+      "location": "Campinas, SP",
+      "published_date": "2026-07-07",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=44bce0b463d39b08",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "754140661",
+      "title": "Analista Testes de Software PL #3372",
+      "company": "Formel D",
+      "location": "Sorocaba, SP",
+      "published_date": "2026-07-07",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=f619abf2f1055b4f",
+      "sample_region": "sorocaba",
+      "collection_run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "collected_at": "2026-07-13 00:32:59.523794+00:00",
+      "run_ids": [
+        "22b27292-48f4-4bc5-b118-802e42524d06"
+      ],
+      "sample_regions": [
+        "sorocaba"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "754356426",
+      "title": "Engenheiro(a) de Dados Azure + Databricks",
+      "company": "Digiage",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-08",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/engenheiro-a-de-dados-azure-+-databricks-at-digiage-4438135575",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "754642138",
+      "title": "Associate Software Engineer",
+      "company": "Thomson Reuters Brasil",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-08",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/associate-software-engineer-at-thomson-reuters-brasil-4437016512",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "754972294",
+      "title": "DevOps Engineer - Remote",
+      "company": "INDI Staffing Services",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-08",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/devops-engineer-remote-at-indi-staffing-services-4438228404",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "755388652",
+      "title": "Data Engineer - Remote Work",
+      "company": "BairesDev",
+      "location": "Ribeirão Preto, SP",
+      "published_date": "2026-07-01",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=b66737f9e61a6c2c",
+      "sample_region": "ribeirao-preto",
+      "collection_run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "collected_at": "2026-07-13 00:33:09.556332+00:00",
+      "run_ids": [
+        "5681f353-c1df-4b1f-8836-905873456b3e"
+      ],
+      "sample_regions": [
+        "ribeirao-preto"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "757981862",
+      "title": "Master Software Engineer, Campinas (Hybrid)",
+      "company": "CI&T",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-10",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/master-software-engineer-campinas-hybrid-at-ci-t-4430436930",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "759100654",
+      "title": "Engenheiro(a) de Software Sênior (Java | AWS | Microsserviços)",
+      "company": "Itaú Unibanco",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-11",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/engenheiro-a-de-software-s%C3%AAnior-java-aws-microsservi%C3%A7os-at-ita%C3%BA-unibanco-4439398042",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "759407433",
+      "title": "Programador Golang - Diversos benefícios - (Decision)",
+      "company": "Caderno Nacional",
+      "location": "São Paulo, SP",
+      "published_date": "2026-07-11",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://indeed.com/viewjob?jk=545f4720c78c89b1",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "759602680",
+      "title": "Data Science, Analytics Engineer - Vaga exclusiva para PCD",
+      "company": "DoorDash",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-11",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/data-science-analytics-engineer-vaga-exclusiva-para-pcd-at-doordash-4409960547",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "760090889",
+      "title": "Software Volume Tester (SVT Engineer)",
+      "company": "Netcracker Technology",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-11",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/software-volume-tester-svt-engineer-at-netcracker-technology-4409199678",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "760096686",
+      "title": "Software Engineer",
+      "company": "Mindgruve",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-11",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/software-engineer-at-mindgruve-4420988469",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "760930391",
+      "title": "Cientista de Dados Sênior - Campinas/SP",
+      "company": "Agibank",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/cientista-de-dados-s%C3%AAnior-campinas-sp-at-agibank-4362711269",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "760930685",
+      "title": "Specialist Backend Software Engineer - Campinas/SP",
+      "company": "Agibank",
+      "location": "Campinas, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/specialist-backend-software-engineer-campinas-sp-at-agibank-4354687832",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "760931456",
+      "title": "Cientista de dados Especialista - Banco de talentos",
+      "company": "Serasa Experian",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/cientista-de-dados-especialista-banco-de-talentos-at-serasa-experian-3957740011",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "761138224",
+      "title": "Data Engineer",
+      "company": "BRP",
+      "location": "Greater Campinas",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/data-engineer-at-brp-4417976449",
+      "sample_region": "campinas",
+      "collection_run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "collected_at": "2026-07-13 00:32:43.292572+00:00",
+      "run_ids": [
+        "e8b5e177-3aa3-4f9c-aa78-5b234d49af90"
+      ],
+      "sample_regions": [
+        "campinas"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "761191909",
+      "title": "Engenheiro de Dados Sr",
+      "company": "Stefanini Brasil",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/engenheiro-de-dados-sr-at-stefanini-brasil-4421286516",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "761249536",
+      "title": "Cientista de Dados",
+      "company": "ABRACD",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/cientista-de-dados-at-abracd-4439753167",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "761630099",
+      "title": "Cientista de Dados de Crédito Especialista - Campinas/SP",
+      "company": "Lato Jobs",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/cientista-de-dados-de-cr%C3%A9dito-especialista-campinas-sp-at-lato-jobs-4439765392",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "761631856",
+      "title": "Senior Software Engineer (Github) - IC5 - 2026",
+      "company": "Lato Jobs",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/senior-software-engineer-github-ic5-2026-at-lato-jobs-4439774023",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    },
+    {
+      "source": "theirstack",
+      "external_id": "761632872",
+      "title": "Director Software Engineer (Hands-On) | Clients",
+      "company": "Lato Jobs",
+      "location": "São Paulo, São Paulo",
+      "published_date": "2026-07-12",
+      "publication_date_source": "theirstack_exact",
+      "published_at_text": null,
+      "source_url": "https://br.linkedin.com/jobs/view/director-software-engineer-hands-on-clients-at-lato-jobs-4439772113",
+      "sample_region": "sao-paulo",
+      "collection_run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "collected_at": "2026-07-13 00:32:37.409756+00:00",
+      "run_ids": [
+        "a1b3dc1a-97ae-431d-97e0-feb33d286fcb"
+      ],
+      "sample_regions": [
+        "sao-paulo"
+      ],
+      "occurrence_count": 1
+    }
+  ],
+  "potential_cross_source_duplicates": []
+}

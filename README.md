@@ -73,6 +73,8 @@ registra quando a coleta ocorreu. `published_at` permanece por compatibilidade, 
 │   ├── config.py
 │   ├── db.py
 │   ├── main.py
+│   ├── monthly.py
+│   ├── regions.py
 │   ├── sanitize.py
 │   ├── theirstack.py
 │   └── serpapi.py
@@ -81,7 +83,8 @@ registra quando a coleta ocorreu. `published_at` permanece por compatibilidade, 
 ├── tests/
 └── results/
     ├── theirstack.json
-    └── serpapi.json
+    ├── serpapi.json
+    └── monthly/<AAAA-MM>/
 ```
 
 ## Requisitos
@@ -177,6 +180,80 @@ opções disponíveis. Uma chamada ou página pode consumir créditos. Não repi
 real que já validou o comportamento apenas para obter outra amostra; interrompa em
 `401`, `402`, `403` ou `429`.
 
+## Rodada mensal regional
+
+O comando `monthly` organiza uma rodada auditável sem criar outra tabela. Cada
+`collection_run` recebe em `query_params` o `round_id`, `collection_kind=monthly`, polo,
+estratégia, consulta e localidade realmente utilizada. O catálogo declarativo possui os
+oito polos validados nos catálogos oficiais dos fornecedores:
+
+| Polo | ID TheirStack | Origem canônica SerpApi |
+| --- | ---: | --- |
+| São Paulo | `3448439` | `Sao Paulo,State of Sao Paulo,Brazil` |
+| Campinas | `3467865` | `Campinas,State of Sao Paulo,Brazil` |
+| São José dos Campos | `3448636` | `Sao Jose dos Campos,State of Sao Paulo,Brazil` |
+| Sorocaba | `3447399` | `Sorocaba,State of Sao Paulo,Brazil` |
+| Ribeirão Preto | `3451328` | `Ribeirao Preto,State of Sao Paulo,Brazil` |
+| Santos | `3449433` | `Santos,State of Sao Paulo,Brazil` |
+| Bauru | `3470279` | `Bauru,State of Sao Paulo,Brazil` |
+| São José do Rio Preto | `3448639` | `Sao Jose do Rio Preto,State of Sao Paulo,Brazil` |
+
+Os IDs foram confirmados pelo endpoint oficial
+`GET https://api.theirstack.com/v0/catalog/locations`; os canonical names, pela
+[Locations API oficial da SerpApi](https://serpapi.com/locations-api). O ID `3448433`
+representa o estado de São Paulo (`ADM1`) e deliberadamente não é usado como cidade.
+
+Na TheirStack, o ID estruturado seleciona a cidade em `job_location_or`. Na SerpApi,
+`location` é a origem regional da pesquisa Google Jobs, não um filtro geográfico rígido.
+Em ambos os casos, `raw_jobs.location` continua sendo o valor informado pela vaga e não
+é substituído pelo polo pesquisado.
+
+Valide o plano sem abrir banco, criar `collection_runs` ou chamar qualquer API:
+
+```powershell
+python -m job_collector.main monthly --round 2026-07 --dry-run
+```
+
+A primeira rodada usa oito consultas TheirStack, limite 10 e uma página por polo
+(máximo solicitado de 80 itens), e 16 pesquisas SerpApi: duas consultas por polo,
+`software engineer` e `desenvolvedor de software`, sempre uma página. Não segue o
+`next_page_token`, embora o preserve no banco. A execução real exige autorização
+explícita e não solicita confirmação interativa:
+
+```powershell
+python -m job_collector.main monthly `
+  --round 2026-07 `
+  --confirm-live `
+  --theirstack-budget 80 `
+  --serpapi-budget 16 `
+  --max-retries 0
+```
+
+Uma assinatura mensal já concluída como `success` é pulada. Uma tentativa `failed` pode
+ser refeita; estados `partial` ou `running` são informados e pulados por segurança. A
+opção `--force` é excepcional, exige também `--confirm-live` e não deve ser usada na
+rodada oficial. Nenhuma execução anterior é apagada.
+
+Após a coleta, o próprio comando gera:
+
+```text
+results/monthly/2026-07/
+├── summary.json
+├── theirstack.json
+├── serpapi.json
+└── unique_jobs.json
+```
+
+Os arquivos por fonte preservam todas as respostas brutas sanitizadas e as vagas
+normalizadas com seus relacionamentos. `unique_jobs.json` reduz repetições somente pela
+chave `source + external_id`; itens sem ID continuam separados. Coincidências entre as
+fontes são apenas sinalizadas por URL pública canonizada ou por título, empresa e
+localização normalizados: os registros brutos nunca são mesclados ou removidos.
+
+A meta de 200 vagas é uma referência amostral, não uma garantia. Os limites de crédito
+têm precedência, e uma rodada pequena ou concentrada geograficamente não é
+automaticamente representativa do mercado paulista.
+
 ## Como exportar os resultados existentes
 
 ```powershell
@@ -218,6 +295,7 @@ pytest
 ruff check .
 ruff format --check .
 python -m compileall job_collector
+pip check
 ```
 
 ## Como inspecionar o banco
@@ -242,6 +320,18 @@ ORDER BY started_at DESC;
 SELECT source, COUNT(*) AS total
 FROM raw_jobs
 GROUP BY source;
+
+SELECT
+    source,
+    query_params->>'sample_region' AS sample_region,
+    query_params->>'query' AS query,
+    status,
+    returned_count,
+    persisted_count
+FROM collection_runs
+WHERE query_params->>'collection_kind' = 'monthly'
+  AND query_params->>'round_id' = '2026-07'
+ORDER BY source, sample_region, query;
 ```
 
 ## Segurança
@@ -256,7 +346,8 @@ GROUP BY source;
 ## Limitações e próximos passos
 
 - a retomada automática de uma execução interrompida não está implementada;
-- deduplicação ocorre somente dentro da mesma execução quando há `external_id`;
+- o banco deduplica somente dentro da mesma execução quando há `external_id`; a visão
+  mensal única não é uma deduplicação definitiva;
 - localização da busca não torna a amostra estatisticamente representativa;
 - datas relativas da SerpApi, como `há 18 dias`, permanecem como texto;
 - datas derivadas desses textos são estimativas no nível de dia, não timestamps exatos;

@@ -71,6 +71,70 @@ def test_create_run_and_raw_response_commit_sanitized_rows() -> None:
     }
 
 
+def test_matching_monthly_run_uses_a_sanitized_json_signature() -> None:
+    connection = Mock()
+    connection.execute.return_value = cursor(
+        one={"id": "run-1", "source": "serpapi", "status": "success"}
+    )
+    signature = {
+        "collection_kind": "monthly",
+        "round_id": "2026-07",
+        "sample_region": "campinas",
+        "query": "software engineer",
+        "api_key": "must-not-survive",
+    }
+
+    found = db.find_matching_round_run(connection, "serpapi", signature)
+
+    assert found == {"id": "run-1", "source": "serpapi", "status": "success"}
+    sql, params = connection.execute.call_args.args
+    assert "query_params @>" in sql
+    assert "WHEN 'success' THEN 0" in sql
+    assert params[1].obj["api_key"] == "[REDACTED]"
+
+
+def test_matching_monthly_run_supports_the_collectors_default_tuple_rows() -> None:
+    connection = Mock()
+    connection.execute.return_value = cursor(
+        one=("run-1", "theirstack", "failed", {"round_id": "2026-07"}, None, None)
+    )
+
+    found = db.find_matching_round_run(connection, "theirstack", {"round_id": "2026-07"})
+
+    assert found == {
+        "id": "run-1",
+        "source": "theirstack",
+        "status": "failed",
+        "query_params": {"round_id": "2026-07"},
+        "started_at": None,
+        "finished_at": None,
+    }
+
+
+def test_load_monthly_data_keeps_runs_responses_and_jobs_related() -> None:
+    connection = Mock()
+    connection.execute.side_effect = [
+        cursor(many=[{"id": "run-1", "source": "theirstack"}]),
+        cursor(many=[{"id": "response-1", "collection_run_id": "run-1"}]),
+        cursor(
+            many=[
+                {
+                    "id": "job-1",
+                    "collection_run_id": "run-1",
+                    "raw_api_response_id": "response-1",
+                }
+            ]
+        ),
+    ]
+
+    loaded = db.load_monthly_data(connection, "2026-07")
+
+    assert loaded["runs"][0]["id"] == "run-1"
+    assert loaded["responses"][0]["collection_run_id"] == "run-1"
+    assert loaded["jobs"][0]["raw_api_response_id"] == "response-1"
+    assert all(call.args[1] == ("2026-07",) for call in connection.execute.call_args_list)
+
+
 def test_save_page_rolls_back_jobs_and_progress_together() -> None:
     connection = Mock()
     connection.execute.side_effect = [cursor(rowcount=1), cursor(one=None)]

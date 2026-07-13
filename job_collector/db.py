@@ -17,6 +17,40 @@ from job_collector.sanitize import sanitize, sanitize_text
 MIGRATIONS_DIRECTORY = Path(__file__).resolve().parent.parent / "migrations"
 SOURCES = ("theirstack", "serpapi")
 
+ROUND_RUNS_SQL = """
+    SELECT id, source, query_params, requested_limit, started_at, finished_at,
+        status, returned_count, persisted_count, pages_processed, http_status,
+        error_message, last_page, last_cursor, last_offset
+    FROM collection_runs
+    WHERE query_params->>'collection_kind'='monthly'
+        AND query_params->>'round_id'=%s
+    ORDER BY started_at, source, id
+"""
+ROUND_RESPONSES_SQL = """
+    SELECT response.id, response.collection_run_id, response.source,
+        response.page_number, response.http_status, response.request_params,
+        response.response_payload, response.pagination_token,
+        response.pagination_offset, response.collected_at
+    FROM raw_api_responses AS response
+    JOIN collection_runs AS run ON run.id=response.collection_run_id
+    WHERE run.query_params->>'collection_kind'='monthly'
+        AND run.query_params->>'round_id'=%s
+    ORDER BY response.source, response.collection_run_id,
+        response.page_number, response.collected_at, response.id
+"""
+ROUND_JOBS_SQL = """
+    SELECT job.id, job.collection_run_id, job.raw_api_response_id,
+        job.external_id, job.source, job.title, job.company, job.location,
+        job.description, job.published_at, job.published_at_text,
+        job.published_date, job.publication_date_source, job.source_url,
+        job.collected_at
+    FROM raw_jobs AS job
+    JOIN collection_runs AS run ON run.id=job.collection_run_id
+    WHERE run.query_params->>'collection_kind'='monthly'
+        AND run.query_params->>'round_id'=%s
+    ORDER BY job.source, job.collection_run_id, job.collected_at, job.id
+"""
+
 
 def run_migrations(database_url: str) -> None:
     """Apply every SQL migration in filename order."""
@@ -58,6 +92,49 @@ def create_run(
         "Falha ao criar a execução no PostgreSQL.",
     )
     return str(row[0])
+
+
+def find_matching_round_run(
+    connection: Any,
+    source: str,
+    signature: Mapping[str, Any],
+) -> dict[str, Any] | None:
+    """Return the newest run matching one monthly query signature."""
+    row = connection.execute(
+        """
+        SELECT id, source, status, query_params, started_at, finished_at
+        FROM collection_runs
+        WHERE source=%s AND query_params @> %s
+        ORDER BY
+            CASE status
+                WHEN 'success' THEN 0
+                WHEN 'partial' THEN 1
+                WHEN 'running' THEN 2
+                ELSE 3
+            END,
+            COALESCE(finished_at, started_at) DESC,
+            id DESC
+        LIMIT 1
+        """,
+        (source, Jsonb(sanitize(dict(signature)))),
+    ).fetchone()
+    if row is None:
+        return None
+    if isinstance(row, Mapping):
+        return dict(row)
+    keys = ("id", "source", "status", "query_params", "started_at", "finished_at")
+    return dict(zip(keys, row, strict=True))
+
+
+def load_monthly_data(connection: Any, round_id: str) -> dict[str, list[dict[str, Any]]]:
+    """Load every persisted run, raw response and normalized job for a round."""
+    return {
+        "runs": [dict(row) for row in connection.execute(ROUND_RUNS_SQL, (round_id,)).fetchall()],
+        "responses": [
+            dict(row) for row in connection.execute(ROUND_RESPONSES_SQL, (round_id,)).fetchall()
+        ],
+        "jobs": [dict(row) for row in connection.execute(ROUND_JOBS_SQL, (round_id,)).fetchall()],
+    }
 
 
 def save_response(

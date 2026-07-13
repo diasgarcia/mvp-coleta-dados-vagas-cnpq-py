@@ -1,0 +1,398 @@
+{
+  "round_id": "2026-07",
+  "generated_at": "2026-07-13T00:34:40Z",
+  "timezone": "America/Sao_Paulo",
+  "regions_planned": [
+    "bauru",
+    "campinas",
+    "ribeirao-preto",
+    "santos",
+    "sao-jose-do-rio-preto",
+    "sao-jose-dos-campos",
+    "sao-paulo",
+    "sorocaba"
+  ],
+  "regions_completed": [
+    "bauru",
+    "campinas",
+    "ribeirao-preto",
+    "santos",
+    "sao-jose-do-rio-preto",
+    "sao-jose-dos-campos",
+    "sao-paulo",
+    "sorocaba"
+  ],
+  "queries_planned": {
+    "serpapi": 16,
+    "theirstack": 8
+  },
+  "queries_executed": {
+    "theirstack": 8,
+    "serpapi": 16
+  },
+  "queries_skipped": 0,
+  "skipped_query_details": [],
+  "queries_failed": 0,
+  "limits_used": {
+    "max_pages": 1,
+    "max_retries": 0,
+    "serpapi_budget": 16,
+    "serpapi_requests_executed": 16,
+    "serpapi_searches": 16,
+    "theirstack_budget": 80,
+    "theirstack_items_requested": 80,
+    "theirstack_requested_items": 80,
+    "theirstack_requests_executed": 8
+  },
+  "total_collection_runs": 24,
+  "total_raw_responses": 24,
+  "raw_occurrences": 117,
+  "raw_occurrences_by_source": {
+    "theirstack": 47,
+    "serpapi": 70
+  },
+  "unique_within_source": {
+    "theirstack": 47,
+    "serpapi": 70
+  },
+  "repetitions_within_round": 0,
+  "potential_cross_source_duplicates": 0,
+  "publication_dates": {
+    "exact": 47,
+    "estimated": 52,
+    "missing": 18,
+    "unrecognized": 0
+  },
+  "run_ids": [
+    "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+    "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+    "7199da37-7a71-421d-a34f-4234e2a347a8",
+    "22b27292-48f4-4bc5-b118-802e42524d06",
+    "5681f353-c1df-4b1f-8836-905873456b3e",
+    "c9e34686-0ee3-4539-af48-6285252bde50",
+    "38c2afe3-e563-45f4-9f38-691307a66dad",
+    "10535db8-893d-4efc-b559-605ab0ffe833",
+    "7065a041-b2df-4237-be39-40e0e6427df0",
+    "04d52ac6-74cf-48f3-98fe-b4a84d3a7cbd",
+    "9f6731fd-c2ba-4d52-bec8-fcb85cb6488c",
+    "a665b7f3-e333-4fe4-8482-98a2fa6adc11",
+    "cebe2283-12b3-4798-80a2-c6264153b32c",
+    "e5aa5496-f5b3-4f9d-9977-26589115e4a1",
+    "526ef372-c5ab-4209-8149-a9438800f1ce",
+    "4b88d651-926d-48a0-8c54-a9f79ace194c",
+    "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+    "a681a248-913f-46b3-b03d-f7075259d422",
+    "f4374487-4736-4951-a11f-4c7bf105ce64",
+    "80bb1f70-8d0f-4092-ada4-7b7b88f32d48",
+    "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+    "628af047-e077-484c-bd09-845be49d88e1",
+    "952f0a06-876a-4fe3-a249-78d761be14a8",
+    "96566d24-e9ee-4e67-b4e9-d91840d821cc"
+  ],
+  "query_statuses": [
+    {
+      "run_id": "a1b3dc1a-97ae-431d-97e0-feb33d286fcb",
+      "source": "theirstack",
+      "sample_region": "sao-paulo",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3448439
+      ],
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "e8b5e177-3aa3-4f9c-aa78-5b234d49af90",
+      "source": "theirstack",
+      "sample_region": "campinas",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3467865
+      ],
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "7199da37-7a71-421d-a34f-4234e2a347a8",
+      "source": "theirstack",
+      "sample_region": "sao-jose-dos-campos",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3448636
+      ],
+      "status": "success",
+      "returned_count": 4,
+      "persisted_count": 4,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "22b27292-48f4-4bc5-b118-802e42524d06",
+      "source": "theirstack",
+      "sample_region": "sorocaba",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3447399
+      ],
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "5681f353-c1df-4b1f-8836-905873456b3e",
+      "source": "theirstack",
+      "sample_region": "ribeirao-preto",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3451328
+      ],
+      "status": "success",
+      "returned_count": 7,
+      "persisted_count": 7,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "c9e34686-0ee3-4539-af48-6285252bde50",
+      "source": "theirstack",
+      "sample_region": "santos",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3449433
+      ],
+      "status": "success",
+      "returned_count": 5,
+      "persisted_count": 5,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "38c2afe3-e563-45f4-9f38-691307a66dad",
+      "source": "theirstack",
+      "sample_region": "bauru",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3470279
+      ],
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "10535db8-893d-4efc-b559-605ab0ffe833",
+      "source": "theirstack",
+      "sample_region": "sao-jose-do-rio-preto",
+      "query": "validated-technology-titles",
+      "requested_location_ids": [
+        3448639
+      ],
+      "status": "success",
+      "returned_count": 1,
+      "persisted_count": 1,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "7065a041-b2df-4237-be39-40e0e6427df0",
+      "source": "serpapi",
+      "sample_region": "sao-paulo",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "04d52ac6-74cf-48f3-98fe-b4a84d3a7cbd",
+      "source": "serpapi",
+      "sample_region": "sao-paulo",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "9f6731fd-c2ba-4d52-bec8-fcb85cb6488c",
+      "source": "serpapi",
+      "sample_region": "campinas",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "a665b7f3-e333-4fe4-8482-98a2fa6adc11",
+      "source": "serpapi",
+      "sample_region": "campinas",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "cebe2283-12b3-4798-80a2-c6264153b32c",
+      "source": "serpapi",
+      "sample_region": "sao-jose-dos-campos",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "e5aa5496-f5b3-4f9d-9977-26589115e4a1",
+      "source": "serpapi",
+      "sample_region": "sao-jose-dos-campos",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "526ef372-c5ab-4209-8149-a9438800f1ce",
+      "source": "serpapi",
+      "sample_region": "sorocaba",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "4b88d651-926d-48a0-8c54-a9f79ace194c",
+      "source": "serpapi",
+      "sample_region": "sorocaba",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "38c2edd0-852d-4bd6-8ea1-73009bf56dc5",
+      "source": "serpapi",
+      "sample_region": "ribeirao-preto",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "a681a248-913f-46b3-b03d-f7075259d422",
+      "source": "serpapi",
+      "sample_region": "ribeirao-preto",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "f4374487-4736-4951-a11f-4c7bf105ce64",
+      "source": "serpapi",
+      "sample_region": "santos",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "80bb1f70-8d0f-4092-ada4-7b7b88f32d48",
+      "source": "serpapi",
+      "sample_region": "santos",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "4fb7db8c-e6cb-457a-adec-3836b3d2e05f",
+      "source": "serpapi",
+      "sample_region": "bauru",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "628af047-e077-484c-bd09-845be49d88e1",
+      "source": "serpapi",
+      "sample_region": "bauru",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "952f0a06-876a-4fe3-a249-78d761be14a8",
+      "source": "serpapi",
+      "sample_region": "sao-jose-do-rio-preto",
+      "query": "software engineer",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 10,
+      "persisted_count": 10,
+      "http_status": 200,
+      "error_message": null
+    },
+    {
+      "run_id": "96566d24-e9ee-4e67-b4e9-d91840d821cc",
+      "source": "serpapi",
+      "sample_region": "sao-jose-do-rio-preto",
+      "query": "desenvolvedor de software",
+      "requested_location_ids": null,
+      "status": "success",
+      "returned_count": 0,
+      "persisted_count": 0,
+      "http_status": 200,
+      "error_message": null
+    }
+  ]
+}

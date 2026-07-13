@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import time
-from collections.abc import Callable, Sequence
+from collections.abc import Callable, Mapping, Sequence
 from datetime import datetime
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -144,9 +144,11 @@ def collect_theirstack(
     connection: Any,
     client: httpx.Client,
     *,
+    location_id: int | None = None,
     limit: int | None = None,
     max_pages: int | None = None,
     max_retries: int | None = None,
+    audit_context: Mapping[str, Any] | None = None,
 ) -> dict[str, object]:
     """Collect TheirStack pages with the raw response committed first."""
     if not config.theirstack_api_key:
@@ -155,11 +157,20 @@ def collect_theirstack(
     max_pages = config.theirstack_max_pages if max_pages is None else max_pages
     retries = config.http_max_retries if max_retries is None else max_retries
     request, audit = theirstack.build_request(
-        location_id=config.theirstack_location_id,
+        location_id=config.theirstack_location_id if location_id is None else location_id,
         limit=limit,
         max_pages=max_pages,
     )
     audit["max_retries"] = retries
+    audit.update(dict(audit_context or {}))
+    audit.update(
+        {
+            "requested_location_ids": [request["job_location_or"][0]["id"]],
+            "limit": limit,
+            "max_pages": max_pages,
+            "max_retries": retries,
+        }
+    )
     run_id = db.create_run(connection, "theirstack", audit, limit)
     secrets = (config.theirstack_api_key, config.serpapi_api_key, config.database_url)
     pages = returned = persisted = 0
@@ -231,8 +242,11 @@ def collect_serpapi(
     connection: Any,
     client: httpx.Client,
     *,
+    query: str | None = None,
+    location: str | None = None,
     max_pages: int | None = None,
     max_retries: int | None = None,
+    audit_context: Mapping[str, Any] | None = None,
 ) -> dict[str, object]:
     """Collect SerpApi pages without persisting its API key."""
     if not config.serpapi_api_key:
@@ -240,11 +254,20 @@ def collect_serpapi(
     max_pages = config.serpapi_max_pages if max_pages is None else max_pages
     retries = config.http_max_retries if max_retries is None else max_retries
     request, audit = serpapi.build_request(
-        query=config.serpapi_query,
-        location=config.serpapi_location,
+        query=config.serpapi_query if query is None else query,
+        location=config.serpapi_location if location is None else location,
         max_pages=max_pages,
     )
     audit["max_retries"] = retries
+    audit.update(dict(audit_context or {}))
+    audit.update(
+        {
+            "query": request["q"],
+            "canonical_location": request["location"],
+            "max_pages": max_pages,
+            "max_retries": retries,
+        }
+    )
     run_id = db.create_run(connection, "serpapi", audit, None)
     secrets = (config.theirstack_api_key, config.serpapi_api_key, config.database_url)
     pages = returned = persisted = 0

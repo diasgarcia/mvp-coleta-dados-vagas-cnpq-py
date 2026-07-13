@@ -101,6 +101,78 @@ def test_theirstack_collection_is_raw_first_and_uses_safe_audit_params(
     assert "Authorization" not in repr(state["raw"])
 
 
+def test_monthly_overrides_are_used_and_audited(
+    monkeypatch: pytest.MonkeyPatch,
+    config: Config,
+    fixture_json: Callable[[str], Any],
+) -> None:
+    state = fake_database(monkeypatch)
+
+    def theirstack_handler(request: httpx.Request) -> httpx.Response:
+        assert json.loads(request.content)["job_location_or"] == [{"id": 3_467_865}]
+        return httpx.Response(200, json=fixture_json("theirstack_response.json"))
+
+    with httpx.Client(transport=httpx.MockTransport(theirstack_handler)) as client:
+        collect_theirstack(
+            config,
+            object(),
+            client,
+            location_id=3_467_865,
+            limit=10,
+            max_pages=1,
+            max_retries=0,
+            audit_context={
+                "collection_kind": "monthly",
+                "round_id": "2026-07",
+                "sample_region": "campinas",
+                "requested_location_ids": [999],
+                "limit": 1,
+                "max_pages": 2,
+            },
+        )
+
+    audit = state["runs"][0][1]
+    assert audit["round_id"] == "2026-07"
+    assert audit["sample_region"] == "campinas"
+    assert audit["requested_location_ids"] == [3_467_865]
+    assert audit["limit"] == 10
+    assert audit["max_pages"] == 1
+
+    state = fake_database(monkeypatch)
+
+    def serpapi_handler(request: httpx.Request) -> httpx.Response:
+        assert request.url.params["q"] == "desenvolvedor de software"
+        assert request.url.params["location"] == "Campinas,State of Sao Paulo,Brazil"
+        return httpx.Response(200, json=fixture_json("serpapi_empty_response.json"))
+
+    with httpx.Client(transport=httpx.MockTransport(serpapi_handler)) as client:
+        collect_serpapi(
+            config,
+            object(),
+            client,
+            query="desenvolvedor de software",
+            location="Campinas,State of Sao Paulo,Brazil",
+            max_pages=1,
+            max_retries=0,
+            audit_context={
+                "collection_kind": "monthly",
+                "round_id": "2026-07",
+                "sample_region": "campinas",
+                "query_origin": "Campinas",
+                "query": "consulta falsa",
+                "canonical_location": "local falso",
+                "max_pages": 2,
+            },
+        )
+
+    audit = state["runs"][0][1]
+    assert audit["round_id"] == "2026-07"
+    assert audit["sample_region"] == "campinas"
+    assert audit["query"] == "desenvolvedor de software"
+    assert audit["canonical_location"] == "Campinas,State of Sao Paulo,Brazil"
+    assert audit["max_pages"] == 1
+
+
 def test_serpapi_empty_response_is_a_success_and_key_is_not_audited(
     monkeypatch: pytest.MonkeyPatch,
     config: Config,
